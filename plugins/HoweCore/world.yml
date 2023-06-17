@@ -1,0 +1,75 @@
+warps:
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 74.18208519094988
+    y: 68.0
+    z: 111.6452601236538
+    pitch: -4.2000065
+    yaw: -90.41037
+  warpName: case
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 56.71093229780791
+    y: 68.0
+    z: 108.27684068740503
+    pitch: -0.6001615
+    yaw: -308.50687
+  warpName: pvp_yes
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: Mluzi444
+  location:
+    ==: org.bukkit.Location
+    world: spawn
+    x: -16.372723995337378
+    y: 68.0
+    z: -23.783279419910542
+    pitch: 8.493127
+    yaw: 178.48285
+  warpName: pvp
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: Mluzi444
+  location:
+    ==: org.bukkit.Location
+    world: spawn
+    x: 107.34044638739347
+    y: 68.0
+    z: -210.62937764124987
+    pitch: 4.949284
+    yaw: 352.80276
+  warpName: pvp1
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: Mluzi444
+  location:
+    ==: org.bukkit.Location
+    world: spawn
+    x: 70.89564360005146
+    y: 64.0
+    z: -12.521668295209608
+    pitch: 8.043125
+    yaw: 313.25916
+  warpName: end
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: Mluzi444
+  location:
+    ==: org.bukkit.Location
+    world: spawn
+    x: 63.65489831838142
+    y: 64.0
+    z: -3.684871943983934
+    pitch: 2.7555685
+    yaw: -2.3622456
+  warpName: ad
+spawn:
+  ==: org.bukkit.Location
+  world: spawn
+  x: 0.6086890364061193
+  y: 66.0
+  z: 54.70927838340874
+  pitch: -2.4757502
+  yaw: 175.27652

@@ -1,0 +1,103 @@
+################################################################################################
+#								                                                               #
+#						             Copyright Kizeko_                                         #
+#									  GreatKits 2.9.11                                         #
+#                                                                                              #
+################################################################################################
+
+#This plugin supports PlaceholderAPI
+#https://www.spigotmc.org/resources/placeholderapi.6245/
+#This is not obliged to have it
+
+#Settings
+settings:
+  #Set this to true if you want the /kit to be a GUI
+  enable-gui-kit-displaying: false
+  #True if you want to be able to preview a kit by right clicking the item (option above needs to be enable)
+  enable-gui-kit-previewing: false
+  #Kits will still be displayed in the /kit GUI even though you don't have the permission
+  kit-display-without-perm: true
+  #Enable or disable the help-item (you have to enable both options above if you want to enable this one)
+  enable-help-item: false
+
+
+#Here you can change the lang
+lang:
+  #This is the message you receive when the player doesn't have access to any kit
+  no-access: "§6§lUNIX§F§lMINE§7§l: &fУ вас нет данного набора."
+
+  #Here you can change the message of /kit help.
+  list-help:
+    - "&a/kit &f- показать список наборов."
+    - "&a/kit &a&l[Название] &f- получить определенный набор."
+    - "&a/kit list &f- посмотреть список всех наборов."
+    - "&a/kit preview &a&l[Название] &f- посмотреть содержимое набора."
+
+  #This is the message you get when the player types /kit preview
+  preview-usage-error: "§6§lUNIX§F§lMINE§7§l: &fПравильное использование команды: &a/kit preview &a&l[Название]"
+
+  #Message received when there is 0 kit created on the server
+  no-kit-server: "§6§lUNIX§F§lMINE§7§l: &fУ вас нет данного набора."
+
+  #When the player doesn't have the permission
+  no-permission: "§6§lUNIX§F§lMINE§7§l: &fУ вас нет данного набора."
+
+  #When a player is trying to receive a 'OneTimeUse' kit that he already received
+  already-got-one-time-use-kit: "§6§lUNIX§F§lMINE§7§l: &fВы уже получили этот комплект"
+
+  #The kit doesn't exist, he hasn't been created
+  kit-doesnt-exist: "§6§lUNIX§F§lMINE§7§l: &fЭтот комплект не существует"
+
+  #When the player receives a kit
+  received-kit: "§6§lUNIX§F§lMINE§7§l: &fВы получили набор &6&l:kitname:"
+
+  #Cooldown message
+  cooldown-message: "§6§lUNIX§F§lMINE§7§l: &fПодождите еще &6&l:cooldown: &fдо следющего получения набора."
+
+#Permission section
+permission:
+  #If true --> the player must have greatkits.list permission to get the list of all the kits | If false --> No permission required to get the list of all the kits
+  kit-list: false
+  #If true --> the player must have greatkits.preview permission to preview a kit | If false --> No permission required to preview a kit
+  kit-preview: false
+
+
+GUItems:
+  HelpItem:
+    ==: org.bukkit.inventory.ItemStack
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cHelp
+      lore:
+        - '§9Left click to get the kit'
+        - '§7Right click to preview the kit'
+  NextButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cNext
+  PreviousButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cPrevious
+  ExitButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cExit
+  SelectButton:
+    ==: org.bukkit.inventory.ItemStack
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cSelect

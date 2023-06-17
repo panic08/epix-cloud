@@ -1,0 +1,25 @@
+Prefix: ''
+Commands:
+  Help:
+    Usage: '&cUsage: &e/dailyrewards %command% %usage%'
+    Commands:
+    - '&8&m-----------&8&l[ &aDaily Rewards &8&l]&8&m-----------'
+    - ''
+    - '&2» &a/dailyrewards &7- Open GUI.'
+    - '&2» &a/dailyrewards help &7- Help page.'
+    - '&2» &a/dailyrewards reload &7- Reload the plugin.'
+    - ''
+    - '&8&m--------------------------------------'
+Command:
+  Reload:
+    Exec: '&aConfiguration reloaded!'
+Time:
+  Sec: сек.
+  Min: мин.
+  Hour: ч.
+  Day: дн.
+Error:
+  NoPerm: '§6§lUNIX§F§lMINE§7§l: &fУ вас &cнедостаточно &fправ'
+  Number: '§6§lUNIX§F§lMINE§7§l: &fЧисло введено &cневерно'
+  NoPlayer: '§6§lUNIX§F§lMINE§7§l: &fИгрок &cне найден'
+  Console: '&cThis command is only for players!'

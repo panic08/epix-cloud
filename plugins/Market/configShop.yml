@@ -1,0 +1,14 @@
+limitDefault: 4
+limits:
+- lite:6
+- knight:8
+- paladin:10
+- dragon:12
+- legenda:14
+- imperator:18
+- rolex:20
+- flex:25
+- youtube:25
+- tiktok:25
+- moder:25
+- helper:25

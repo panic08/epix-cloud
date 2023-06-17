@@ -1,0 +1,199 @@
+Menu-Name: '&0&lНАБОРЫ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command:
+  Name: kits;набор;кит
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  - 2, 1
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 1
+  - 9, 1
+  - 2, 6
+  - 3, 6
+  - 4, 6
+  - 6, 6
+  - 7, 6
+  - 8, 6
+  - 9, 6
+  - 2, 2
+  - 2, 4
+  - 2, 5
+  - 8, 2
+  - 8, 4
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 3, 2
+  - 2, 3
+  - 3, 4
+  - 4, 4
+  - 5, 4
+  - 6, 4
+  - 7, 4
+  - 8, 3
+  - 7, 2
+  - 3, 5
+  - 5, 5
+  - 7, 5
+  - 4, 5
+  - 6, 5
+  - 4, 2
+  - 6, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot: 3, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFhZTJiNjkxYjlhOTU3N2MzNWU0ZDg4NTQ0M2JlYzk1NzNlN2M3YzNkNDYxOWM4ZjljN2VlOWU1MDIxIn19fQ=='
+  Name: '&fНабор: &a&lЛАЙТ'
+  Lore:
+  - '&r'
+  - '&a&l♦ &fНабор доступен для &a&lЛАЙТ'
+  - '&a&l♦ &fЗадержка: &a&l24 &aчаса'
+  - '&r'
+  - '&a➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit lite'
+  close: true
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyMjQ2ZmY4YjZjNjE3MTY4ZWRhZWMzOTY2MDYxMmU3MmE1NGFiMmVhY2MyN2M1ZTgxNWU0YWM3MDIzOWUzYSJ9fX0='
+  Name: '&fНабор: &6&lРЫЦАРЬ'
+  Lore:
+  - '&r'
+  - '&6&l♦ &fНабор доступен для &6&lРЫЦАРЬ'
+  - '&6&l♦ &fЗадержка: &6&l24 &6часа'
+  - '&r'
+  - '&6➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit knight'
+  close: true
+- Slot: 5, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ=='
+  Name: '&fНабор: &c&lПАЛАДИН'
+  Lore:
+  - '&r'
+  - '&c&l♦ &fНабор доступен для &c&lПАЛАДИН'
+  - '&c&l♦ &fЗадержка: &c&l24 &cчаса'
+  - '&r'
+  - '&c➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit paladin'
+  close: true
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5YTIzNzUzNjNiZTg5MTM4MWQ0MmM0NWIzNzc1NTNjMmI2ZTBmYmRjMTZkZWY1ZmJjNmIzMmVkNWNhZDdhNyJ9fX0='
+  Name: '&fНабор: &5&lДРАГОН'
+  Lore:
+  - '&r'
+  - '&5&l♦ &fНабор доступен для &5&lДРАГОН'
+  - '&5&l♦ &fЗадержка: &5&l24 &5часа'
+  - '&r'
+  - '&5➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit dragon'
+  close: true
+- Slot: 7, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0MjdhZGZmMzU2ZjA5NDVlYmJhMzkxY2EwZWVmNDY1YWUxNzQ2MWVhN2M1M2FkMTczZmJiNmM3ZjM2YTgifX19'
+  Name: '&fНабор: &b&lЛЕГЕНДА'
+  Lore:
+  - '&r'
+  - '&b&l♦ &fНабор доступен для &b&lЛЕГЕНДА'
+  - '&b&l♦ &fЗадержка: &b&l24 &bчаса'
+  - '&r'
+  - '&b➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit legenda'
+  close: true
+- Slot: 4, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkZjcwZGM5ODg1ZTQxOGI1OGQ4ZTc0ODZhODFlZDRlYzJlNzk2M2M0MjU2OWM0NjgwODRkNGY1NjdjNiJ9fX0='
+  Name: '&fНабор: &b&lRYZEN'
+  Lore:
+  - '&r'
+  - '&B&l♦ &fНабор доступен для &B&lRYZEN'
+  - '&B&l♦ &fЗадержка: &B&l24 &bчаса'
+  - '&r'
+  - '&B➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit imperator'
+  close: true
+- Slot: 5, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkMjZjNDI5M2ZhYWQ3ZTBmZDFlOTFjNzFkYzU4YjRlYmMzOGM5MGRhYmFjOTE1NTU5NzY4ZDJkOWY0YWYifX19'
+  Name: '&fНабор: &e&lMODER'
+  Lore:
+  - '&r'
+  - '&e&l♦ &fНабор доступен для &e&lMODER'
+  - '&e&l♦ &fЗадержка: &e&l24 &eчаса'
+  - '&r'
+  - '&e➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit rolex'
+  close: true
+- Slot: 6, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M1NjhhMTUyZGI1NzA1OTNjYzg5ZmFiYzAzMWJlY2RiOWJkYmRkZDFlYmI5MDM3ZWJhZTQ4ZGE5OGYwZTdjNyJ9fX0='
+  Name: '&fНабор: &4&lSTAFF'
+  Lore:
+  - '&r'
+  - '&4&l♦ &fНабор доступен для &4&lSTAFF'
+  - '&4&l♦ &fЗадержка: &4&l24 &4часа'
+  - '&r'
+  - '&4➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit flex'
+  close: true
+- Slot: 5, 6
+  Material: spectral_arrow
+  Name: '&c&l↺ НАЗАД В ГЛАВНОЕ МЕНЮ'
+  Lore:
+  - ''
+  - '&6➥ &rПерейти в меню &e&nГЛАВНОЕ МЕНЮ'
+  - ''
+  - '&aНажмите, чтобы перейти в меню'
+  - ''
+  Commands:
+  - 'menu: menu'
+- Slot: 5, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MjU1Yjg0NmYxNDRiOTNiYzVmOWI3NTQ2ZTBjMjRiM2ExNDY2MDI0NjQzNjEwZDljNWQ2YmQ0YzhlNSJ9fX0='
+  Name: '&fНабор: &7&lИГРОК'
+  Lore:
+  - '&r'
+  - '&7&l♦ &fНабор доступен для &7&lИГРОК'
+  - '&7&l♦ &fЗадержка: &7&l48 &7минут'
+  - '&r'
+  - '&7➥ Нажмите, что бы забрать набор.'
+  - '&r'
+  Commands:
+  - 'kit start'
+  close: true

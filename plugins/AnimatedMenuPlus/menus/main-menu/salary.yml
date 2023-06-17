@@ -1,0 +1,167 @@
+﻿Menu-Name: '&0&lЗАРПЛАТА'
+Rows: 6
+Command: 
+  Name: salary
+  Fallback: '123'
+Items:
+- Slot: 5, 1
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RiMTc5YWUyYmZkOGRlNjdiZmIyYmMzMDhhMjEzNGJkNzUxOTQyZDM0Mjg3NGY4NmI1NzQ3ZDE2ZWVkNzIifX19'
+  Name: '&e&lРУБЛЕВАЯ ЗАРПЛАТА'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна от доната &e&lРОЛЕКС'
+  - '&6◦ &fЗапрата составляет &d&l75-100 &5&lⓅ &fраз в &e&l1 &fдень'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fпосмотреть'
+  Commands:
+  - 'menu: rub'
+- Slot: 3, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFhZTJiNjkxYjlhOTU3N2MzNWU0ZDg4NTQ0M2JlYzk1NzNlN2M3YzNkNDYxOWM4ZjljN2VlOWU1MDIxIn19fQ=='
+  Name: '&a&lЛАЙТ'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &a&lЛАЙТ'
+  - '&6◦ &fЗапрата составляет &e&l500 &6⛂ &fраз в &a&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.lite'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 500'
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyMjQ2ZmY4YjZjNjE3MTY4ZWRhZWMzOTY2MDYxMmU3MmE1NGFiMmVhY2MyN2M1ZTgxNWU0YWM3MDIzOWUzYSJ9fX0='
+  Name: '&6&lРЫЦАРЬ'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &6&lРЫЦАРЬ'
+  - '&6◦ &fЗапрата составляет &e&l750 &6⛂ &fраз в &6&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.knight'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 750'
+- Slot: 5, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ=='
+  Name: '&c&lПАЛАДИН'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &c&lПАЛАДИН'
+  - '&6◦ &fЗапрата составляет &e&l900 &6⛂ &fраз в &c&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.paladin'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 900'
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5YTIzNzUzNjNiZTg5MTM4MWQ0MmM0NWIzNzc1NTNjMmI2ZTBmYmRjMTZkZWY1ZmJjNmIzMmVkNWNhZDdhNyJ9fX0='
+  Name: '&5&lДРАГОН'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &5&lДРАГОН'
+  - '&6◦ &fЗапрата составляет &e&l1150 &6⛂ &fраз в &5&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.dragon'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 1150'
+- Slot: 7, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0MjdhZGZmMzU2ZjA5NDVlYmJhMzkxY2EwZWVmNDY1YWUxNzQ2MWVhN2M1M2FkMTczZmJiNmM3ZjM2YTgifX19'
+  Name: '&b&lЛЕГЕНДА'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &b&lЛЕГЕНДА'
+  - '&6◦ &fЗапрата составляет &e&l1300 &6⛂ &fраз в &b&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.legenda'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 1300'
+- Slot: 4, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkZjcwZGM5ODg1ZTQxOGI1OGQ4ZTc0ODZhODFlZDRlYzJlNzk2M2M0MjU2OWM0NjgwODRkNGY1NjdjNiJ9fX0='
+  Name: '&d&lИМПЕРАТОР'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &d&lИМПЕРАТОР'
+  - '&6◦ &fЗапрата составляет &e&l1800 &6⛂ &fраз в &d&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.imperator'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 1800'
+- Slot: 6, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MjU1Yjg0NmYxNDRiOTNiYzVmOWI3NTQ2ZTBjMjRiM2ExNDY2MDI0NjQzNjEwZDljNWQ2YmQ0YzhlNSJ9fX0='
+  Name: '&7&lИГРОК'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна только для &7&lИГРОК'
+  - '&6◦ &fЗапрата составляет &e&l350 &6⛂ &fраз в &7&l45 &fминут'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 45m
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'nte.default'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: eco give %player_name% 350'
+- Slot: 5, 6
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmM2VhN2M3YjI2YTA1NGE5ZmJiYjI4Yjk3YTYwODk5OWMyYzczZGY3NWJmNmIyMzQ4ZDdmYjFlNTllODU1In19fQ=='
+  Name: '&6&lВЕРНУТЬСЯ'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fвернуться'
+  - ''
+  Commands:
+  - 'menu: menu'
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  Material: stained_glass_pane:1:14
+  Name: '&r'

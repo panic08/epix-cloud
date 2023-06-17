@@ -1,0 +1,289 @@
+config-version: 1.0.5
+database:
+  type: Sqlite
+  host: localhost
+  port: 3306
+  user: root
+  password: contraseña_mysql
+  database: clans
+settings:
+  blacklisted-worlds:
+  - fuck
+  enable-clan-chat: true
+  colors-enabled:
+    red: true
+    dark_green: true
+    light_purple: true
+    aqua: true
+    green: true
+    dark_purple: true
+    dark_aqua: true
+    dark_gray: true
+    gray: true
+    gold: true
+    yellow: true
+  allow-name-in-colors: false
+  create-cost: 50000
+  max-name-length: 5
+  min-name-length: 1
+  default-level: 5
+  default-slots: 6
+  confirm-delete-time: 10
+  max-mods-per-clan: 5
+  max-enemy-clans: 8
+  max-allies: 4
+  permission-to-bypass-base-cooldown: clans.bypass.base
+  base-teleport-delay: 5
+  blacklisted-worlds-for-bases:
+  - example
+  exp-for-kill: 1
+  max-level-clan: 35
+  slots-per-level:
+    level-10: 3
+    level-20: 5
+    level-30: 5
+  clan-chest-size: 54
+  clan-chest-name: '&7Клановый сундук'
+  save-task:
+    enabled: true
+    time: 1
+  sounds:
+    error: VILLAGER_NO;10;2
+    clan-level-up: LEVEL_UP;10;3
+    chest-break: ITEM_BREAK;10;3
+  chat:
+    clan-chat:
+      clan-chat-format: '&6&lКЛАН-ЧАТ: &f%player%: &7%msg%'
+      chat-ally-format: '&6&lСОЮЗНИКИ: &f(%player-clan%&7) &7%player%: %msg%'
+    prefixes:
+      before-player-prefix: true
+      use-placeholder-only: true
+      member: ' %color%%clan%'
+      colider: ' %color%%clan%'
+      lider: ' %color%%clan%'
+  ranks:
+    lider: '&6Лидер'
+    moderator: '&cМодератор'
+    member: '&9Участник'
+  bank:
+    min-withdraw: 10000
+    max-withdraw: 100000
+    min-deposit: 10000
+    max-deposit: 100000
+  unique-server-name: Survival-1
+  server-sync:
+    enabled: false
+    redis-host: localhost
+    redis-port: 6379
+    redis-password: ''
+  colors-unlock-level:
+    red: 40
+    dark_green: 30
+    light_purple: 25
+    aqua: 20
+    green: 15
+    dark_purple: 12
+    dark_aqua: 10
+    dark_gray: 8
+    gray: 5
+    gold: 3
+    yellow: 1
+  slots-system:
+    level-10: 3
+    level-20: 5
+    level-30: 5
+  debug: true
+  anti-spam-kills:
+    enabled: false
+    kills-to-activate: 5
+    kills-in-time: 120
+    time-to-deactivate: 60
+  default-color: e
+  colors-slots:
+    red: 23
+    dark_green: 22
+    light_purple: 21
+    aqua: 20
+    green: 16
+    dark_purple: 15
+    dark_aqua: 14
+    dark_gray: 13
+    gray: 12
+    gold: 11
+    yellow: 10
+  clans-blacklist:
+  - fuck
+  - fvck
+  - rape
+  items-blacklist:
+  - BEDROCK
+  - ENDER_PORTAL
+  premium-server: false
+  create-with-items: false
+  item-cost:
+  - OBSIDIAN;32
+  - LEATHER;10
+  disable-pvp-message: false
+  prefix-regex: ^[a-zA-z0-9\s]*$
+  prefix-min-length: 3
+  prefix-max-length: 8
+  experience-needed-formula: '%level%*50'
+  set-new-color-automatic: false
+menus:
+  clan-info:
+    rows: 6
+    title: '&8Информация: &d%clan%'
+    info:
+      material: PAPER
+      name: '&fСтатистика'
+      slot: 24
+      lore:
+      - ''
+      - '&fУбийств: &a%kills%'
+      - '&fСмертей: &c%deaths%'
+      - '&fKDR: &6%kdr%'
+    exp:
+      material: EXP_BOTTLE
+      name: '&fИнформация'
+      slot: 20
+      lore:
+      - ''
+      - '&fУровень клана: &d%level%'
+      - '&fОпыт: &6%exp%&f/&6%max-exp%'
+    members:
+      material: SKULL_ITEM
+      skin: '%clan-owner%'
+      slot: 22
+      name: '&fУчастники клана'
+      lore:
+      - ''
+      - '&fУчастники:'
+      - '&a%members%&f/&a%max%'
+      - ''
+      - '&eНажмите, чтобы увидеть больше'
+    allys:
+      material: INK_SACK;10
+      slot: 30
+      name: '&6Союзники клана'
+      format: '&e&l» &f%ally%'
+    enemys:
+      material: INK_SACK;1
+      slot: 32
+      name: '&cВраги клана'
+      format: '&4&l» &f%enemy%'
+  clan-list:
+    title: '&8Список кланов &6#%page%'
+    name: '&fКлан: &e%clan%'
+    lore:
+    - ''
+    - '&fЛидер: &6%lider%'
+    - '&fУчастники: &e%members%&f/&e%max%'
+    - ''
+    - '&fKDR: &d%kdr%'
+    no-clan:
+      material: BARRIER
+      name: '&cНет больше кланов'
+      lore:
+      - ''
+      - '&fЗдесь появится'
+      - '&fследующие кланы.'
+      - ''
+  color-selector:
+    title: '&8Выбор цвета'
+    item-name: '&fЦвет: %available%%color%'
+    lores:
+      selected:
+      - '&cЦвет уже выбран!'
+      locked:
+      - ''
+      - '&cЭтот цвет будет разблокирован'
+      - '&cкогда клан достигнет уровня &e%level%'
+      select:
+      - '&aНажмите, чтобы выбрать этот цвет!'
+    rows: 4
+  tops:
+    empty-item:
+      name: '&fПозиция: &e#%position%'
+      lore:
+      - '&7&oПусто...'
+    top-kills:
+      title: '&8Топ кланов убийц'
+      item:
+        name: '&fПозиция: &e#%position%'
+        lore:
+        - ''
+        - '&fКлан: &e%clan%'
+        - '&fУбийств: &a%kills%'
+        - '&fУчастников: &d%members%'
+    top-level:
+      title: '&8Топ кланов по уровню'
+      item:
+        name: '&fПозиция: &e#%position%'
+        lore:
+        - ''
+        - '&fКлан: &e%clan%'
+        - '&fУровень: &a%level%'
+        - '&fУчастники: &d%members%'
+  members:
+    rows: 6
+    title: '&8Информация: &d%clan%'
+    top-killers-format: '&e#%position%) &c%player% &fв общей сложности &a%kills% &fубийств.'
+    top-killers-empty: '&e#%position%) &cПустая позиция.'
+    info:
+      material: PAPER
+      name: '&9Дополнительная информация'
+      slot: 28
+      lore:
+      - '&fТоп убийств:'
+      - '%top-kills-1%'
+      - '%top-kills-2%'
+      - '%top-kills-3%'
+      - ''
+      - '&fУчастники: &a%members%'
+      - '&fМодераторы: &a%mods%'
+    item-format:
+      name: '&fИгрок: &a%player%'
+      lore:
+      - '&fСтатус: %state%'
+      - '&fРанг: %rank%'
+      - ''
+      - '&fУбийств: &e%kills%'
+      - '&fСмертей: &c%deaths%'
+      - '&fKDR: &6%kdr%'
+  logs:
+    title: '&8Страница логов клана &6%page%'
+    action-withdraw: Withdraw
+    action-deposit: Deposit
+    log-item:
+      material: PAPER
+      name: '&7Номер транзакции: &a#%id%'
+      lore:
+      - ''
+      - '&7Исполнитель: &d%executor%'
+      - '&7Тип операции: &e%action%'
+      - '&7Сумма денег: &a$%amount%'
+      - ''
+      - '&7Дата транзакции: &6%date%'
+    filter-item:
+      material: ANVIL
+      name: '&cОчень скоро'
+    next-page:
+      material: ARROW
+      name: '&fNext Page &6&l»'
+    back-page:
+      material: ARROW
+      name: '&6&l« &fPrevious Page'
+  nextPage:
+    material: ARROW
+    name: '&fСледующая страница'
+    lore:
+    - '&7Нажмите, чтобы перейти на следующую страницу'
+  backPage:
+    material: ARROW
+    name: '&fСледующая страница'
+    lore:
+    - '&7Нажмите, чтобы перейти на следующую страницу'
+  decoration:
+    material: STAINED_GLASS_PANE
+    material-data: 15
+    name: §6Funny§cGO

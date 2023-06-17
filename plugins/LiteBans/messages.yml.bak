@@ -1,0 +1,445 @@
+#
+# The following variables can be used in most messages that involve a punishment:
+#
+# Punishment specific variables
+# $id - The ID of the punishment in the database.
+# $type - Type of punishment - ban, mute, warn, kick.
+# $reason - the reason for the punishment
+# $executor - the moderator's name, or their display name (/nick) if this is enabled in the configuration
+# $executorUUID - the moderator's UUID
+# $permanent - whether this punishment is permanent
+# $ipban - whether this is an IP-ban
+# $silent - whether this punishment was executed silently (-s)
+# $active - whether this punishment is active
+#
+# Affected player specific variables
+# $playerDisplayName - player display name. If display names are not enabled in the configuration or if the player's display name is not available in the message's context, the player's regular name will be used instead.
+# $playerName - player name
+# $playerUUID - UUID of affected player
+# $playerIP - IP of affected player
+# $geoip - Country of affected player, requires GeoIP to be enabled in the configuration, won't work with imported bans
+#
+# Servers
+# These variables represent a server.
+# If the plugin is installed on Spigot, a server is represented by the "server_name" option in config.yml.
+# If the plugin is installed on BungeeCord, a server is represented by their name in the "servers" section in the proxy's config.yml.
+# $serverScope - the scope of the punishment (the server(s) it will affect)
+# $serverOrigin - the origin of the punishment (the server/subserver it was placed on)
+#
+# Dates
+# Example format: "2017-02-03", depends on time_format
+# $dateStart - date the punishment was placed
+# $dateEnd - date the punishment will expire, "forever" if permanent
+#
+# Durations
+# Example format: "20 days, 5 hours, 2 minutes". If permanent, "forever", if expired, "expired" (both are configurable).
+# $duration - time until expiry
+# $originalDuration - the full duration of the punishment.
+# $timeSince - time since placement
+#
+# Placeholders
+# These variables represent messages in this configuration (messages.yml)
+# $base - banned_message_base
+# $appealMessage - banned_message_appeal_message
+#
+# Global variables
+# $activeBans, $activeMutes, $activeWarnings - total number of global active punishments
+# $totalBans, $totalMutes, $totalWarnings - total number of global punishments (including inactive ones)
+#
+# Any message can be disabled by setting it to "". Empty messages will not be sent by the plugin.
+#
+# JSON examples:
+# message: 'Test message {hoverText: Hover text here!}'
+# Hover text requires "litebans.json.hover_text" to view, players without this permission will see messages without hover text.
+#
+# https://docs.oracle.com/javase/tutorial/i18n/format/simpleDateFormat.html
+# Example time format with hours + minutes:
+# time_format: 'dd/MM/yyyy HH:mm'
+time_format: dd.MM.yyyy
+history_time_format: dd.MM.yyyy
+banned_message_base: |
+  &r  &f
+  &4&lВы были забанен на данном сервере&r
+  &r  &f
+  &c&m                                         &r
+  &fВас забанил: &e$executor&f
+  &fПо причине: &e$reason&f
+  &fБан пройдет через: &e$duration
+  &c&m                                         &r
+  &r  &f
+  &7Считаешь что &cнаказание &7неоправданно?
+  &7Напиши &nжалобу&r&7: &evk.com/FlexMC_mc
+  &r      &f
+banned_message: $base
+banned_message_permanent: |
+  &4&lВы были забанен на данном сервере&r
+  &r
+  &c&m                              &r
+  &fВас забанил&7: &e$executor&r
+  &fПричина блокировки&7: &e$reason&r
+  &fБлокировка получена&7: &e$dateStart
+  &fБан пройдет через: &eНикогда
+  &c&m                              &r
+  &r  &f
+  &7Считаешь что &cнаказание &7неоправданно?
+  &7Напиши &nжалобу&r&7: &evk.com/FlexMC_mc
+  &r      &f
+banned_message_appeal_message: ''
+banned_message_geoip_blacklist: '&cВаш регион заблокирован!'
+bungee_switch_banned: '&r'
+default_ban_reason: Плохое поведение
+default_mute_reason: Плохое поведение
+permission_error: '§6§lFLEX§e§lMC§7§l: &fУ вас &cнет доступа &fк команде &8| &fКупите
+  &e&nдонат&f для &a[разблокировки]'
+muted: '§6§lFLEX§e§lMC§7§l: &fВаш чат &7заблокирован&f, писать в чат сможете только
+  через &e$duration&f.'
+muted_permanent: '§6§lFLEX§e§lMC§7§l: &fВаш чат был заблокирован &e&lнавсегда&f!'
+notify:
+  banned_player_join: |
+    §6§lFLEX§e§lMC§7§l: &fИгрок &a&l$player &fпопытался зайти, но он заблокирован
+    &fна &e$duration&f.
+  banned_geoip_blacklist: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$player &fпопытался зайти,
+    но его регион находится в блокировке &e($geoip)!'
+error_no_reason_provided: '§6§lFLEX§e§lMC§7§l: &fВы должны указать &cпричину&r для
+  такого &7наказания&r.'
+error_no_sql_connection: '&cLiteBans не удалось &lподключится&c к базе данных!'
+error_no_uuid_found: '§6§lFLEX§e§lMC§7§l: &fДанного игрока &7никогда &fне было на
+  сервере!'
+internal_error: '§6§lFLEX§e§lMC§7§l: &fПроизошла &c&nошибка&f! Срочно сообщите&8:
+  &bvk.com/zenmc&f.'
+duration_limit_error: '§6§lFLEX§e§lMC§7§l: &fМаксимальная продолжительность&8: &c$duration'
+warned_join: '§6§lFLEX§e§lMC§7§l: &fВы были &lпредупреждены&f модератором &c$executor&f
+  за &b$reason&f.'
+warned_join_entry: '&r'
+command:
+  ban:
+    usage: "&0\n &8▪ &fВыдать наказание навсегда&8: &7/ban [ник] [причина]\n &8▪ &fВ\
+      ыдать временное наказание&8: &7/tempban [ник] [время] [причина]\n&r &1\n&r &7П\
+      одсказка: &fБлокировки без причины караются &c&lбаном&f!\n&r &7Подсказка: &fБ\
+      локируйте строго по правилам!\n&r &1 \n"
+    unban_usage: |
+      §6§lFLEX§e§lMC§7§l: &fРазблокировать игрока&8: &7/unban [ник]
+    example: ''
+    silent_prefix: '&7[Скрытно] '
+    broadcast_ban: |-
+      &r &1
+      &r &8▪ &fДонатер &a&l$executor &fзаблокировал игрока &c&l$bannedPlayer
+      &r &8▪ &fПо причине: &7$reason
+      &r &8▪ &fДлительность: &cНавсегда
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fчитеров? Привилегия &4&lФЛЕКС &fимеет доступ к &cбанам!
+      &r &1
+    broadcast_tempban: |-
+      &r &1
+      &r &8▪ &fДонатер &a&l$executor &fзаблокировал игрока &c&l$bannedPlayer
+      &r &8▪ &fПо причине: &7$reason
+      &r &8▪ &fДлительность: &c$tempDuration
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fчитеров? Привилегия &4&lФЛЕКС &fимеет доступ к &cбанам!
+      &r &1
+    broadcast_ip_ban: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor &fнавсегда забанил
+      по IP игрока &c&l$bannedPlayer'
+    broadcast_temp_ip_ban: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor &fвременно забанил
+      по IP игрока &c&l$bannedPlayer'
+    broadcast_ip_ban_hidden: '[Скрыт IP]'
+    broadcast_unban: |-
+      &r &1
+      &r &8▪ &fДонатер &a&l$executor &fразблокировал игрока &c&l$bannedPlayer
+      &r &8▪ &fДата разблокировки: &e$dateStart
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fчитеров? Привилегия &4&lФЛЕКС &fимеет доступ к &cбанам!
+      &r &1
+    previous_ban_removed: '§6§lFLEX§e§lMC§7§l: &fПредыдущий &cбан&r с игрока &7$bannedPlayer
+      &fснят.'
+    previous_ban_existing: '§6§lFLEX§e§lMC§7§l: &fИгрок &7$bannedPlayer &fуже заблокирован.'
+    unban_queue: '§6§lFLEX§e§lMC§7§l: &fЕсли он &7перезайдет&f, он будет &cразбанен&r.'
+    error_no_spec: '§6§lFLEX§e§lMC§7§l: &fОшибка! &fМало аргументов или вы &7ошиблись
+      &cкомандой'
+    unban_fail: '§6§lFLEX§e§lMC§7§l: &fДанный игрок &c&lне&c заблокирован&r.'
+    no_override: '§6§lFLEX§e§lMC§7§l: &fДанный игрок уже &cзаблокирован&r.'
+    exempt: '§6§lFLEX§e§lMC§7§l: &fВы &cне можете &fзаблокировать игрока &7$player&f.'
+    cooldown: '§6§lFLEX§e§lMC§7§l: &fВам нужно подождать &c$seconds&f прежде чем использовать
+      данную команду вновь.'
+    response: ''
+  mute:
+    usage: |
+      &0
+       &8▪ &fВыдать блокировку чата навсегда&8: &7/mute [ник] [причина]
+       &8▪ &fВыдать временную блокировку чата&8: &7/tempmute [ник] [время] [причина]                                   &r
+      &r
+      &r &7Подсказка: &fБлокировка чата без причины карается &c&lбаном&f!
+      &r &7Подсказка: &fБлокируйте чат строго по правилам!
+      &r &1
+    unmute_usage: |
+      §6§lFLEX§e§lMC§7§l: &fСнять блокировку чата с игрока&8: &7/unmute [ник]                                        &r
+    example: ''
+    broadcast: |-
+      &r &1
+      &r &8▪ &fИгрок &a&l$executor &fнавсегда заблокировал чат игрока &c&l$bannedPlayer
+      &r &8▪ &fПо причине: &7$reason
+      &r &8▪ &fДлительность: &cНавсегда
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fнарушителей? Привилегия &e&lРОЛЕКС &fимеет доступ к &cмутам!
+      &r &1
+    broadcast_tempmute: |-
+      &r &1
+      &r &8▪ &fИгрок &a&l$executor &fвременно заблокировал чат игрока &c&l$bannedPlayer
+      &r &8▪ &fПо причине: &7$reason
+      &r &8▪ &fДлительность: &c$tempDuration
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fнарушителей? Привилегия &e&lРОЛЕКС &fимеет доступ к &cмутам!
+      &r &1
+    broadcast_ip_mute: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor &fнавсегда заблокировал
+      чат по IP игрока &c&l$bannedPlayer'
+    broadcast_temp_ip_mute: '&r §6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor &fвременно
+      заблокировал чат по IP игрока &c&l$playerName'
+    message: |-
+      &r &1
+      &r &8▪ &c$executor &fзаблокировал Вам чат за &b$reason&f.
+      &r &8▪ &fБлокировка чата пройдет через: &a$duration&f.
+      &r &0 &1
+    message_permanent: |-
+      &r &1
+      &r &8▪ &c$executor &fзаблокировал Вам чат за &b$reason&f.
+      &r &8▪ &fБлокировка чата выдана &c&nнавсегда&f.
+      &r &0 &1
+    broadcast_unmute: |-
+      &r &1
+      &r &8▪ &fДонатер &a&l$executor &fразблокировал чат игроку &c&l$bannedPlayer
+      &r &8▪ &fДата разблокировки: &e$dateStart
+      &r &0 &1
+      &r &8 &fХочешь &cнаказывать &fнарушителей? Привилегия &e&lРОЛЕКС &fимеет доступ к &cмутам!
+      &r &1
+    unmute_fail: '§6§lFLEX§e§lMC§7§l: &fУ игрока &cотсутствует&f блокировка &7чата&f.'
+    no_override: '§6§lFLEX§e§lMC§7§l: &fИгрок уже &cимеет&f блокировку &7чата&f.'
+    previous_mute_removed: '§6§lFLEX§e§lMC§7§l: &fПредыдущая &cблокировка&r чата игрока
+      &7$mutedPlayer &fбыла &cудалена&f.'
+    previous_mute_existing: '§6§lFLEX§e§lMC§7§l: &fИгрок уже &cимеет&f блокировку
+      &7чата&f.'
+    exempt: '§6§lFLEX§e§lMC§7§l: &fВы не можете &cзаблокировать&c чат &fигроку &7$player&f.'
+    notification: '§6§lFLEX§e§lMC§7§l: &fИгрок &7$mutedPlayer &fпопытался написать
+      в &cчат&f, но не &7смог&f.'
+    error_not_enabled: '§6§lFLEX§e§lMC§7§l: &fМут &cвыключен&f в конфигурации!'
+    response: ''
+  warn:
+    usage: |
+      §6§lFLEX§e§lMC§7§l: &fВыдать предупреждение игроку&8: &7/warn [ник] [причина]
+    unwarn_usage: |
+      §6§lFLEX§e§lMC§7§l: &fСнять предупреждение с игрока&8: &7/unwarn [ник]
+    example: ''
+    broadcast: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor &fвыдал предупреждение игроку
+      &c&l$warnedPlayer &fза &7$reason&f.'
+    message: |-
+      &0
+      &r &8▪ &fВы были предупреждены игроком &c&l$executor &fза &7$reason&f.
+      &r &8▪ &fПредупреждение будет снято через: &a&l$duration&f.
+      &r &1
+    list_entry: ' \- Warned by $executor: ''$reason&f'''
+    unwarn_response: '§6§lFLEX§e§lMC§7§l: &fВсе предупреждения с игрока &7$player
+      &fбыли &aсняты&f.'
+    unwarn_fail: '§6§lFLEX§e§lMC§7§l: &fУ данного игрока &cотсутствуют&r предупреждения.'
+    exempt: '§6§lFLEX§e§lMC§7§l: &fВы не можете выдать &cпредупреждение&r игроку &7$player&f.'
+    cooldown: '§6§lFLEX§e§lMC§7§l: &fВам нужно подождать &a&l$seconds &fпрежде чем
+      использовать данную команду заново!'
+    response: ''
+  history:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &eаргументов&f, используйте&8: &e$command
+      &7[игрок] [количество показа]'
+    start: '§6§lFLEX§e§lMC§7§l: &fИстория игрока&8: &e$target &7(Показано: &e$limit
+      &7нарушений)'
+    ban_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &cbanned &fby $executor: '&a$reason&f'
+    mute_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &7muted &fby $executor: '&a$reason&f'
+    warn_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &6warned &fby $executor: '&a$reason&f'
+    kick_entry: |-
+      &a -- [&f$timeSince ago&a] --&f
+      &f $name was &ekicked &fby $executor: '&a$reason&f'
+    unban_entry: |2-
+
+       &f$name was &7unbanned &fby $executor.
+    unmute_entry: |2-
+
+       &f$name was &7unmuted &fby $executor.
+    active_suffix: ' &c[Активно]'
+    expired_suffix: ' &e[Прошло]'
+    active_suffix_temp: |-
+      &f &c[Активно]
+      &fExpires in $duration.
+    error_no_history: '§6§lFLEX§e§lMC§7§l: &fИстория &7данного &fигрока &cотсутствует&f.'
+  warnings:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &e&lаргументов&f, используйте&8: &e$command
+      &7[игрок]'
+    start: '§6§lFLEX§e§lMC§7§l: &fАктивные нарушения игрока&8: &e$target&8:'
+  prunehistory:
+    usage: '&c$command [player] [duration]'
+    message: '&aHistory pruned.'
+  staffhistory:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &e&lаргументов&f, используйте&8: &e$command
+      &7[игрок] [количество показа]'
+    start: '§6§lFLEX§e§lMC§7§l: &fИстория игрока&8: &e$target &7(Показано: &e$limit
+      &7наказаний)'
+  staffrollback:
+    usage: '&c$command <player> [duration]'
+    message: '&aRollback completed, total entries removed: $amount'
+  banlist:
+    start: '§6§lFLEX§e§lMC§7§l: &fСтраница &e&l$page&r из &e&l$total&r'
+  iphistory:
+    usage: '&c$command <player> [entries=10]'
+    start: '&aLogin history for $target (Limit: $limit):'
+    entry: '&a - [&f$date&a]&f $name&a:&f $ip'
+    error_no_history: '&cNo history found.'
+  dupeip:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &e&lаргументов&f, используйте&8: &e/dupeip
+      &7[игрок]'
+    start: |
+      &0
+      &r &8▪ &fСканирование &c&l$name&f по &b&l$ip&f.
+      &r &8▪ &fИнформация: &8[&aОнлайн&8] [&7Оффлайн&8] [&cЗабанен&8] [&6Замучен&8]
+      &7 &1
+    start_no_ip: |
+      &0
+      &r &8▪ &fСканирование &c&l$name&f.
+      &r &8▪ &fИнформация: &8[&aОнлайн&8] [&7Оффлайн&8] [&cЗабанен&8] [&6Замучен&8]
+      &7 &1
+    separator: '&f, '
+    online: '&a'
+    offline: '&7'
+    banned: '&c'
+    muted: '&6'
+    multiple_addresses: '[$num addresses]'
+  ipreport:
+    start: '&fScanning &a$num&f online players.. [&aOnline&f] [&7Offline&f] [&cBanned&f]'
+    entry: '&f$player&a: $result'
+  checkban:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &e&lаргументов&f, используйте&8: &e$command
+      &7[игрок]'
+    no_ban: '§6§lFLEX§e§lMC§7§l: &fУ данного игрока &c&lотсутствует&c наказание!'
+    muted: |
+      &0
+       &8▪ &fИгрок&8: &a&l$target&r &8[&6Замучен&8]
+       &8▪ &fНаказание выдал&8: &c&l$executor
+       &8▪ &fПричина&8: &7$reason
+       &8▪ &fНаказание получено&8: &7$dateStart
+       &8▪ &fНаказание пройдет&8: &7$dateEnd
+      &r &0
+    banned: |
+      &0
+       &8▪ &fИгрок&8: &a&l$target&r &8[&cЗабанен&8]
+       &8▪ &fНаказание выдал&8: &c&l$executor
+       &8▪ &fПричина&8: &7$reason
+       &8▪ &fНаказание получено&8: &7$dateStart
+       &8▪ &fНаказание пройдет&8: &7$dateEnd
+      &r &0
+  lastuuid:
+    usage: '&c$command <player|IP>'
+    message: '&fLast UUID for &a$name&f: &a$uuid'
+  geoip:
+    usage: '&c$command <player|IP>'
+    message: '&a$target&f is from: &a$result'
+    error_disabled: '&cGeoIP support is not enabled in the configuration!'
+    error_unavailable: '&cGeoIP support is currently unavailable, has it been downloaded
+      yet?'
+    error_not_found: '&cGeoIP information for $target not found.'
+  lockdown:
+    usage: '&c$command <reason> | $command end'
+    message: '&cServer lockdown activated (reason: "$reason&c")'
+    stopped: '&aLockdown has been deactivated.'
+    kick_message: |-
+      Server lockdown active, try again later.
+      Reason: $reason
+    kick_message_global: |-
+      Network lockdown active, try again later.
+      Reason: $reason
+    error_not_active: '&cLockdown is not active!'
+  kick:
+    usage: |
+      §6§lFLEX§e§lMC§7§l: &fКикнуть игрока&8: &7/kick [ник] [причина]
+    no_match: '§6§lFLEX§e§lMC§7§l: &fИгрок &cне найден&r.'
+    kick_requested: '§6§lFLEX§e§lMC§7§l: &fИгрок &7$player&f оффлайн.'
+    message: |
+      &0
+      &8▪ &fВы кикнуты с сервера игроком &c&l$executor
+      &8▪ &fПо причине: &7$reason&r
+      &1
+    message_no_reason: '§6§lFLEX§e§lMC§7§l: &fВы кикнуты с сервера игроком &c&l$executor'
+    response: '§6§lFLEX§e§lMC§7§l: &fВы кикнули &a&l$player&'
+    broadcast: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor&f кикнул игрока &a&l$player&f
+      за &7$reason'
+    broadcast_no_reason: '§6§lFLEX§e§lMC§7§l: &fИгрок &a&l$executor&f кикнул игрока
+      &c&l$player&f.'
+    exempt: '§6§lFLEX§e§lMC§7§l: &fВы не можете кикнуть&7 $player&f!'
+  togglechat:
+    toggle_off: '§6§lFLEX§e§lMC§7§l: &fЧат был выключен.'
+    toggle_on: '§6§lFLEX§e§lMC§7§l: &fЧат был включен.'
+  clearchat:
+    broadcast: '§6§lFLEX§e§lMC§7§l: &fЧат был очищен $executor'
+  mutechat:
+    response: '&cServer chat is currently disabled!'
+    broadcast_disabled: '&cServer chat has been disabled by $executor.'
+    broadcast_enabled: '&aServer chat has been enabled by $executor.'
+  litebans:
+    reload_success: '&aLiteBans reloaded successfully.'
+    reload_fail_connect: '&aLitebans reloaded. &cFailed to connect to database.'
+    reload_fail: '&cReload failed.'
+    reload_fail_config: |-
+      &c[LiteBans] &4config.yml is not valid and could not be loaded, the default configuration will be used.
+      &cPlease check the server console for more information.
+    reload_fail_messages: |-
+      &c[LiteBans] &4messages.yml is not valid and could not be loaded, default messages will be used.
+      &cPlease check the server console for more information.
+    add_history_usage: '&c$command addhistory <name> <UUID> <IP>'
+    add_history: '&aHistory added.'
+    fix_history: '&aFixing history for table $table...'
+    fix_history_result: '&aAdded $amount entries.'
+    fix_history_offline_uuids: '&c$amount UUIDs were not fetched from Mojang since
+      they are offline-mode UUIDs.'
+    import_usage: '&c$command import start'
+    import_start: '&aImporting from $db, this might take a while...'
+    import_finish: '&aImport finished successfully. $bans bans imported, $ipbans IP-bans.'
+    import_finish_litebans: '&aImport finished successfully. Added $amount entries
+      to the database.'
+    import_fail: '&cImport failed. Check console.'
+    import_unsupported: '&cImporting from ''$name'' is not supported yet!'
+    sqlexec_success: '&aSQL query executed successfully.'
+    sqlexec_failure: '&cFailed to execute.'
+  checkmute:
+    usage: '§6§lFLEX§e§lMC§7§l: &fНедостаточно &e&lаргументов&f, используйте&8: &e$command
+      &7[игрок]'
+    no_mute: '§6§lFLEX§e§lMC§7§l: &fУ данного игрока &c&lотсутствует&c наказание!'
+    muted: |
+      &0
+       &8▪ &fИгрок&8: &a&l$target&r &8[&6Замучен&8]
+       &8▪ &fНаказание выдал&8: &c&l$executor
+       &8▪ &fПричина&8: &7$reason
+       &8▪ &fНаказание получено&8: &7$dateStart
+       &8▪ &fНаказание пройдет&8: &7$dateEnd
+      &r &0
+duration:
+  expired: expired
+  forever: навсегда
+  year: год
+  years: лет
+  month: мес
+  months: мес
+  week: нед
+  weeks: нед
+  day: день
+  days: дн
+  hour: час
+  hours: час
+  minute: минут(ы)
+  minutes: минут(ы)
+  second: секунд(ы)
+  seconds: секунд(ы)
+  format: '%d %s'
+  separator: ', '
+strings:
+  global: global
+  'null': undefined
+  'true': 'yes'
+  'false': 'no'

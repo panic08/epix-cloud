@@ -1,0 +1,160 @@
+'1':
+  type: command
+  name: '&6&lНАГРАДА: &a#1'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e3000 долларов'
+  commands:
+    - 'eco give %player% 3000'
+'2':
+  type: command
+  name: '&6&lНАГРАДА: &a#2'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e6000 долларов'
+  commands:
+    - 'eco give %player% 6000'
+'3':
+  type: command
+  name: '&6&lНАГРАДА: &a#3'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e9000 долларов'
+    - '  &8▪ &fНабор - &a&lЛАЙТ'
+  commands:
+    - 'eco give %player% 9000'
+    - 'kit lite %player%'
+'4':
+  type: command
+  name: '&6&lНАГРАДА: &a#4'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e12000 долларов'
+    - '  &8▪ &fВалюта - &d&l15 рублей'
+    - '  &8▪ &fПредмет - &aХорусы x8'
+    - '  &8▪ &fПредмет - &c&lТотем x1'
+  commands:
+    - 'eco give %player% 12000'
+    - 'p give %player% 15'
+    - 'give %player% 432 8'
+    - 'give %player% 449 1'
+'5':
+  type: command
+  name: '&6&lНАГРАДА: &a#5'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e15000 долларов'
+    - '  &8▪ &fПредмет - &aХорусы x16'
+    - '  &8▪ &fПредмет - &eЭлитры'
+  commands:
+    - 'eco give %player% 15000'
+    - 'give %player% 432 16'
+    - 'give %player% 443 1'
+'6':
+  type: command
+  name: '&6&lНАГРАДА: &a#6'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e20000 долларов'
+    - '  &8▪ &fПредмет - &aМаяк x1'
+  commands:
+    - 'eco give %player% 20000'
+    - 'give %player% 138 1'
+'7':
+  type: command
+  name: '&6&lНАГРАДА: &a#7'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e25000 долларов'
+    - '  &8▪ &fВалюта - &d&l30 рублей'
+    - '  &8▪ &fПредмет - &6Шалкер х1'
+    - '  &8▪ &fПредмет - &c&lТотем x1'
+  commands:
+    - 'eco give %player% 25000'
+    - 'p give %player% 30'
+    - 'give %player% 220 1'
+    - 'give %player% 449 1'
+'8':
+  type: command
+  name: '&6&lНАГРАДА: &a#8'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e30000 долларов'
+    - '  &8▪ &fНабор - &6&lРЫЦАРЬ'
+    - '  &8▪ &fПредмет - &aХорусы x16'
+    - '  &8▪ &fПредмет - &eЧаренное золотое яблоко x1'
+  commands:
+    - 'eco give %player% 30000'
+    - 'kit knight %player%'
+    - 'give %player% 432 16'
+    - 'give %player% 322:1'
+'9':
+  type: command
+  name: '&6&lНАГРАДА: &a#9'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e60000 долларов'
+    - '  &8▪ &fВалюта - &d&l70 рублей'
+    - '  &8▪ &fНабор - &c&lПАЛАДИН'
+    - '  &8▪ &fПредмет - &eЧаренное золотое яблоко x1'
+  commands:
+    - 'eco give %player% 60000'
+    - 'p give %player% 70'
+    - 'kit paladin %player%'
+
+
+# TITAN
+'10':
+  type: command
+  name: '&6&lНАГРАДА: &a#1'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e8000 долларов'
+  commands:
+    - 'eco give %player% 8000'
+'11':
+  type: command
+  name: '&6&lНАГРАДА: &a#2'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e12000 долларов'
+    - '  &8▪ &fНабор - &5&lДРАГОН'
+  commands:
+    - 'eco give %player% 12000'
+    - 'kit dragon %player%'
+'12':
+  type: command
+  name: '&6&lНАГРАДА: &a#3'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e20000 долларов'
+    - '  &8▪ &fВалюта - &d&l50 рублей'
+    - '  &8▪ &fНабор - &b&lЛЕГЕНДА'
+  commands:
+    - 'eco give %player% 20000'
+    - 'p give %player% 50'
+    - 'kit legenda %player%'
+'13':
+  type: command
+  name: '&6&lНАГРАДА: &a#4'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &6&l⛂&e30000 долларов'
+    - '  &8▪ &fНабор - &d&lИМПЕРАТОР'
+    - '  &8▪ &fВалюта - &d&l100 рублей'
+  commands:
+    - 'eco give %player% 30000'
+    - 'kit imperator %player%'
+    - 'p give %player% 100'
+'14':
+  type: command
+  name: '&6&lНАГРАДА: &a#5'
+  lore-addon:
+    - '&r'
+    - '  &8▪ &fВалюта - &a&l$&a50000 долларов'
+    - '  &8▪ &fВалюта - &d&l150 рублей'
+    - '  &8▪ &fНабор - &e&lРОЛЕКС'
+  commands:
+    - 'eco give %player% 50000'
+    - 'p give %player% 150'
+    - 'kit rolex %player%'

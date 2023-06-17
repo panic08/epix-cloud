@@ -1,0 +1,79 @@
+﻿# Created => www.temaflex.tk
+# Permissions:
+# arewards.reward => Access to command
+rewards:
+   1:
+     actions:
+     - "cases give {player} donate 1"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fИгрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fпервого уровня!"
+     - "broadcast:&r"
+     time: 2400 # в секундах
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   2:
+     actions:
+     - "cases give {player} donate 2"
+     - "lp user {player} permission set nte.kol"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fИгрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fвторого уровня!"
+     - "broadcast:&r"
+     time: 5400
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   3:
+     actions:
+     - "cases give {player} donate 3"
+     - "lp user {player} permission set nte.kol1"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fИгрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fтретьего уровня!"
+     - "broadcast:&r"
+     time: 9000
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   4:
+     actions:
+     - "cases give {player} donate 5"
+     - "lp user {player} permission set nte.kol2"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fИгрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fчетвёртого уровня!"
+     - "broadcast:&r"
+     time: 12600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   5:
+     actions:
+     - "cases give {player} donate 10"
+     - "lp user {player} permission set nte.kol3"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fИгрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fпятого уровня!"
+     - "broadcast:&r"
+     time: 16200
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+   6:
+     actions:
+     - "cases give {player} donate 15"
+     - "p give {player} 30"
+     - "lp user {player} permission set nte.kol4"
+     - "broadcast:&r"
+     - "broadcast:§6§lUNIX§F§lMINE§7§l: &fОГО! Игрок &a&l{player} &fполучил &b&l/ＧＥＴＢＯＸ &fшестого уровня!"
+     - "broadcast:&r"
+     time: 21600
+     cooldown: "message:config>messages.reward.cooldown"
+     gived: "message:config>messages.reward.gived"
+     exist: "message:config>messages.reward.exist"
+messages:
+    prefix: "§6§lUNIX§F§lMINE§7§l: &f"
+    no-permission: "У вас нет прав."
+    reward:
+      cooldown: "{prefix} &fВы не можете получить свою награду.|title: &a&lБЕСПЛАТНЫЙ ДОНАТ ; &fПоиграйте ещё &e{days[0]}&e{days[1]}&e{hours[0]}&e{hours[1]}&e{minutes[0]}&e{minutes[1]}&e{seconds[0]}&e{seconds[1]}"
+      gived: "{prefix} &fВы успешно получили свою награду."
+      exist: "{prefix} &fВы уже получили эту награду.|title: &a&lБЕСПЛАТНЫЙ ДОНАТ ; &fВы получили награду"
+      broadcast:
+      - ""

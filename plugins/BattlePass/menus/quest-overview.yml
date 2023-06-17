@@ -1,0 +1,105 @@
+menu-title: '&0&lСписок недель'
+menu-rows: 6
+
+week-slots:
+  slots: '20...24'
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '49':
+    item:
+      material: spectral_arrow
+      name: '§6§lВЕРНУТЬСЯ В МЕНЮ'
+      lore:
+        - '&r'
+        - '&6↪ &fНажмите сюда, чтобы'
+        - '&6↪ &fвернуться в &aглавное меню'
+        - '&r'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+
+static-items:
+  week-item:
+    material: book:0
+    name: '&6&lНЕДЕЛЯ: #%week% &7(%status%&7)'
+    lore:
+        - '&r'
+        - '&8▪ &fНажмите сюда, чтобы'
+        - '&8▪ &fпосмотреть &aзадания'
+        - '&r'
+  locked-week-item:
+    material: book:0
+    name: '&6&lНЕДЕЛЯ: #%week% &7(%status%&7)'
+    lore:
+        - '&r'
+        - '&8▪ &fНажмите сюда, чтобы'
+        - '&8▪ &fпосмотреть &aзадания'
+        - '&r'
+  requires-previous-completion-item:
+    material: book:0
+    name: '&6&lНЕДЕЛЯ: #%week% &7(%status%&7)'
+    lore:
+        - '&r'
+        - '&8▪ &fНажмите сюда, чтобы'
+        - '&8▪ &fпосмотреть &aзадания'
+        - '&r'

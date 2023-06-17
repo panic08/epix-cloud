@@ -1,0 +1,53 @@
+config-version: 1
+
+storage-options:
+  bungee-fix: false
+  auto-save-interval: 180
+  storage-method: JSON
+  address: localhost
+  prefix: battlePass-
+  database: battlePass
+  username: battlepassuser
+  password: 'verySafe'
+
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000
+    connection-timeout: 5000
+
+  connection-properties:
+    useSSL: true
+
+battle-pass-aliases:
+  - 'bp'
+  - 'bpass'
+  - 'battlep'
+
+join-message-delay: 5
+
+whitelisted-worlds: []
+blacklisted-worlds:
+  - 'world_with_no_quests'
+  - 'another_world'
+
+daily-quests-enabled: true
+
+current-season:
+  time-zone: 'Europe/Moscow'
+  start-date: '11/11/2020'
+  start-time: '8:00'
+  notification-method: 'action bar & chat'
+  auto-receive-rewards: false
+  daily-quest-reset-time: '8:00'
+  daily-quest-amount: 8
+  daily-quests-enabled: true
+  quest-glow-on-completion: true
+  notify-at-percentages: [50]
+  unlocks:
+    require-previous-completion: false
+    lock-previous-weeks: false
+
+season-finished:
+  stop-daily-quests: false
+  stop-other-quests: false

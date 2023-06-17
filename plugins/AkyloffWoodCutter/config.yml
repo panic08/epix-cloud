@@ -1,0 +1,49 @@
+# Для использования плагина у вас должены быть установлены плагины PlaceholderAPI, Vault, WorldEdit, wScoreBoard.
+#
+# woodcutter.salary - Получить зарплату /uwdc salary
+# woodcutter.reload - Перезагрузить конфиг /uwdc reload
+#
+# Плейсхолдеры:
+# %woodcutter_salary% - Зарплата игрока
+# %woodcutter_breaks% - Кол-во срубленных деревьев
+#
+#
+# При отправки сообщение можно использовть методы actionbar: title:
+# Пример:  message: 'Этот тест создал для примера ;title: Да %nl% Это был пример;actionbar:Обратите внимание на чат'
+#
+messages:
+  prefix: ''
+  usage: '&7(&e&l!&7) &fПравильное использование команды: §e/uwoodcutter §7<§esalary§7/§ereload§7>'
+  breaked: 'actionbar:&l&f+ &e%earn%⛂' 
+  onlyWood: 'actionbar: §cВы не можете ломать другие блоки'
+  cut: 'actionbar:&fОсталось срубить §e%number% §fраз'
+  unknown: '&7(&c&l!&7) &fАргумент не найден.'
+  config-reloaded: '&7(&a&l!&7) &fКонфигурация перезагружена.'
+  noPermission: '&7(&c&l!&7) &fНедостаточно прав.'
+  salary-zero: '&7(&c&l!&7) &fДля получения зарплаты нужно нарубить деревьев.;title:&cОшибка'
+  salary-gived: '&7(&a&l!&7) &fВы получили зарплату в размере §e%salary%⛂;title:&aУспешно'
+  console: '&7(&c&l!&7) &fКоманду можно выполнять только от имени игрока.'
+  full: 'actionbar:&cПридурок ты забил рюкзак'
+
+scoreboard:
+  title: '&6Дровосек ёпта'
+  values:
+  - "&d&l&m┏  &7"
+  - "&d&l| &7Рюкзак: %backpackCurrent% / %backpackMax%"
+  - "&d&l| &dЗарплата: %salary%&7 &8(x%booster%&8)"
+  - "&d&l&m├  &d"
+  - "&d&l| &7Не забудь дать акулову по еблу!"
+  - "&d&l&m┗  &1"
+
+groups:
+  default:
+    booster: 1.0
+    max: 10
+  vip:
+    booster: 2.0
+    max: 20
+
+regions: 
+  wood:
+    earn: 10
+    cooldown: 10

@@ -1,0 +1,22 @@
+{
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2021-06-18 14:27:37 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-06-18 14:24:12 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2021-06-18 14:25:50 +0300",
+      "jungle": "2021-06-18 14:18:01 +0300",
+      "desert": "2021-06-18 14:24:12 +0300"
+    },
+    "done": false
+  }
+}

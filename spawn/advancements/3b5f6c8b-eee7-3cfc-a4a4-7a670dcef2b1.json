@@ -1,0 +1,36 @@
+{
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2021-06-18 12:17:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2021-06-18 14:01:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-06-18 14:00:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2021-06-18 14:00:43 +0300",
+      "diamond_helmet": "2021-06-18 14:00:43 +0300",
+      "diamond_chestplate": "2021-06-18 14:00:43 +0300",
+      "diamond_boots": "2021-06-18 14:00:43 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "jungle": "2021-06-17 21:51:10 +0300",
+      "desert": "2021-06-18 14:00:23 +0300"
+    },
+    "done": false
+  }
+}

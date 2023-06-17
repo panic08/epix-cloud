@@ -1,0 +1,182 @@
+Menu-Name: '&0&lСТРЕЛЫ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: arrows123
+  Fallback: '123'
+Items:
+- Slot: 3, 3
+  Material: tipped_arrow:32:0
+  Name: '&6&lСТРЕЛА ПЯТИ ПРОКЛЯТИЙ'
+  NBT:
+    CustomPotionColor: 16089856
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6+ &fИссушение X &a(0:10)'
+  - '&6+ &fЗамедление X &a(0:10)'
+  - '&6+ &fУтомление III &a(0:10)'
+  - '&6+ &fСлепота III &a(0:10)'
+  - ''
+  - '&6◦ &fСтоимость: &6280 Ⓟ'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fкупить'
+  Points: 280
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: minecraft:give %player_name% tipped_arrow 32 0 {CustomPotionEffects:[{Id:4,Amplifier:10,Duration:220},{Id:15,Duration:220},{Id:17,Amplifier:1,Duration:160},{Id:20,Amplifier:10,Duration:220},{Id:24,Duration:220}],CustomPotionColor:16089856,display:{Name:"§6§lСТРЕЛА ПЯТИ ПРОКЛЯТИЙ"}}'
+  - 'message: &6&lUNIX&F&LMINE &8› &fВы успешно купили предмет'
+- Slot: 4, 3
+  Material: tipped_arrow:32:0
+  Name: '&6&lСТРЕЛА ОХОТНИКА'
+  NBT:
+    CustomPotionColor: 4038113
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6+ &fЗамедление III &a(0:12)'
+  - '&6+ &fГолод II &a(0:12)'
+  - '&6+ &fСвечение &a(0:18)'
+  - ''
+  - '&6◦ &fСтоимость: &6174 Ⓟ'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fкупить'
+  Points: 174
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: minecraft:give %player_name% tipped_arrow 32 0 {CustomPotionEffects:[{Id:2,Amplifier:2,Duration:2880},{Id:17,Amplifier:1,Duration:2880},{Id:24,Duration:2880}],CustomPotionColor:4038113,display:{Name:"§6§lСТРЕЛА ОХОТНИКА"}}'
+  - 'message: &6&lUNIX&F&LMINE &8› &fВы успешно купили предмет'
+- Slot: 5, 3
+  Material: tipped_arrow:32:0
+  Name: '&6&lСТРЕЛА ОТРАВЛЕНИЯ'
+  NBT:
+    CustomPotionColor: 4751365
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6+ &fОтравление III &a(0:15)'
+  - ''
+  - '&6◦ &fСтоимость: &680 Ⓟ'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fкупить'
+  Points: 80
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: minecraft:give %player_name% tipped_arrow 32 0 {CustomPotionEffects:[{Id:9,Amplifier:2,Duration:320}],CustomPotionColor:358912,display:{Name:"§6§lСТРЕЛА ОТРАВЛЕНИЯ"}}'
+  - 'message: &6&lUNIX&F&LMINE &8› &fВы успешно купили предмет'
+- Slot: 6, 3
+  Material: tipped_arrow:32:0
+  Name: '&6&lСТРЕЛА ВРЕДА III'
+  NBT:
+    CustomPotionColor: 11798020
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6+ &fМоментальный урон III'
+  - ''
+  - '&6◦ &fСтоимость: &6150 Ⓟ'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fкупить'
+  Points: 150
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: minecraft:give %player_name% tipped_arrow:32:0 {CustomPotionEffects:[{Id:7,Amplifier:2}],CustomPotionColor:4018495,display:{Name:"Бронебойная Стрела"}}'
+  - 'message: &6&lUNIX&F&LMINE &8› &fВы успешно купили предмет'
+- Slot: 7, 3
+  Material: tipped_arrow:32:0
+  Name: '&6&lСТРЕЛА ЛЕВИТАЦИИ'
+  NBT:
+    CustomPotionColor: 15921906
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6+ &fЛевитация III &a(0:10)'
+  - ''
+  - '&6◦ &fСтоимость: &670 Ⓟ'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fкупить'
+  Points: 70
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Hide-Flags: 'potion_effects'
+  Commands:
+  - 'console: minecraft:give %player_name% tipped_arrow 32 0 {CustomPotionEffects:[{Id:25,Amplifier:2,Duration:160}],CustomPotionColor:15921906,display:{Name:"§6§lСТРЕЛА ЛЕВИТАЦИИ"}}'
+  - 'message: &6&lUNIX&F&LMINE &8› &fВы успешно купили предмет'
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  - 2, 1
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 1
+  - 9, 1
+  - 2, 6
+  - 3, 6
+  - 4, 6
+  - 6, 6
+  - 7, 6
+  - 8, 6
+  - 9, 6
+  - 2, 2
+  - 2, 5
+  - 8, 2
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 4, 5
+  - 6, 5
+  - 3, 4
+  - 4, 4
+  - 5, 4
+  - 6, 4
+  - 8, 3
+  - 8, 4
+  - 7, 4
+  - 3, 2
+  - 7, 2
+  - 3, 5
+  - 5, 5
+  - 4, 2
+  - 6, 2
+  - 7, 5
+  - 5, 2
+  - 2, 3
+  - 2, 4
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+  Name: '&7ღ'
+  Name: '&7ღ'
+- Slot: 5, 6
+  Material: 'spectral_arrow'
+  Name: ' &e&l⟲&6&l НАЗАД '
+  Lore:
+  - ''
+  - ' &6▪ &fПокинуть данное меню'
+  - ' &6▪ &fИ перейти в меню &e&lМАГАЗИНА'
+  - ''
+  - ' &6➥ &fНажмите чтобы перейти'
+  Commands:
+  - 'menu: shop' 

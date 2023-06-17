@@ -1,0 +1,32 @@
+version: '2.3'
+bases_enabled: true
+clan:
+  NOTEX:
+    owner: NotexTeam
+    members: 1
+    slots: 25
+    level: 2
+    exp: 59
+    mode: true
+    pvp: false
+    kills: 34
+    deaths: 56
+    kdr: 23
+    list:
+    - NotexTeam
+  '1337':
+    owner: fredimen1337__
+    members: 1
+    slots: 15
+    level: 1
+    exp: 0
+    mode: true
+    pvp: false
+    kills: 0
+    deaths: 0
+    kdr: 0
+    list:
+    - fredimen1337__
+clanlist:
+- NOTEX
+- '1337'

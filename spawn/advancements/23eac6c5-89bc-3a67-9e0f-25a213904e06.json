@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2021-06-17 16:29:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2021-06-17 16:29:03 +0300",
+      "diamond_helmet": "2021-06-17 16:29:03 +0300",
+      "diamond_chestplate": "2021-06-17 16:29:03 +0300",
+      "diamond_boots": "2021-06-17 16:29:03 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "jungle": "2021-06-17 16:26:33 +0300"
+    },
+    "done": false
+  }
+}

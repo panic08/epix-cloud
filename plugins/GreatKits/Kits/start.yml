@@ -1,0 +1,123 @@
+Name: start
+Cooldown: 3600
+Permission: kits.start
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLD_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: STONE_SPADE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 8
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: BEETROOT
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: LOG
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 7
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTATO_ITEM
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: LOG
+    damage: 2
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: CARROT_ITEM
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      internal: H4sIAAAAAAAAAONiYOBi4HPKyU/Ods0rySypDElMZ2ZgcUosTmVgYOBgYAAATOVWhSEAAAA=
+      blockMaterial: SHIELD
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 1
+        DURABILITY: 1

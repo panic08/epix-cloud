@@ -1,0 +1,98 @@
+menu-title: '&0&lБОЕВОЙ ПРОПУСК'
+menu-rows: 6
+
+menu:
+  '49':
+    item:
+      material: spectral_arrow
+      name: '§6§lЗАКРЫТЬ МЕНЮ'
+      lore: []
+    actions:
+      - '[menu] {close}'
+  '23':
+    item:
+      material: double_plant
+      name: '§6§lНАГРАДЫ'
+      lore:
+        - ''
+        - ' &8▪ &fВыполняй задания и получай награды!'
+        - ' &8▪ &fНаграды различаются в зависимости от вида пропуска.'
+        - ''
+        - ' &c⚠ &fДля игроков с привилегией &e&lРОЛЕКС'
+        - '&f        работает &a2X &fдля очков&f!'
+        - ''
+        - ' &a▶ Нажмите, чтобы открыть награды'
+    actions:
+      - '[menu] {rewards}'
+  '21':
+    item:
+      material: chest_minecart
+      name: '§6§lЕЖЕДНЕВНЫЕ ЗАДАНИЯ'
+      lore:
+        - ''
+        - ' &8▪ &fЕжедневные задания необходимо выполнять'
+        - ' &8▪ &fкаждый день, они обновляются каждый день'
+        - ''
+        - ' &a▶ Нажмите, чтобы открыть награды'
+    actions:
+      - '[menu] {daily-quests}'
+  '0':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []

@@ -1,0 +1,11 @@
+prefix: '§6§lREFIX§e§lWORLD§7§l: §f'
+color: §6
+endcolor: §f
+status:
+  not: §c§lне выполнено
+  yea: §a§lвыполнено
+  set: §a§l➥ §fНажмите, чтобы взять задание
+  setted: §a§l➥ §fВы уже взяли это задание
+  final: §a§l➥ §fНажмите, чтобы завершить задание
+  realized: §a§l➥ §fВы уже выполнили это задание
+  item-take: §a§l➥ §fНажмите, чтобы выполнить задание

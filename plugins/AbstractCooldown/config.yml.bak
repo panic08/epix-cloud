@@ -1,0 +1,329 @@
+# =========================================
+#           Abstract Cooldown
+#
+# Связаться с автором - AbstractCoder.ru
+# =========================================
+
+# Использовать ли Vault? У вас должен быть установлен плагин Vault.
+# Это необходимо для настройки разного кулдауна для разных донат-групп.
+# Если Вам это не нужно, то можете отключить
+useVault: true
+
+# Настройка приоритетов донат-групп по убыванию (сначала более важные группы).
+# Это позволит Вам не дублировать одинаковое время для последующих групп,
+# так как плагин будет учитывать прироритет.
+# Например, для команды ban не указана задержка для группы admin,
+# так что у группы admin задержка будет такая же, как и для ultra.
+#
+# Если вы не используйте Vault, то можете смело удалить эту секцию
+groupPriorities:
+  - moder
+  - tiktok
+  - youtube
+  - flex
+  - rolex
+  - imperator
+  - legenda
+  - dragon
+  - paladin
+  - knight
+  - lite
+  - default
+
+# Команды для которых действует кулдаун
+commands:
+
+  # Команда или любой из его алиасов.
+  hat:
+    checkAliases: true
+    permission: 'core.hat'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  craft:
+    checkAliases: true
+    permission: 'core.workbench'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    
+  feed:
+    checkAliases: true
+    permission: 'core.feed'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  heal:
+    checkAliases: true
+    permission: 'core.heal'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  clear:
+    checkAliases: true
+    permission: 'core.clear'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  invsee:
+    checkAliases: true
+    permission: 'core.invsee'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 5s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  ext:
+    checkAliases: true
+    permission: 'core.ext'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  getpos:
+    checkAliases: true
+    permission: 'core.getpos'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 5m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  firework:
+    checkAliases: true
+    permission: 'core.firework'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 30s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  dc:
+    checkAliases: true
+    permission: 'core.donatechat'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 5s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+    
+  night:
+    checkAliases: true
+    permission: 'core.time.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  sun:
+    checkAliases: true
+    permission: 'core.weather.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  storm:
+    checkAliases: true
+    permission: 'core.weather.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  repair all:
+    checkAliases: true
+    permission: 'core.repair.all'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 5m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  heal:
+    checkAliases: true
+    permission: 'core.heal.other'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  feed:
+    checkAliases: true
+    permission: 'core.feed.other'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 1m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  day:
+    checkAliases: true
+    permission: 'core.time.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  tempban:
+    checkAliases: true
+    permission: 'litebans.tempban'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 60m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  tempmute:
+    checkAliases: true
+    permission: 'litebans.tempmute'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 60m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  unban:
+    checkAliases: true
+    permission: 'litebans.unban'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 24h
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  message:
+    checkAliases: true
+    permission: 'core.message'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  message:
+    checkAliases: true
+    permission: 'core.r'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  warp:
+    checkAliases: true
+    permission: 'core.warp'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  tpa:
+    checkAliases: true
+    permission: 'core.tpa'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  /wand:
+    checkAliases: true
+    permission: 'worldedit.wand'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10s
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  broadcast:
+    checkAliases: true
+    permission: 'core.broadcast'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  bc:
+    checkAliases: true
+    permission: 'core.broadcast'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+    
+  sun:
+    checkAliases: true
+    permission: 'core.weather.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  storm:
+    checkAliases: true
+    permission: 'core.weather.change'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    notifyOnExpire: false
+    saveOnStop: true
+    
+  back:
+    checkAliases: true
+    permission: 'core.back'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 10m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+  tempmute:
+    checkAliases: true
+    permission: 'litebans.tempmute'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 3m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+  mute:
+    checkAliases: true
+    permission: 'litebans.mute'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 3m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true
+  kick:
+    checkAliases: true
+    permission: 'litebans.kick'
+    customMessage: '§6§lFLEX§e§lMC§7§l: &fКоманда будет доступна через: &a&l{time}'
+    defaultTime: 3m
+    groupsTime:
+      veltik: 0s
+    notifyOnExpire: false
+    saveOnStop: true

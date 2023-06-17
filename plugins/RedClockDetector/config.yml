@@ -1,0 +1,50 @@
+# +=========================+
+# | RedClockDetector config |
+# | version: 22.7           |
+# +=========================+
+
+enabled: true
+sensivity:
+  range: 5
+  trigger: 1000
+auto:
+  break:
+    enabled: true
+    count: 3
+    sign:
+      enabled: true
+      text:
+      - '&6&lВНИМАНИЕ'
+      - ''
+      - '&fВаш механизм'
+      - '&fвредит серверу'
+  disable:
+    enabled: true
+    count: 2
+  continue:
+    count: 4
+    action: break
+update:
+  notify: true
+  interval: 1
+notify:
+  message: true
+  format: §6§lUNIX§F§lMINE§7§l:&f Обнаружен запрещенный механизм, пожалуйста выберите
+    &8(&6{COUNT}&8) {NEXT_LINE} &6{TELEPORT} &6{DISABLE} &6{BREAK} &6{COORDINATES}
+    {NEXT_LINE} &6{RESET} &6{NEARBY} &6{IGNORE} &6{GUI}
+nearbyRange: 20
+world:
+  world:
+    enabled: true
+  world_nether:
+    enabled: true
+  world_the_end:
+    enabled: true
+  Spawn:
+    enabled: true
+  arena:
+    enabled: true
+  spawn:
+    enabled: true
+  lobby:
+    enabled: true

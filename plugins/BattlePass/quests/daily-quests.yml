@@ -1,0 +1,153 @@
+quests:
+  1:
+    name: 'задротик'
+    type: playtime
+    variable: none
+    required-progress: 10800
+    points: 10
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lЗАДРОТИК'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fНаиграть &c3 часа'
+        - '&6'
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a10 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  2:
+    name: 'крафтер'
+    type: craft
+    variable: wood_sword:0
+    required-progress: 64
+    points: 10
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lКРАФТЕР'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fСкрафтить &c64 деревеннях мечей'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a15 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  3:
+    name: 'сталкер'
+    type: kill-mob
+    variable: zombie
+    required-progress: 200
+    points: 30
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lСТАЛКЕР'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fУбить &c200 зомби'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a30 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  4:
+    name: 'киллер'
+    type: kill-player
+    variable: none
+    required-progress: 30
+    points: 50
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lУБИЙЦА'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fУбить &c30 игроков'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a50 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  5:
+    name: 'опытный'
+    type: gain-experience
+    variable: none
+    required-progress: 500
+    points: 30
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lОПЫТНЫЙ'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fЗаработать &c500 опыта'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a30 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  6:
+    name: 'лесоруб'
+    type: block-break
+    variable: wood:0
+    required-progress: 54
+    points: 10
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lЛЕСОРУБ'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fДобыть &c64 блока дерева'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a10 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  7:
+    name: 'фермер'
+    type: right-click-block
+    variable: seeds:0
+    required-progress: 120
+    points: 50
+    item:
+      material: chest_minecart:0
+      amount: 1
+      name: '&6&lФЕРМЕР '
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fПосадить &c120 семен пшеницы'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a50 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'
+  8:
+    name: 'путешественник'
+    type: move
+    variable: none
+    required-progress: 5000
+    points: 30
+    item:
+      material: chest_minecart:0:0
+      amount: 1
+      name: '&6&lПУТЕШЕСТВЕННИК'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fПройти &c5000 метров'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a30 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'

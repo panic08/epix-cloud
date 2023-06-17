@@ -1,0 +1,5648 @@
+{
+  "5d6c5eaf-89ef-38e4-bde4-3618bf679a7e": {
+    "name": "NotexTeam",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "admin"
+      },
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lАДМИН &f",
+        "priority": 25,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "8001f595-5786-3c53-9e36-f6345d3a7958": {
+    "name": "killop",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5『✔』 Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "fd6cf939-5b87-3463-92ce-a1f7267f2b65": {
+    "name": "white_boy_yt",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "83b67255-a9d4-3aa4-b028-0aad8403cbcd": {
+    "name": "xLaify",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "dabcde30-68e4-3d98-81ea-fff20937410a": {
+    "name": "BaGeT1337",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "spirit.strong",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "helper"
+      },
+      {
+        "group": "moder"
+      },
+      {
+        "group": "stmoder"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&3&lСТ.МОДЕРАТОР &f",
+        "priority": 24,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d0352504-135b-3711-8a7b-1078bc9a70e6": {
+    "name": "SuGaR__YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "da55e30d-1d10-3ed8-b898-2808381e9f4a": {
+    "name": "NescalityTEST4",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0f432051-76a9-351a-b427-b8b99a6dbaa6": {
+    "name": "FlexXD",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "*",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "admin"
+      },
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lГЛ. АДМИН &f",
+        "priority": 25,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&d⚝ Пушка",
+        "priority": 1
+      }
+    ]
+  },
+  "f14dd3e9-223f-3134-8667-6d10003d6fc2": {
+    "name": "ar4ewald",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4078a08f-5bb4-3ef5-a3f6-63b0d4d576d9": {
+    "name": "WhySanta",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7f003dbd-fd3e-3490-83b0-45881dee1b57": {
+    "name": "FrostikST",
+    "primaryGroup": "helper",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      },
+      {
+        "permission": "spirit.strong",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "helper"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lХЕЛПЕР &f",
+        "priority": 22,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Unreal",
+        "priority": 1
+      }
+    ]
+  },
+  "f659f15b-128d-3731-b897-4446d8546d8a": {
+    "name": "toper55",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "87fea07f-ce70-32da-9675-023b9ffafe2c": {
+    "name": "zuzik_minecraft9",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "062f92ea-50cd-3938-a208-c4f864b08de9": {
+    "name": "TurboTop",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "83999f98-55e9-3fed-838a-e2d10249e591": {
+    "name": "shadov_persik42",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "dd291216-3880-32b1-bc09-cf6bf6e0c16b": {
+    "name": "humlap23",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1d6a090b-81d7-39a8-aa46-1bc6295d708b": {
+    "name": "lomiker123",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a3ca8526-adb5-31ce-8f53-dbfb8b3ffb83": {
+    "name": "HikolYT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "6e54036b-ac69-3891-acf1-b0661b353085": {
+    "name": "Notbet_",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "moder"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&9&lМОДЕРАТОР &f",
+        "priority": 23,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "fbf77d2c-85b8-3038-af24-da90391b1fc2": {
+    "name": "Veltp",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "fca2b5ff-a63d-3834-9927-5620f23083cf": {
+    "name": "Nescallity",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "72f40b0b-25f1-3e6d-ab95-6e179c811f44": {
+    "name": "plomix",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "29cc3690-cfb3-3c18-86f5-1e161f43c5e0": {
+    "name": "X_Lenti_X",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "flex"
+      },
+      {
+        "group": "rolex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lФЛЕКС &f",
+        "priority": 19,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Lucky",
+        "priority": 1
+      }
+    ]
+  },
+  "f26f0dc7-ecf0-36f9-8e51-122553b7b886": {
+    "name": "Belg1anKquck",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a473c32f-b56d-332b-8328-f2141f966247": {
+    "name": "M1SHCA_YT",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d2d7f21c-4f9b-3816-8938-4f599acf1c04": {
+    "name": "fredimen1337__",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      },
+      {
+        "permission": "spirit.fire",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      },
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 20,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "77e212e0-2453-3917-931b-5c50f88ac04b": {
+    "name": "KoShAZa",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "flex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lФЛЕКС &f",
+        "priority": 19,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "943e3d0c-d460-31fd-80f0-77925c2cda3b": {
+    "name": "23_Max_23",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Finisher",
+        "priority": 1
+      }
+    ]
+  },
+  "07fe70bb-a1d7-3518-ae74-02e3cb9c930e": {
+    "name": "MAKOMON1891",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e906d91f-4a0d-3467-b76f-067274de72b1": {
+    "name": "oixr",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "lite"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "d08d5848-2495-36fb-9268-42526ab39f9f": {
+    "name": "whteh",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "6e257f2d-961f-3c9b-a603-7567d3070a89": {
+    "name": "IzumrudFixRe",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b182922f-dd01-3c29-9627-d4dfa0d25f11": {
+    "name": "ProstoIra25",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "ad71ac56-f1df-35ed-9589-f3df600737d6": {
+    "name": "Binovnik",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "303059e3-e039-3007-9956-cde1a549eb39": {
+    "name": "mega333rrr",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "161716d0-4cc3-31aa-bff1-bc7f5e3dc1f0": {
+    "name": "_AnaLus_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lРЫЦАРЬ &f",
+        "priority": 13,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "feb88790-1b6e-3142-998b-3330c4576859": {
+    "name": "XxDreamxX24",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "97d79df1-4de8-3e79-ab21-8442cce255eb": {
+    "name": "NaItWoRs",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world_nether"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ eZZ",
+        "priority": 1
+      }
+    ]
+  },
+  "fe6a51aa-2aaf-30b7-9839-cba75ff16d50": {
+    "name": "X_Aphelios_X",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "56975a19-ac69-3a1b-bc0e-c509c04ba092": {
+    "name": "MillkA_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "fd738131-0a9f-3eaf-b2d7-d82ee621c166": {
+    "name": "minertop1gg",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b4acbb68-9d8a-3fbf-b3ba-d977831517ea": {
+    "name": "46549",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "13e18414-5bf3-3ae7-a866-c6111dc4d9fd": {
+    "name": "picsar",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "a36f6757-add5-3b74-b969-cfad243a6bb9": {
+    "name": "Sab1cos",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "49b10c36-aa63-366d-b869-e830a4e661fc": {
+    "name": "helral",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "e98eedae-fc16-38ec-bc12-31cd9a662064": {
+    "name": "CaptainFelix",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1e40ff10-cc02-3395-adbd-a26d7e66a520": {
+    "name": "Nado228",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "f2e8c867-b91a-3fbd-95a8-47634ed73bb8": {
+    "name": "KFKFGJFJGJG",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3619338f-ba30-368e-80cb-c9c851c6c0b8": {
+    "name": "Selkin_S",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "af92a500-bb02-3448-bf35-a37f7fd1c6b0": {
+    "name": "nikitafool1",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d281a830-6aaf-3057-beb7-11ac0ac6ff2e": {
+    "name": "KlaysZER753",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1a2cccad-9e6c-32b1-b24a-707ad2e7b9f6": {
+    "name": "ArtYoU",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "73ed45bc-6067-3f32-a458-3b317487560e": {
+    "name": "ymaksimy123y",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1dce8dd1-a363-3f82-bc62-11a51c8c3257": {
+    "name": "zaginik",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d5c39207-4db1-3eba-bbc7-f96ba0be399d": {
+    "name": "ytbark",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "1f12014b-88f1-3900-be34-cfe818194246": {
+    "name": "FLeXeS228",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "legenda"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&b&lЛЕГЕНДА &f",
+        "priority": 16,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d52729a2-d771-3e21-9c61-2b3a62a5a65a": {
+    "name": "RupleS",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "e60769cd-ca45-3661-90d7-c45bb5ae79a7": {
+    "name": "ktoto7925",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "51fa6a04-de17-315a-b5b6-eb4a942ec0b3": {
+    "name": "Runex",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "2258260c-35cb-368e-9bb2-8ed394d19c23": {
+    "name": "sleinexxx",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "6ae76a1f-1729-31e5-8126-dda1bc17164c": {
+    "name": "_OLS_Major1k_",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Unreal",
+        "priority": 1
+      }
+    ]
+  },
+  "5ee629af-8634-33b0-888a-f8376809da57": {
+    "name": "Ifififi",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "96395e00-6c1e-343c-b108-cfcca649913b": {
+    "name": "lolipapa",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7768913b-3532-31fd-96f9-ae2c730e8cb6": {
+    "name": "sAnEk_hAcKeR_YT",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "imperator"
+      },
+      {
+        "group": "lite"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&d&lИМПЕРАТОР &f",
+        "priority": 17,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ OWNER",
+        "priority": 1
+      }
+    ]
+  },
+  "5bb4b20a-ae3a-3c5d-9531-94d96db989b3": {
+    "name": "A4NOOB",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "df74ce35-7351-3d6b-8104-14f53ae6c994": {
+    "name": "SaniaYouTube",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "646abf51-c2fb-3f2a-88e3-6047a910d83f": {
+    "name": "IN_fact",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Finisher",
+        "priority": 1
+      }
+    ]
+  },
+  "dbdc9326-a9dc-3b1f-84c3-66966d95f153": {
+    "name": "matvey_6875",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "731ba77a-2495-3333-8d53-595c73085775": {
+    "name": "Gastyi_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "a68f83aa-fc37-3c8e-be33-2c3b31bac65e": {
+    "name": "Krut345",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "b6e2a061-36d8-3a28-8d3a-cbc2c1ed224a": {
+    "name": "saFa3rqwSadwS",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0072c4ff-7952-3b14-a9ac-f2b60fe4d2ae": {
+    "name": "1den",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "40e93bf6-8b1a-33fe-afa0-37752f51a533": {
+    "name": "Neefhoofdsd",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "01512e94-8186-3e8b-b7ab-608cb18fa7d5": {
+    "name": "Top_kill",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f0319822-8e41-3efe-baf6-6f1988274579": {
+    "name": "egor67bit",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "imperator"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&d&lИМПЕРАТОР &f",
+        "priority": 17,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "43bb0330-bd2e-3553-8215-25704ff52be1": {
+    "name": "__GGTOPGG__",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "4d411647-04aa-3d0d-b6bf-5a427bc3b32e": {
+    "name": "YT_prikolist",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b81e88f0-6619-3eb3-9f55-ae37f4c7b38b": {
+    "name": "dfdsf",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "cc53f035-5d0e-3f4d-884d-8100e6482d42": {
+    "name": "_npoctoTaKuLa_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f5d7190c-97d2-30e4-b9b5-ab8916781993": {
+    "name": "perchik53716",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lРЫЦАРЬ &f",
+        "priority": 13,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "a2903d9b-1dc7-3cc9-8d3a-d935b6238fb7": {
+    "name": "Hey_Yoy_Cheeeek",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "cf84eb92-cf3c-382e-b5a3-63e90da96691": {
+    "name": "sashox228",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "88290f8a-fa5d-3f13-a668-eef4bdbf50ad": {
+    "name": "y67eqsw234",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b9f76a9f-833f-3767-ba48-3388d69073ad": {
+    "name": "___FDIG___",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "1570d2c1-adba-3dea-8c37-7e4b642ff324": {
+    "name": "Pluhogriz",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1c9eaf0b-d5b8-3a48-9643-69d0687b46fb": {
+    "name": "__Kai__Yt__",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      },
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 20,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "7733d207-075f-328e-a02d-c4d443729f67": {
+    "name": "_x_Crafter_x_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "ceed252c-6149-3ebf-a673-ef5c921d7e1d": {
+    "name": "nonplex",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "bca75e9b-3994-3c4e-88f6-92eef40c815a": {
+    "name": "Genoside",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "71300d95-18ce-36b6-9d40-ce85b1c2e4ec": {
+    "name": "4OPT_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "9e1efe66-7349-3864-bded-6e3cf4024e2d": {
+    "name": "bingo12",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "c76a1885-3dd1-302f-a666-5fb59bf85785": {
+    "name": "JopaSgorela328",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "02a0d5a0-da19-3d73-a573-4d8844f555aa": {
+    "name": "NormUgrok",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "46c9510a-2936-3d91-a88d-029409ea2898": {
+    "name": "meloon1xpublic",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "d9c65b1c-d60b-3dc8-a404-fde65fa647c0": {
+    "name": "Frabzy",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f9622d17-c8c9-32e7-9d3a-fca3a84da88c": {
+    "name": "HeevHowdjc",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7eb7a781-45ae-3c48-92eb-6fe12b5774b3": {
+    "name": "H1kyou",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "88e2b978-8fae-3936-b6cd-5105dbe31bce": {
+    "name": "awentvip22",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "45308459-8603-3964-9349-2d91009cba52": {
+    "name": "btb",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "84e46536-2030-3c24-8e2b-cd8c0268cff3": {
+    "name": "Misha1000TOP",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "flex"
+      },
+      {
+        "group": "imperator"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lФЛЕКС &f",
+        "priority": 19,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d4ea001e-a594-33c4-8eb2-94db5d7933f5": {
+    "name": "im_ezzo4ka",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ На Кол",
+        "priority": 1
+      }
+    ]
+  },
+  "2914578c-8737-34ef-a9d0-63661099dc7a": {
+    "name": "AnyDesk",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "226bad12-91ce-38b1-8f2e-a06d06197060": {
+    "name": "sdsdsdsd",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a18bcb4e-085c-3141-bc72-428b1dbbfc32": {
+    "name": "rad323",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f802ebff-fc54-37c0-9b70-77979dfdd11b": {
+    "name": "batavs",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "fb2f3d7d-a223-33be-b433-6e1174256913": {
+    "name": "qy8deisuw7ra",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "ce2af521-8e85-3da4-880b-bb795888ff60": {
+    "name": "vaselisocha",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1ecd9752-225c-3514-a276-cc0fa41f200a": {
+    "name": "FJsjdhgfsdd",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1": {
+    "name": "Player375",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "c3a72fa5-545c-3a23-8481-611d696a9351": {
+    "name": "yellowakyloff",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f734428a-2c7f-3e35-9d03-ac49b76a3914": {
+    "name": "Hukes",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "spirit.speed",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 20,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "69c4fa0f-e1b8-33be-8288-a73470247df3": {
+    "name": "ImperatorLol",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0ff53ed8-96a4-3070-b4f6-5946b57b48a3": {
+    "name": "1qcorn",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "legenda"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&b&lЛЕГЕНДА &f",
+        "priority": 16,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Unreal",
+        "priority": 1
+      }
+    ]
+  },
+  "14d0dfd4-c75e-3bee-9738-2d236c1c4c76": {
+    "name": "gwerf",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "9ea901bf-7534-3962-a2ba-083cdf519cb2": {
+    "name": "SugarYT",
+    "primaryGroup": "helper",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "helper"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lХЕЛПЕР &f",
+        "priority": 22,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "d36481f2-ccb4-3d46-9a35-4522a2cc422b": {
+    "name": "Shrackk",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ OWNER",
+        "priority": 1
+      }
+    ]
+  },
+  "47d10ee7-adf8-3cbb-a4bc-291871563214": {
+    "name": "Oz9en",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a1af30c9-20a2-3385-8fe7-3898675aeaf8": {
+    "name": "dragonza",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "69fadc83-4485-34f6-8613-5f1bda3f4cca": {
+    "name": "GRAND3239",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "ed5080a7-4373-3314-8ac3-1f957fcec3fa": {
+    "name": "gipperMOL228_00",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "ce056d4d-8685-3784-b7e2-5827ca199e1c": {
+    "name": "VORBOAR",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "f3bf12e7-1a3b-37bb-9ee1-f65b2fe6427d": {
+    "name": "Lega_Pro_Lega",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "3d34fed1-ae82-372c-a0a8-ef62d8b7c997": {
+    "name": "OxeedBan0",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "8922f83e-6145-3d92-b442-34e058f3d01b": {
+    "name": "NOOB4IK555",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b3bb8648-c177-3356-8810-418d8e62e7d4": {
+    "name": "AndreyPL",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "db4518ce-0bc0-3362-8130-3d03cc8d368a": {
+    "name": "FanzyST_D1_000",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "023b8351-f8c5-3686-a3dd-51185caae7fe": {
+    "name": "Artem_4328",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3947ddb5-e284-3584-8d3c-ca8b26d1134a": {
+    "name": "Skeletonik",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world_nether"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "5ab06dfa-8775-33d2-95d5-53dd339a18a2": {
+    "name": "ItsGoroshik",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "ac0e6dc2-ebb2-31e2-a755-7390f004062b": {
+    "name": "EKCTPACEHC",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "d7e518b2-1f44-3503-b9d4-77597a57cd17": {
+    "name": "MrRednier_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 20,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "0fce3270-a64b-31d9-bcea-9385af89c64d": {
+    "name": "fiodju",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Глава проекта",
+        "priority": 1
+      }
+    ]
+  },
+  "12f10d8b-b51c-3c77-8bc2-7abdfaa02b11": {
+    "name": "Dimatop4ik31",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "8f527716-72f8-3761-b7c4-9025dff5a8e8": {
+    "name": "MrMadrolank_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "98fdbc14-db66-3d2d-9855-ce3f180d2e1d": {
+    "name": "YaNeTikToker",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "2fd8ffc5-a2bc-35eb-bcb3-008d508e2740": {
+    "name": "LaterNon",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4a8d75f0-8516-36c6-acf1-fd1afb9b38f8": {
+    "name": "Dark_Magor",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ Finisher",
+        "priority": 1
+      }
+    ]
+  },
+  "8745cea9-7ffe-3ddb-84e4-2d237c165d64": {
+    "name": "anti_donater",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&4⚝ OWNER",
+        "priority": 1
+      }
+    ]
+  },
+  "1a51b132-dccb-359e-9ac2-a90ec0b6eaa3": {
+    "name": "22888",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0834f094-5acf-3331-9c74-c7008ef47679": {
+    "name": "_FasTiK_XD",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "316a74bb-6283-3969-a6df-c460932bec90": {
+    "name": "Jjjjggg",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "6327e1de-1bba-3035-8f76-ca42d74c6acb": {
+    "name": "SHARK_MONTR",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "8f48c9a7-8833-3b9d-841c-c3e7443420b6": {
+    "name": "Armata",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "6dae3a52-dc3c-3300-9e89-198c146de06b": {
+    "name": "__HELPER__220",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "06f91573-1009-3df4-8c57-c56fc8f47915": {
+    "name": "Darix_WTF",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "2a5b0e1b-35ef-368e-9f21-d3d371298ed5": {
+    "name": "EGORTALKOV",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "dd49a291-53b6-304c-858f-1de33b5d915d": {
+    "name": "kiza_grief_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "558fee37-a409-37d6-ad17-fd676f6ced2b": {
+    "name": "Artem_Donater",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "d8c7c461-25e4-3661-be23-ebc4cd5b56d1": {
+    "name": "CREEEEEEEP78",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "566157a9-8f0c-3763-bb4b-1a143cd4450a": {
+    "name": "Mr3onT__",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e9728d9a-7618-3987-a236-a03635c514db": {
+    "name": "Moldran",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4faa14fc-07f6-3a57-958f-1e782120908b": {
+    "name": "3BePycKa_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f07ba45c-328f-3525-96f2-8390ab806f6a": {
+    "name": "Expany_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "6687877c-c78b-3070-b2f1-b76aa1141925": {
+    "name": "4yXaN",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "moder"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&9&lМОДЕРАТОР &f",
+        "priority": 23,
+        "context": {
+          "world": "world_nether"
+        }
+      }
+    ]
+  },
+  "5a93d675-f83d-3d25-ab10-a4610163d882": {
+    "name": "AdMiNest200928",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "dad4f3ec-e044-3aa8-8eb6-eb371070144d": {
+    "name": "HauMeR",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "03b721c7-2be4-3ebd-8f75-4042a8bcc826": {
+    "name": "HybrisL",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7689eba5-5d1a-3a1c-8200-6ea84dae4c17": {
+    "name": "anti_donater_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0ea05965-195e-3c49-8e2a-2f6282decb33": {
+    "name": "fifti_fifti",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "40db3f1d-d797-37e5-b6d6-734b6d91f32d": {
+    "name": "livert_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "5b040e21-3af9-39b5-b730-f2e7c516f5a0": {
+    "name": "Dima_Green",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lРЫЦАРЬ &f",
+        "priority": 13,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "cd6ef541-140b-3b78-b5c5-2fa099f87d84": {
+    "name": "Dak_Minecraft_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "faa48bfb-313b-3e10-918f-b6de5d8bd8bb": {
+    "name": "Raczzy",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "30acc53e-3959-3172-83db-5b7770995568": {
+    "name": "dgh",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "ea37da54-17b4-3407-9def-0e86a7741ed6": {
+    "name": "TihonEmely",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "55360f1f-b6d4-395f-ba84-ae28d5d0ddd6": {
+    "name": "BestraX",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      },
+      {
+        "permission": "nte.kol2",
+        "value": true
+      },
+      {
+        "permission": "nte.kol3",
+        "value": true
+      },
+      {
+        "permission": "nte.kol4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4067c831-1e6b-3698-8a92-5d9d766775e4": {
+    "name": "dydiklol",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "698ee6c4-2a5b-3976-9268-ecc9a3c391d6": {
+    "name": "TimonItsGm",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "2e7a8261-074e-350b-8930-d99888a7c3fd": {
+    "name": "Lefixses",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "645aedd1-4b0a-378b-ae92-34ad5676cd79": {
+    "name": "QuodLite",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world_nether"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "f6fe6222-7c5c-3ddf-a9b4-1a63483ab686": {
+    "name": "pipizdon",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "237859c4-1973-3ea4-917c-86e186f860e3": {
+    "name": "artem2220",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "94697f70-4c32-3a04-93e8-ecffef06c48f": {
+    "name": "freezeeon",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 20,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e2b18266-6e41-39a2-bd2e-00519b044aa2": {
+    "name": "qmixao",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "45d4f7a6-45da-3e28-8668-2c4c8e1c5d07": {
+    "name": "TOPmain2021",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1d70a904-462c-3e3f-b8f4-c05db057382d": {
+    "name": "Garvin",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "d0d23f58-800c-388b-933a-13667ca889e4": {
+    "name": "In_ZmRbtw",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1e11e368-eb7f-3161-930e-31303f3c0bbc": {
+    "name": "BRAVIS_TT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "ccba9c55-42cf-37b3-a962-03dba2a00ab1": {
+    "name": "Ronum",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world_the_end"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Вор в законе",
+        "priority": 1
+      }
+    ]
+  },
+  "ac1781a3-655c-3c8d-aecc-e8e886073ead": {
+    "name": "FGfhghj",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "087bc651-1899-3f1d-b200-69ddf5c79961": {
+    "name": "21ignaten",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e5e6ad2e-abd9-3b90-aa1b-98bf948b9e99": {
+    "name": "sssss",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "dc4efdb0-5df8-3ec8-b8fe-ede6268a90de": {
+    "name": "hellowin",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "e43ad90f-8634-3d5a-9404-8072e8c7b777": {
+    "name": "LiffLL",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "84e3ab2b-9aa4-3101-9393-5e96ccfac263": {
+    "name": "pipirka_demona",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "2eef8dd9-2a50-3374-81d4-d1e48139b3c3": {
+    "name": "UgPlay6",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b566a3dc-71ec-3748-85b9-d4ff24cf6d19": {
+    "name": "mat_tvoai",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "d2af6f34-1ad2-37dd-b3d0-67e84f21a880": {
+    "name": "DIVERGENT2009",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "6f621d18-972e-3b42-962e-2c9796191982": {
+    "name": "Youtube_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "94e4e3ae-816b-3ff1-a8fc-6d088dd3de48": {
+    "name": "DIVERGENT20096",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "c3189dda-5d03-31bb-a0d1-34c8ded4461f": {
+    "name": "DIVERGENT20095",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3cceb533-d8ec-3372-b01f-4f1f042f43d1": {
+    "name": "MalerSupr",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a31d9849-a975-34c9-9fc8-54435cce93e8": {
+    "name": "BezandCrazy",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 15,
+        "context": {
+          "world": "world"
+        }
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&5⚝ Еззочка",
+        "priority": 1
+      }
+    ]
+  },
+  "d1d58eae-00cf-3869-a9d5-f324b44ee271": {
+    "name": "LEMONCHIK35790",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "64a5c0c3-2db8-371b-9b50-50137986b428": {
+    "name": "GGPVP_EZPPV",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "cf81b7c2-9821-37fa-b97b-4e1f52612f47": {
+    "name": "lindall",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0381104a-7484-3bd0-a66d-f9163f03980f": {
+    "name": "Bes",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "268e8b39-293a-34e2-a1b1-dd5b9744613b": {
+    "name": "drago_2000",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "4ed3bda1-50dc-3ee7-91dd-058d43ce914a": {
+    "name": "DripTip",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "f408b0ac-b06d-3dde-b1db-1e9c5208598c": {
+    "name": "ProstoLeivi",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "cfa26720-8e0b-34dd-b4d4-738e443ff77a": {
+    "name": "Totem4ik2343",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "8754f000-8fcc-34a2-bbbc-f6f1fb0c3ab4": {
+    "name": "ZmaLik_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e0357731-81f5-3dbb-b769-35a9721d9fd2": {
+    "name": "Monah_5106",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "0b135534-be9f-3a1b-9af7-d7233ccaf643": {
+    "name": "_kjay",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e16896fe-91c0-37da-b59d-564a8d290b79": {
+    "name": "h34f23gh",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "b0eb7a71-a064-3635-8ee2-ae5b3dbb027b": {
+    "name": "JeanCarlos1105",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "0ec2bba1-0ef2-33bf-a415-7154fda386a4": {
+    "name": "Pvp_grant_Pvep",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "52c7b2ab-aa88-3047-b07f-24dfbd8325f4": {
+    "name": "DanLlin_YT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "a7ab58b8-c355-3adb-bd13-e3e4ad7af764": {
+    "name": "QqUet",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "abfef29a-8377-34d4-9a0c-ee71a60dd180": {
+    "name": "Salamon_TV",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "d4d2c82e-d5cb-3287-a477-dfc1d38f0a06": {
+    "name": "9I_He_IIpocTou",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7e9eb9c1-cf6b-3fc5-957a-470de77ad3a3": {
+    "name": "BombardurYT",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "97537a79-ffd0-30ac-b843-fe9b0b7763ce": {
+    "name": "T34_TbOukroLik",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "345eb363-2ae7-3520-9293-90ee71a9529e": {
+    "name": "RaipeDown",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "99d276be-4a04-3ded-8415-2d1d4f6c85f8": {
+    "name": "Parlament",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1bcfab58-3d3b-3601-9084-bdaf7eeab8c6": {
+    "name": "BodySh2110",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7e07ed03-b2be-3210-8508-a78e66ee06cd": {
+    "name": "Garvin_Smirnov",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "da7987b4-a7d3-3756-900e-c43f1fcfde68": {
+    "name": "Bl1G1ATP",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3495007c-d971-3742-8d3a-ef19731691e8": {
+    "name": "clava5075",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7dbe0dea-3d29-3442-ba77-26e7505b3d76": {
+    "name": "konor2",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "3607b049-63a5-3c1f-9882-5a675260d45b": {
+    "name": "De_dok",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "646bdaef-9746-336c-9cc2-c014ebc0fc8c": {
+    "name": "LuFFi",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "e29bdc7c-f1ca-3131-92ff-cccc878851b8": {
+    "name": "reft",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "f6417f05-2787-3965-879b-f78018d7b665": {
+    "name": "Dorabaesid_plov",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "330aecdc-002f-309a-92cd-f5cec7157a13": {
+    "name": "goldmers56",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 14,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "12df6855-07b4-3475-8a12-bccc6e5f7748": {
+    "name": "BRAWLSTARST",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4aa19f2f-fb47-3208-9274-1df56e47889d": {
+    "name": "Palina",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "7ef6e1e3-c0d1-3ac8-9724-ec0c63ce778b": {
+    "name": "FrostY",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "fc393488-898f-375b-a07d-d75b25003a03": {
+    "name": "negjq_xx",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "78778771-c26d-394c-a768-8c90c84a1a45": {
+    "name": "HokageBiz1337",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4f0621c2-71c1-3cb5-b76b-70a1a5f7f6b8": {
+    "name": "Binipyx_cekc",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "1d6afd18-3dff-36de-8fdc-943220f750c1": {
+    "name": "ItsTrashLife",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "803ad211-9cac-3d94-bbd2-a3f8bb30b6ed": {
+    "name": "kto_to363",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "world"
+        }
+      }
+    ]
+  },
+  "12a5aba4-614e-324a-8461-54da3d4a9615": {
+    "name": "lega_leonchoe1",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "4076e9b0-1e0e-3a58-8149-a1df9e3dc0f9": {
+    "name": "lenov0",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "nte.kol2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      },
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "3f844ba5-6877-3360-bcdc-13b05d5b0134": {
+    "name": "Topeshers1",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "c67a26ac-a11d-3c12-b4a3-c0df632953b1": {
+    "name": "Morger221",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "777e8500-75bf-3430-83cf-efa721bea762": {
+    "name": "NotexPlay",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "504a2817-8684-35c7-a2fa-d9555d6ea1ed": {
+    "name": "dyrak16",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "31e1ad2d-bd39-3576-929f-415f30a86d4e": {
+    "name": "Ravi4",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "6d83f0f2-5739-3311-a933-d5d4f0503a14": {
+    "name": "MRLaucher_63465",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "2b22c805-1110-3047-bfa4-ede389f940ed": {
+    "name": "FriZZer",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "admin"
+      },
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lАДМИН &f",
+        "priority": 25,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "a2799bc8-b30f-38c0-b903-ab3a290cba35": {
+    "name": "_KOT_B_KOCMOCE_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "362a6c8e-c0f9-318f-bb23-fef53984d8c6": {
+    "name": "INCREASE",
+    "primaryGroup": "flex",
+    "parents": [
+      {
+        "group": "flex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "be3634e9-1fdb-33b6-8cee-22fece7a579e": {
+    "name": "I_Reinya_I",
+    "primaryGroup": "default",
+    "permissions": [
+      {
+        "permission": "spirit.fast",
+        "value": true
+      },
+      {
+        "permission": "spirit.fire",
+        "value": true
+      },
+      {
+        "permission": "spirit.jump",
+        "value": true
+      },
+      {
+        "permission": "spirit.speed",
+        "value": true
+      },
+      {
+        "permission": "spirit.strong",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "483636c0-3bb0-3332-b6dc-678e4c060a2c": {
+    "name": "MluziK_",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "5b18eb70-5dd8-3827-bb46-f0066b4880ba": {
+    "name": "ItsMluzi4",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  },
+  "63b14239-25f8-39e3-a2b3-4a3708618e85": {
+    "name": "Mluzi444",
+    "primaryGroup": "staff",
+    "permissions": [
+      {
+        "permission": "nte.kol",
+        "value": true
+      },
+      {
+        "permission": "nte.kol1",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "dragon"
+      },
+      {
+        "group": "knight"
+      },
+      {
+        "group": "lite"
+      },
+      {
+        "group": "paladin"
+      },
+      {
+        "group": "staff"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&l* ADMIN &f",
+        "priority": 19,
+        "context": {
+          "world": "spawn"
+        }
+      }
+    ]
+  },
+  "4f093d5b-0e8e-350a-bd92-72680caf4f24": {
+    "name": "FanaTuzi4",
+    "primaryGroup": "default",
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 11,
+        "context": {
+          "world": "lobby"
+        }
+      }
+    ]
+  }
+}

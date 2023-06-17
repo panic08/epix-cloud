@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-06-19 14:18:42 +0300",
+      "jungle": "2021-06-19 14:16:44 +0300"
+    },
+    "done": false
+  }
+}

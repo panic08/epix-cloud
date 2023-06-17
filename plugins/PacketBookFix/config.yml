@@ -1,0 +1,6 @@
+BanMessage: '&cBook edited too quickly!'
+BanPlayer: false
+KickPlayer: true
+PacketInMillis: 1000
+ReloadPermissions: PacketFix.reload
+ReloadedMessage: '&aPlugin successfully reloaded.'

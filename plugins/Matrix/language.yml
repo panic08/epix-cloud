@@ -1,0 +1,62 @@
+#
+#
+# ██╗░░██╗░█████╗░░██╗░░░░░░░██╗███████╗░██████╗████████╗██╗░░░██╗██████╗░██╗░█████╗░
+# ██║░░██║██╔══██╗░██║░░██╗░░██║██╔════╝██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██║██╔══██╗
+# ███████║██║░░██║░╚██╗████╗██╔╝█████╗░░╚█████╗░░░░██║░░░██║░░░██║██║░░██║██║██║░░██║
+# ██╔══██║██║░░██║░░████╔═████║░██╔══╝░░░╚═══██╗░░░██║░░░██║░░░██║██║░░██║██║██║░░██║
+# ██║░░██║╚█████╔╝░░╚██╔╝░╚██╔╝░███████╗██████╔╝░░░██║░░░╚██████╔╝██████╔╝██║╚█████╔╝
+# ╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░░░░╚═╝░░░░╚═════╝░╚═════╝░╚═╝░╚════╝░
+#
+#    Сборка была сделанна нотексом :3 (t.me/NotexTeam)            Anarchy
+#    Спасибо за покупку и приятного использования!                ver 1.1
+#
+
+# You can define the message prefix here
+prefix: '§6§lUNIX§F§lMINE§7§l: &f'
+
+# Define the announcement message after the player is kicked out by anti-cheating
+kick-format: 'Игрок &6%player% &fбыл кикнут за читы!'
+
+# Should Matrix broadcast a message when a player is kicked?
+kick-broadcast: true
+
+# What message should send to the player when Matrix detects
+# that the player is sending chat messages too fast?
+spam-warning: 'Прекратите флуд в чат, или вы будете накзаны!'
+
+# Define the format of the verbose message
+#
+#  What is "verbose message"?
+#    When the player is detected by Matrix for any cheating, Matrix will output a
+#    debugging message to display the detection information, which will be useful
+#    for developers to debug anti-cheat. You can toggle it with the "/matrix verbose"
+#    command, but usually you don’t need to read this message, it usually only needs
+#    to be used when reporting a bug.
+#
+verbose-format: '&6%player% &fпровалил проверку &6%check% &8| &f%message% &6(+%add_vl%) &8| &6vl:%vl% ping:%ping% tps:%tps% lp:%lp% component: %component% ver: %version%'
+
+# Defines the message that matrix blocks it when the player tries to quickly
+# reconnect to the server after being kicked out by the anti-cheat
+relog-message: '&fПодождите &6%time_left% сек.&f чтобы зайти на сервер!'
+
+# Global Placeholders, you can define constants here, you can use them in checks.yml
+#
+#  For example, define:
+#     kick_help: "If you think it's a false positive, you can contact the Mod to solve the false kick"
+#  then you can use %gp_kick_help% in checks.yml, It will be automatically replaced with this sentence
+#
+global_placeholder: { }
+
+# Define Commands description
+commands:
+  verbose: 'Показать/Скрыть сообщения анти чита'
+  notify: 'Отправить сообщение администрации'
+  toggle-notify: 'Включить/Выключить вывод уведомляющего сообщения'
+  npc: 'Заспавнить NPC для проверки на чит Killaura'
+  kick: 'Кикнуть игрока'
+  msg: 'Отправить предупреждающее сообщение игроку'
+  gui: 'Открыть меню управления анти читом'
+  violations: 'Открыть меню нарушений'
+  ping: 'Посмотреть пинг игрока'
+  cps: 'Посмотреть информацию о CPS игрока'
+  reload: 'Перезагрузить плагин'

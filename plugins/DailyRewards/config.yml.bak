@@ -1,0 +1,173 @@
+data:
+  auto-save: 15
+  storage:
+    type: sqlite
+    username: none
+    password: none
+    host: none
+    database: none
+  purge:
+    enabled: false
+    days: 60
+options:
+  auto-open:
+    enabled: false
+    only-when-have: true
+  days-row: 7
+  rewards-cooldown: 86400
+  unlock-after-midnight: true
+rewards:
+  '1':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e1000&6⛂'
+    commands:
+    - 'console: eco give %player% 1000'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '2':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e5000&6⛂'
+    - '  &8• &bАлмазы &ax4'
+    commands:
+    - 'console: eco give %player% 5000'
+    - 'console: give %player% diamond 4'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '3':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e7500&6⛂'
+    - '  &8• &bАлмазы &ax8'
+    - '  &8• &eПузырьки опыта &ax32'
+    commands:
+    - 'console: eco give %player% 7500'
+    - 'console: give %player% diamond 8'
+    - 'console: give %player% exp_bottle 32'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '4':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e10000&6⛂'
+    - '  &8• &bАлмазы &ax16'
+    - '  &8• &eПузырьки опыта &ax64'
+    commands:
+    - 'console: eco give %player% 10000'
+    - 'console: give %player% diamond 16'
+    - 'console: give %player% exp_bottle 64'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '5':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e15000&6⛂'
+    - '  &8• &3Око эндера &ax4'
+    - '  &8• &bЖемчуг эндера &ax8'
+    - '  &8• &eЗолотые яблоки &ax8'
+    commands:
+    - 'console: eco give %player% 15000'
+    - 'console: give %player% eye_of_ender 4'
+    - 'console: give %player% ender_pearl 8'
+    - 'console: give %player% golden_apple 8'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '6':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e20000&6⛂'
+    - '  &8• &bЖемчуг эндера &ax16'
+    - '  &8• &eЗолотые яблоки &ax16'
+    - '  &8• &6Тотем &ax1'
+    - '  &8• &d&l15 РУБЛЕЙ &b&l[ЛУЧШАЯ НАГРАДА]'
+    commands:
+    - 'console: eco give %player% 20000'
+    - 'console: give %player% golden_apple 16'
+    - 'console: give %player% ender_pearl 16'
+    - 'console: give %player% totem 1'
+    - 'console: p give %player% 15'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+  '7':
+    lore:
+    - ' &7Награды:'
+    - '  &8• &e25000&6⛂'
+    - '  &8• &eЗолотые яблоки &ax32'
+    - '  &8• &6Тотем &ax5'
+    - '  &8• &d&l30 РУБЛЕЙ &b&l[ЛУЧШАЯ НАГРАДА]'
+    commands:
+    - 'console: eco give %player% 25000'
+    - 'console: p give %player% 99'
+    - 'console: give %player% totem 5'
+    - 'console: give %player% golden_apple 32'
+    - 'console: p give %player% 30'
+    messages:
+    - '§6§lFLEX§e§lMC§7§l: &fВы получили ежедневную награду за &6&l%day% &e&lдень'
+gui:
+  title: '&8&lЕЖЕДНЕВНЫЕ НАГРАДЫ'
+  size: 45
+  days-positions: 11,12,13,14,15,21,23
+  days-display:
+    available:
+      material: STORAGE_MINECART:0:1
+      name: '&6&l%day% ДЕНЬ'
+      lore:
+      - ''
+      - ' &8▪ &fСтатус: &aдоступна'
+      - ' &8▪ &fОбнулится через: &c%expire%'
+      - ''
+      - '%reward-lore%'
+      - ''
+      - '&a&l► &aНажми, чтобы получить награду'
+    taken:
+      material: MINECART:0:1
+      name: '&6&l%day% ДЕНЬ'
+      lore:
+      - ''
+      - ' &8▪ &fСтатус: &bполучена'
+      - ''
+      - '%reward-lore%'
+    locked:
+      material: STORAGE_MINECART:0:1
+      name: '&6&l%day% ДЕНЬ'
+      lore:
+      - ''
+      - ' &8▪ &fСтатус: &cнедоступна'
+      - ''
+      - '%reward-lore%'
+    next:
+      material: STORAGE_MINECART:0:1
+      name: '&6&l%day% ДЕНЬ'
+      lore:
+      - ''
+      - ' &8▪ &fСтатус: &cнедоступна'
+      - ' &8▪ &fБудет доступна через: &a%expire%'
+      - ''
+      - '%reward-lore%'
+  items:
+    info:
+      material: BOOK:0:1
+      name: '&6&lИнформация'
+      enchanted: false
+      lore:
+      - ''
+      - ' &7Заходите на сервер каждый день'
+      - ' &7и получайте ежедневные награды'
+      - ' &7Внимание! Если вы пропустите хотя бы'
+      - ' &7один день, то награды обнулятся'
+      slots: 31
+    '1':
+      material: STAINED_GLASS_PANE:1:1
+      name: '&r'
+      enchanted: false
+      lore:
+      - ''
+      slots: 0,8,9,17,27,35,36,44
+    '2':
+      material: STAINED_GLASS_PANE:14:1
+      name: '&r'
+      enchanted: false
+      lore:
+      - ''
+      slots: 18,26

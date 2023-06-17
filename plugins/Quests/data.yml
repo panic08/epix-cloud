@@ -1,0 +1,210 @@
+realized:
+  sleinexxx:
+  - apple
+  - sword
+  - diamond
+  FrostikST:
+  - alximik6
+  - alximik1
+  - farmer5
+  - alximik8
+  X_Lenti_X:
+  - farmer2
+  - farmer5
+  - farmer1
+  - alximik3
+  - farmer7
+  - alximik1
+  - alximik8
+  - farmer8
+  - alximik5
+  - alximik6
+  - farmer6
+  IzumrudFixRe:
+  - farmer5
+  - farmer2
+  - farmer1
+  - farmer8
+  - farmer7
+  - alximik1
+  - alximik8
+  - alximik6
+  - farmer6
+  fredimen1337__:
+  - farmer1
+  - farmer2
+  - alximik1
+  - farmer8
+  - farmer7
+  - alximik8
+  - alximik6
+  Binovnik:
+  - farmer1
+  - farmer2
+  - alximik1
+  - farmer5
+  - farmer7
+  MillkA_:
+  - farmer1
+  - farmer2
+  _AnaLus_:
+  - farmer1
+  Selkin_S:
+  - farmer2
+  - farmer7
+  - farmer1
+  - alximik8
+  MAKOMON1891:
+  - farmer1
+  Ifififi:
+  - farmer1
+  - farmer7
+  - alximik8
+  23_Max_23:
+  - farmer1
+  - farmer2
+  - farmer5
+  - alximik1
+  - farmer7
+  - alximik8
+  - alximik6
+  NotexTeam:
+  - farmer1
+  - alximik1
+  _OLS_Major1k_:
+  - farmer1
+  - alximik8
+  - alximik6
+  sAnEk_hAcKeR_YT:
+  - farmer1
+  - farmer2
+  - alximik1
+  - farmer5
+  - farmer7
+  - alximik6
+  - farmer8
+  - alximik8
+  NaItWoRs:
+  - farmer1
+  - farmer2
+  JopaSgorela328:
+  - alximik1
+  - farmer2
+  __Kai__Yt__:
+  - farmer1
+  - farmer2
+  NormUgrok:
+  - alximik1
+  fiodju:
+  - farmer5
+  - farmer2
+  - farmer1
+  - farmer8
+  - farmer7
+  SugarYT:
+  - alximik1
+  QuodLite:
+  - alximik1
+  - farmer2
+  Shrackk:
+  - alximik1
+  - farmer1
+  - farmer7
+  - farmer8
+  DIVERGENT2009:
+  - farmer2
+  - alximik6
+  Dimatop4ik31:
+  - alximik1
+  - farmer2
+  Ronum:
+  - farmer1
+  - farmer2
+  - farmer5
+  - farmer8
+  - alximik1
+  anti_donater:
+  - farmer2
+  - farmer5
+  - farmer6
+  Skeletonik:
+  - farmer6
+  goldmers56:
+  - farmer2
+  - alximik1
+  - farmer5
+  I_Reinya_I:
+  - farmer1
+execute:
+  TurboTop:
+    name: farmer4
+    mobtype: ZOMBIE_PIGMAN
+    kills: 0
+    difficulty:
+    - '[effect] WEAKNESS:1'
+  NotexTeam:
+    name: farmer4
+    mobtype: ZOMBIE_PIGMAN
+    kills: 0
+    difficulty:
+    - '[effect] WEAKNESS:1'
+  Binovnik:
+    name: farmer3
+    mobtype: WITHER
+    kills: 0
+    difficulty:
+    - '[effect] BLINDNESS:1'
+  IzumrudFixRe:
+    name: alximik2
+    mobtype: CREEPER
+    kills: 0
+    difficulty:
+    - '[effect] BLINDNESS:1'
+  _x_Crafter_x_:
+    name: farmer4
+    mobtype: ZOMBIE_PIGMAN
+    kills: 0
+    difficulty:
+    - '[effect] WEAKNESS:1'
+  JopaSgorela328:
+    name: alximik2
+    mobtype: CREEPER
+    kills: 0
+    difficulty:
+    - '[effect] BLINDNESS:1'
+  __Kai__Yt__:
+    name: farmer4
+    mobtype: ZOMBIE_PIGMAN
+    kills: 0
+    difficulty:
+    - '[effect] WEAKNESS:1'
+  fiodju:
+    name: farmer3
+    mobtype: WITHER
+    kills: 0
+    difficulty:
+    - '[effect] BLINDNESS:1'
+  Skeletonik:
+    name: alximik4
+    mobtype: BAT
+    kills: 0
+    difficulty:
+    - '[effect] GLOWING:1'
+  Ronum:
+    name: alximik2
+    mobtype: CREEPER
+    kills: 0
+    difficulty:
+    - '[effect] BLINDNESS:1'
+  artem2220:
+    name: alximik4
+    mobtype: BAT
+    kills: 0
+    difficulty:
+    - '[effect] GLOWING:1'
+  anti_donater:
+    name: farmer4
+    mobtype: ZOMBIE_PIGMAN
+    kills: 3
+    difficulty:
+    - '[effect] WEAKNESS:1'

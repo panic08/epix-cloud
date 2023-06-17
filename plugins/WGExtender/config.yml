@@ -1,0 +1,62 @@
+claim:
+  vertexpand:
+    enabled: false
+  blocklimits:
+    enabled: true
+    limits:
+      default: 150000
+      lite: 150000
+      knight: 150000
+      paladin: 150000
+      dragon: 150000
+      ryzen: 150000
+      imperator: 150000
+      moderdon: 150000
+      staff: 150000
+      youtube: 150000
+      tiktok: 150000
+      helper: 150000
+      moder: 150000
+      stmoder: 150000
+      kurator: 150000
+regionprotect:
+  flow:
+    lava:
+      enabled: true
+    water:
+      enabled: false
+    otherliquid:
+      enabled: false
+  ignitebyplayer:
+    enabled: true
+  fire:
+    spread:
+      toregion:
+        enabled: false
+      inregion:
+        enabled: false
+    burn:
+      enabled: false
+  explosion:
+    block:
+      enabled: false
+    entity:
+      enabled: false
+  pistonmove:
+    enabled: false
+autoflags:
+  enabled: true
+  flags:
+    pvp: ALLOW
+    lightning: DENY
+restrictcommands:
+  enabled: false
+  commands:
+  - rg info
+  - sethome
+  - rg i
+  - clan setbase
+extendedwewand:
+  enabled: false
+misc:
+  pvpmode: allow

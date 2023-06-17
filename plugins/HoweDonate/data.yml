@@ -1,0 +1,197 @@
+players:
+- ==: ru.bestrax.donate.DonatePlayer
+  name: X_Lenti_X
+  items: []
+- ==: ru.bestrax.donate.DonatePlayer
+  name: BaGeT1337
+  items: []
+- ==: ru.bestrax.donate.DonatePlayer
+  name: FriZZer
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§6§lМЕНЮ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQz26CQBjEP5s2oaR9hx56JVnkXziaanGJLkUBZW8gnwHZRaPQCM/UhyzH9jDJTH4zl1EBFHilLUr/XDVvW3FuYUJUeNnWnRBf1/OxEqjAAy3g3dUd2zyaqGVuUWjmwSVaZtm5hjoxiZvljmk5Kqjj6ILXtsLbMygt3tvuijcVACYKPCWZ6BB+sPcJ35ek2Pvi0FN7zNGWiICeLg5tkj7/oDaVI1/O7FXv/ulabbazRGr4JW/CLpcJWRkbgcuNfpDxdxCVdbpb3HnEBJ/XhMt04NF61GfNvPWUR+HAT7N+9IRNQyPwFjqb+iXzwiHwYoPtYiMd6p6dwvt6nlbHve7C/4tYJhEeJTYd/AJNiaeZPQEAAA==
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§a§lДОНАТ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQzW6CQBRGr03aUNK+QxfdkgwKCIsuTEEdIliUWmd2/FwCdAaNQi08Vx+wLtvll3PO5lMBFHikLUr/UDVPW3FoYaSr8LD97IR4Ox2KSqACNzSHZ8ewrcLBXEt1m2gGyWzNMY2pZqQOGtMCbd1AFdRrdMRTW+H5HpQWv9vuhGcVAEYK3O4S0SH8YO8Tvi9JvvdF1lPruuMtEWtaH6e02fXpK7WovPLlzFr1zh/XbJMPU7CJX/Im6lK5I6vJRuByo2fy/YsNpWBxZgZDoK/dueCxkKyOLsGCDet4RsJFNASup7Oxd+FuNDBJxzzOei4DM6jZhA255K43hPVchnUpee31rPKdYk9e4P9VYSIR7vJDk7QIv4PtrKpHAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§d§lБЕСПЛАТНЫЙ ДОНАТ/ТИТУЛЫ/РУБЛИ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQy26CQBhGf5s2oaR9hy66JRnk0nHRRVNvQ2SsOKKwQ/gNDoMahbbDU/UR67JdfjnnbD4TwIBH1mAdHPeHp6U6NtCjJjwsq1apj/Nxt1dowA0r4HmLBbUzd2AVlFLLpcSxaEZsi6DtFf1i5xOKJpjX6ITnZo+XezAa/G7aM15MAOgZcBdnqkX4QR2QdFOSYhOoXDP/usWSqDmTpxd2iPX2nfmsvvLpmz/Tgz+u12RrTyVOUKaHRbutYzJzIoXTyM7r1ed8wiXvKo+LqAq71VciKjfpch2KXHORuGE3rrmMJZdByYfMDYc5SWSq+GSs5utYpZOVk4gFSaWqUhGVXAeD3Ya8wv+beFYj3I6j0Qh+AT2dqzZBAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+- ==: ru.bestrax.donate.DonatePlayer
+  name: I_Reinya_I
+  items: []
+- ==: ru.bestrax.donate.DonatePlayer
+  name: Mluzi444
+  items: []
+- ==: ru.bestrax.donate.DonatePlayer
+  name: FanaTuzi4
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§6§lМЕНЮ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQTW+CQBiEX5s2oaT9Dz30SrJ8KkdTLS7RpSh+sDeE14DsolFogN/UH1mO7WGSmTwzl1EBFHilNUr/UlRvG3GpYURUeNmUjRBft8upEKjAA83gPdUnduqmE812j7ZmnTJDSzLd0Vw0J9bY0h20EhXUYXTFW13g/RmUGtu6ueFdBYCRAk+7RDQIP9j5hB9ykh18kXbUGXK0ISKg5+uYVrvu+EEdKge+mDrLzv3Ttetkb4vY9HNehc1R7sjSXAtcrPVUbr+DKC/j/bzlERN8VhIu455Hq0GfJfNWBo/Cnp+n3eAJM0Iz8OY6M/yceWEfeFuT7bdm3JcdO4ftahYXp4Puwv+LWCIRHiVWDfwCyFZ3wD0BAAA=
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§a§lДОНАТ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQzU6DQBhFv5pokOg7uHBLAgxD24WLRmg7pFBpsXZmx88QwBloKFjhuXxAu9TlzTlnc1UABR5Jx6XXlPXTXjQdTAwVHvafvRBvbZOXgitwQzJ4RtjCcWZhLc90W7PSZKolJubaDGGEcitJzNlcBfUanXjblfx8D0rHv7u+5WcVACYK3B5i0XP44YOns2OhZ0dPpAOxrzva62JLqtOU1IcheSU2kVe+XtibYf7HxV38gQVFXsHqsE/kQd+gneDrnZHK9y86FoJGKfZH39g6S8EiIWkVXvwVHbfRQg9W4eg7rkFN98KccKSSmCxKByZ97FcU0TGTzHHHoFrKoCokq9yBlt48P+ov8P+qIJYc7rKmjjsOvwNZTThHAQAA
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    damage: 3
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §r§d§lБЕСПЛАТНЫЙ ДОНАТ/ТИТУЛЫ/РУБЛИ
+      lore:
+      - ''
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      internal: H4sIAAAAAAAAAFWQzW6CQBRGr02bUNK+QxfdkowyKC66aOrfEBkrjijsEIbgcFGjYDs8VR+xLtvll3PO5jMBDHhmtay84/7wssJjDR3XhKdV2SB+no/5HqUBdyyDV0plkveSrpVnA2JRSl3LTeXQyqVjUzcjPUoTE8xbdJLnei8vj2DU8rtuzvJiAkDHgIcwwUbCj9QeibcFybYeppr1b1usCC6YOg3YIdS7D9Zn1Y3P3vtzPfzjOnWycTCyvSI+LJtdFZK5HaCcBd20Wl8XU654WzpcBKXfrr8iUdKoTbUvUs1FRP12UnEVKq68go8Y9UcpiVSMfDrBxSbEeLq2I7EkscIyFkHBtTfMt+QN/t/Ek0rC/SQYj+EXCOxCVkEBAAA=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

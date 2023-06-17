@@ -1,0 +1,573 @@
+alximik_main:
+  title: §0§lАлхимик
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+    quests:
+      name: §6§l♫ §f§lЗАДАНИЯ АЛХИМИКА
+      quests: true
+      material: BLAZE_POWDER
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете просмотреть'
+      - '&6&l┗ &fСписок необходимых заданий'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 21
+    buy:
+      name: §6§l♫ §f§lМАГАЗИН АЛХИМИКА
+      buy: true
+      material: CHEST
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете купить'
+      - '&6&l┗ &fПредметы алхимика &c&l&o(NEW)'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 23
+alximik_quests:
+  title: §0§lЗадания алхимика
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+  quests:
+    alximik1:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #1'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/32'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l32 &fпузырька'
+      - ''
+      - '&6&l♨ &fЧтобы сдать пузырьки, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ &a&l10 &aлвл'
+      - ''
+      - '%status2%'
+      slot: 11 
+      amount: 1
+      quest:
+        name: alximik1
+        type: sell-items
+        sell-item: GLASS_BOTTLE
+        sell-item-amount: 32
+        prize:
+        - '[money] 500'
+        - '[level] 10'
+    alximik2:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #2'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/30'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l30 &fкриперов с эффектом слепоты 1'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ §a§l32 стержня ифрита &f+ §a§l3 зелья силы (3)'
+      - ''
+      - '%status2%'
+      slot: 12 
+      amount: 1
+      quest:
+        name: alximik2
+        type: kill-mobs
+        mobtype: CREEPER
+        difficulty:
+        - '[effect] BLINDNESS:1'
+        mobs-amount: 2
+        prize:
+        - '[money] 500'
+        - '[console] give %player_name% blaze_rod 32'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:5,Amplifier:2,Duration:1200}],CustomPotionColor:2225664,display:{Name:"\"§6§lЗЕЛЬЕ КРИПЕРА\""}}'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:5,Amplifier:2,Duration:1200}],CustomPotionColor:2225664,display:{Name:"\"§6§lЗЕЛЬЕ КРИПЕРА\""}}'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:5,Amplifier:2,Duration:1200}],CustomPotionColor:2225664,display:{Name:"\"§6§lЗЕЛЬЕ КРИПЕРА\""}}'
+    alximik3:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #3'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/10'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l10 &fзеленых шалкеров'
+      - ''
+      - '&6&l♨ &fЧтобы сдать шалкера, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l1000&6⛂ &f+ &a&l40 лвл &f+ &a&l15 красных шалкеров'
+      - ''
+      - '%status2%'
+      slot: 13 
+      amount: 1
+      quest:
+        name: alximik3
+        type: sell-items
+        sell-item: GREEN_SHULKER_BOX
+        sell-item-amount: 10
+        prize:
+        - '[money] 1000'
+        - '[level] 40'
+        - '[console] give %player_name% RED_SHULKER_BOX 15'    
+    alximik4:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #4'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/20'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l20 &fлетучих мышей с эффектом свечения'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l2000&6⛂ &f+ &a&lэлитры'
+      - ''
+      - '%status2%'
+      slot: 14 
+      amount: 1
+      quest:
+        name: alximik4
+        type: kill-mobs
+        mobtype: BAT
+        difficulty:
+        - '[effect] GLOWING:1'
+        mobs-amount: 20
+        prize:
+        - '[money] 500'
+        - '[console] give %player_name% elytra 1'
+    alximik5:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #5'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/120'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l120 &fпаучих глаз'
+      - ''
+      - '&6&l♨ &fЧтобы сдать паучии глаза, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l3000&6⛂ &f+ &a&l70 лвл &f+ &a&l5 зелей счастливчика'
+      - ''
+      - '%status2%'
+      slot: 15 
+      amount: 1
+      quest:
+        name: alximik5
+        type: sell-items
+        sell-item: SPIDER_EYE
+        sell-item-amount: 120
+        prize:
+        - '[money] 3000'
+        - '[lvl] 70'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:26,Amplifier:1,Duration:1200}],CustomPotionColor:14156022,display:{Name:"\"§6§lЗЕЛЬЕ СЧАСТЛИВЧИКА\""}}'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:26,Amplifier:1,Duration:1200}],CustomPotionColor:14156022,display:{Name:"\"§6§lЗЕЛЬЕ СЧАСТЛИВЧИКА\""}}'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:26,Amplifier:1,Duration:1200}],CustomPotionColor:14156022,display:{Name:"\"§6§lЗЕЛЬЕ СЧАСТЛИВЧИКА\""}}'
+    alximik6:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #6'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/250'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l250 &fпузырьков опыта'
+      - ''
+      - '&6&l♨ &fЧтобы сдать пузырьки опыта, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l10§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 21 
+      amount: 1
+      quest:
+        name: alximik6
+        type: sell-items
+        sell-item: EXP_BOTTLE
+        sell-item-amount: 250
+        prize:
+        - '[console] p give %player_name% 10'
+    alximik7:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #7'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/400'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l400 &fсгусток магмы'
+      - ''
+      - '&6&l♨ &fЧтобы сдать сгусток магмы, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l30§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 22 
+      amount: 1
+      quest:
+        name: alximik7
+        type: sell-items
+        sell-item: MAGMA_CREAM
+        sell-item-amount: 400
+        prize:
+        - '[console] p give %player_name% 30'
+    alximik8:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #8'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/750'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l750 &fсахара'
+      - ''
+      - '&6&l♨ &fЧтобы сдать сахар, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l50§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 23 
+      amount: 1
+      quest:
+        name: alximik8
+        type: sell-items
+        sell-item: SUGAR
+        sell-item-amount: 750
+        prize:
+        - '[console] p give %player_name% 50'
+alximik_shop:
+  title: §0§lМагазин алхимика
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+  shop-items:
+    alximik-shop1:
+      material: GLASS_BOTTLE
+      material-hide: BARRIER
+      slot: 20
+      amount: 16
+      amount-hide: 1
+      quest: alximik1
+      name: '§a§l✔ §f§lТОВАР #1'
+      name-hide: '§c§l⚠ §f§lТОВАР #1'
+      item:
+        price: 300
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% GLASS_BOTTLE 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Алхимик ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'alximik1'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Пузырёк'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e300⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#1 &fдля разблокировки!'
+      - ''
+    alximik-shop2:
+      material: BLAZE_POWDER
+      material-hide: BARRIER
+      slot: 21
+      amount: 16
+      amount-hide: 1
+      quest: alximik2
+      name: '§a§l✔ §f§lТОВАР #2'
+      name-hide: '§c§l⚠ §f§lТОВАР #2'
+      item:
+        price: 1000
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% blaze_powder 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Алхимик ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'alximik2'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Огненный порошок'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1000⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#2 &fдля разблокировки!'
+      - ''
+    alximik-shop3:
+      material: GOLDEN_CARROT
+      material-hide: BARRIER
+      slot: 22
+      amount: 16
+      amount-hide: 1
+      quest: alximik3
+      name: '§a§l✔ §f§lТОВАР #3'
+      name-hide: '§c§l⚠ §f§lТОВАР #3'
+      item:
+        price: 1100
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% GOLDEN_CARROT 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Алхимик ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'alximik3'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Золотая морковь'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1100⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#3 &fдля разблокировки!'
+      - ''
+    alximik-shop4:
+      material: SPECKLED_MELON
+      material-hide: BARRIER
+      slot: 23
+      amount: 16
+      amount-hide: 1
+      quest: alximik4
+      name: '§a§l✔ §f§lТОВАР #4'
+      name-hide: '§c§l⚠ §f§lТОВАР #4'
+      item:
+        price: 1400
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% SPECKLED_MELON 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Алхимик ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'alximik4'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Сверкающий арбуз'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1400⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#4 &fдля разблокировки!'
+      - ''
+    alximik-shop5:
+      material: SPLASH_POTION
+      material-hide: BARRIER
+      slot: 24
+      amount: 1
+      amount-hide: 1
+      quest: alximik5
+      name: '§a§l✔ §f§lТОВАР #5'
+      name-hide: '§c§l⚠ §f§lТОВАР #5'
+      item:
+        price: 2900
+        symbol: ⛂
+        give-events:
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:26,Amplifier:1,Duration:1200}],CustomPotionColor:14156022,display:{Name:"\"§a§lЗЕЛЬЕ СЧАСТЛИВЧИКА\""}}'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Алхимик ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'alximik5'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &a&lЗЕЛЬЕ СЧАСТЛИВЧИКА'
+      - '&6&l♨ &fКоличество: &e1x'
+      - '&6&l♨ &fСтоимость: &e2900⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#5 &fдля разблокировки!'
+      - ''

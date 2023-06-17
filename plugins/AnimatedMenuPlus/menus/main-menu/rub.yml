@@ -1,0 +1,69 @@
+﻿Menu-Name: '&0&LЗАРПЛАТА'
+Rows: 6
+Command: 
+  Name: rub
+  Fallback: '123'
+Items:
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkMjZjNDI5M2ZhYWQ3ZTBmZDFlOTFjNzFkYzU4YjRlYmMzOGM5MGRhYmFjOTE1NTU5NzY4ZDJkOWY0YWYifX19'
+  Name: '&6&lРУБЛЕВАЯ ЗАРПЛАТА'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна от доната &6&lРОЛЕКС'
+  - '&6◦ &fЗапрата составляет &6&l75 Ⓟ &fраз в &6&l1 &fдень'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 1d
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_days\} &fдней &a\{delay_hours\} &fчасов &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'zarplata.rolex'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: p give %player_name% 75'
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M1NjhhMTUyZGI1NzA1OTNjYzg5ZmFiYzAzMWJlY2RiOWJkYmRkZDFlYmI5MDM3ZWJhZTQ4ZGE5OGYwZTdjNyJ9fX0='
+  Name: '&4&lРУБЛЕВАЯ ЗАРПЛАТА'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6◦ &fЗарплата доступна от доната &4&lФЛЕКС'
+  - '&6◦ &fЗапрата составляет &4&l100 Ⓟ &fраз в &4&l1 &fдень'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fполучить'
+  Click-Delay: 1d
+  Delay-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fПожалуйста, подождите &a\{delay_days\} &fдней &a\{delay_hours\} &fчасов &a\{delay_minutes\} &fминут &a\{delay_seconds\} &fсекунд!'
+  Permission: 'zarplata.flex'
+  Permission-message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно прав'
+  Commands:
+  - 'console: p give %player_name% 100'
+- Slot: 5, 6
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmM2VhN2M3YjI2YTA1NGE5ZmJiYjI4Yjk3YTYwODk5OWMyYzczZGY3NWJmNmIyMzQ4ZDdmYjFlNTllODU1In19fQ=='
+  Name: '&6&lВЕРНУТЬСЯ'
+  Lore:
+  - '&6ℭ &fОписание предмета'
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fвернуться'
+  - ''
+  Commands:
+  - 'menu: menu'
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  Material: stained_glass_pane:1:14
+  Name: '&r'

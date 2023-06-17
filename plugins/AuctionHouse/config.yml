@@ -1,0 +1,9 @@
+# 
+# Your database information should go here.# 
+Item Expire Time: 48h
+Expired Item Remove Time: 240h
+Menu Messages Duration: 5s
+Refresh Rate: 10s
+Selling Price: 0.0
+Max Price: 1.0E7
+auction: {}

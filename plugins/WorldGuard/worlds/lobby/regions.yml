@@ -1,0 +1,127 @@
+#
+# Файл регионов WorldGuard
+#
+# ПРЕДУПРЕЖДЕНИЕ: ЭТОТ ФАЙЛ АВТОМАТИЧЕСКИ СГЕНЕРИРОВАН. Если изменить этот файл
+# вручную, имейте в виду, ЧТО ОДИН НЕПРАВИЛЬНО ВВЕДЕННЫЙ СИМВОЛ МОЖЕТ ПОВЕРЕДИТЬ ФАЙЛ. Если
+# WorldGuard будет неспособен разобрать файл, ваши регионы НЕ ЗАГРУЗЯТСЯ, и
+# содержимое этого файла будет сброшено. Пожалуйста, используйте валидатор YAML, такой как
+# http://yaml-online-parser.appspot.com (для небольших файлов).
+#
+# НЕ ЗАБУДЬТЕ ПЕРИОДИЧЕСКИ ДЕЛАТЬ РЕЗЕРВНЫЕ КОПИИ.
+#
+regions:
+    mine:
+        min: {x: 54.0, y: 0.0, z: 133.0}
+        max: {x: 84.0, y: 64.0, z: 156.0}
+        members: {}
+        flags:
+            deny-message: ''
+            lava-fire: deny
+            water-flow: deny
+            invincible: allow
+            use: allow
+            snow-fall: deny
+            leaf-decay: deny
+            ice-melt: deny
+            vehicle-destroy: deny
+            chest-access: deny
+            fire-spread: deny
+            sleep: deny
+            vehicle-place: deny
+            ice-form: deny
+            lighter: deny
+            enderman-grief: deny
+            pvp: deny
+            pistons: deny
+            mob-spawning: deny
+            send-chat: allow
+            blocked-cmds: [//replace, //paste -w world, //copy, //set]
+            potion-splash: deny
+            lava-flow: deny
+            tnt: deny
+            ghast-fireball: deny
+        owners: {}
+        type: cuboid
+        priority: 1
+    spawn:
+        min: {x: -1337.0, y: -1337.0, z: -1337.0}
+        max: {x: 1337.0, y: 1337.0, z: 1337.0}
+        members: {}
+        flags:
+            deny-message: ''
+            lava-fire: deny
+            water-flow: deny
+            invincible: allow
+            use: deny
+            snow-fall: deny
+            leaf-decay: deny
+            ice-melt: deny
+            vehicle-destroy: deny
+            chest-access: allow
+            fire-spread: deny
+            sleep: deny
+            vehicle-place: deny
+            ice-form: deny
+            lighter: deny
+            enderman-grief: deny
+            pvp: deny
+            pistons: deny
+            mob-spawning: deny
+            send-chat: allow
+            blocked-cmds: [//replace, //paste -w world, //copy, //set]
+            potion-splash: deny
+            lava-flow: deny
+            tnt: deny
+            ghast-fireball: deny
+        owners: {}
+        type: cuboid
+        priority: 0
+    king:
+        min: {x: 60.0, y: 0.0, z: 91.0}
+        max: {x: 66.0, y: 255.0, z: 97.0}
+        members: {}
+        flags: {invincible: deny, pvp: allow}
+        owners: {}
+        type: cuboid
+        priority: 3
+    wood:
+        min: {x: 91.0, y: 0.0, z: 71.0}
+        max: {x: 115.0, y: 172.0, z: 90.0}
+        members: {}
+        flags:
+            deny-message: ''
+            lava-fire: deny
+            water-flow: deny
+            invincible: allow
+            use: allow
+            snow-fall: deny
+            leaf-decay: deny
+            ice-melt: deny
+            vehicle-destroy: deny
+            chest-access: deny
+            fire-spread: deny
+            sleep: deny
+            vehicle-place: deny
+            ice-form: deny
+            lighter: deny
+            enderman-grief: deny
+            pvp: deny
+            pistons: deny
+            mob-spawning: deny
+            send-chat: allow
+            blocked-cmds: [//replace, //paste -w world, //copy, //set]
+            potion-splash: deny
+            lava-flow: deny
+            tnt: deny
+            ghast-fireball: deny
+        owners: {}
+        type: cuboid
+        priority: 1
+    pvp:
+        min: {x: 34.0, y: 0.0, z: 103.0}
+        max: {x: 60.0, y: 255.0, z: 127.0}
+        members: {}
+        flags: {enderpearl: deny, invincible: deny, pvp: allow}
+        owners: {}
+        type: cuboid
+        priority: 2

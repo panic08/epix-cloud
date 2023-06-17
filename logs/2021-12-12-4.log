@@ -1,0 +1,541 @@
+[10:10:08] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[10:10:08] [Server thread/INFO]: Loading properties
+[10:10:08] [Server thread/INFO]: Default game type: SURVIVAL
+[10:10:08] [Server thread/INFO]: This server is running Paper version git-Paper-"5d8b3d49" (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[10:10:08] [Server thread/INFO]: Debug logging is disabled
+[10:10:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:10:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:10:08] [Server thread/INFO]: Generating keypair
+[10:10:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:10:08] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[10:10:09] [Server thread/INFO]: (Matrix) | Injecting server connection handler...
+[10:10:09] [Server thread/INFO]: (Matrix) | <MV> Modified the movement delta value check
+[10:10:09] [Server thread/INFO]: (Matrix) | <MV> Modified the rotation delta value check
+[10:10:09] [Server thread/INFO]: (Matrix) | Injected server connection handler
+[10:10:10] [Server thread/INFO]: [CrashSignFix] Loading CrashSignFix v1.0
+[10:10:10] [Server thread/INFO]: [HoweBoardAntiRelog] Loading HoweBoardAntiRelog v1.0
+[10:10:10] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.9.2
+[10:10:10] [Server thread/INFO]: [LattyItems] Loading LattyItems v1.0-A
+[10:10:10] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[10:10:10] [Server thread/INFO]: [PandaWire] Loading PandaWire v1.0.4-SNAPSHOT
+[10:10:10] [Server thread/INFO]: [RandomLootChest] Loading RandomLootChest v1.6
+[10:10:10] [Server thread/INFO]: [wFurnace] Loading wFurnace v1.0
+[10:10:10] [Server thread/INFO]: [aRewards] Loading aRewards v1.0
+[10:10:10] [Server thread/INFO]: [Quests] Loading Quests v1.0
+[10:10:10] [Server thread/INFO]: [HoweDonate] Loading HoweDonate v1.0
+[10:10:10] [Server thread/INFO]: [RedClockDetector] Loading RedClockDetector v23
+[10:10:10] [Server thread/INFO]: [BattlePass] Loading BattlePass v1.0beta_quick
+[10:10:10] [Server thread/INFO]: [JetPotions] Loading JetPotions v1.2.0
+[10:10:10] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.1
+[10:10:10] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.1 is now loaded, waiting for boot. (late-bind)
+[10:10:10] [Server thread/INFO]: [FixPistons] Loading FixPistons v1.0
+[10:10:10] [Server thread/INFO]: [AkyloffPerks] Loading AkyloffPerks v1.4
+[10:10:10] [Server thread/INFO]: [FixEnchant] Loading FixEnchant v0.1
+[10:10:10] [Server thread/INFO]: [VoidTP] Loading VoidTP v1.4
+[10:10:10] [Server thread/INFO]: [AnimationLib] Loading AnimationLib v1.7.0
+[10:10:10] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[10:10:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[10:10:10] [Server thread/INFO]: [FlexAPI] Loading FlexAPI v1.0
+[10:10:10] [Server thread/INFO]: [GreatKits] Loading GreatKits v2.9
+[10:10:10] [Server thread/INFO]: [EasyPayments] Loading EasyPayments v1.1.2
+[10:10:10] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[10:10:10] [Server thread/INFO]: [MessageAnnouncer] Loading MessageAnnouncer v1.8.0
+[10:10:10] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0
+[10:10:11] [Server thread/INFO]: [HamsterAPI] Loading HamsterAPI v0.1.8
+[10:10:11] [Server thread/INFO]: [FiguresFix] Loading FiguresFix v1.0.3
+[10:10:11] [Server thread/INFO]: [DupeFix] Loading DupeFix v1.0
+[10:10:11] [Server thread/INFO]: [HideAchievements] Loading HideAchievements v1.0.0
+[10:10:11] [Server thread/INFO]: [iConomy] Loading iConomy v7.0
+[10:10:11] [Server thread/INFO]: [DispenserFix] Loading DispenserFix v1.0
+[10:10:11] [Server thread/INFO]: [ExploitFixer] Loading ExploitFixer v1.6.2
+[10:10:11] [Server thread/INFO]: [FixShadow] Loading FixShadow v1.0.0
+[10:10:11] [Server thread/INFO]: [Vault] Loading Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[10:10:11] [Server thread/INFO]: [DailyRewards] Loading DailyRewards v1.3.3
+[10:10:11] [Server thread/INFO]: [FastFix] Loading FastFix v1.0
+[10:10:11] [Server thread/INFO]: [Matrix] Loading Matrix v6.3.0
+[10:10:11] [Server thread/INFO]: [wecrashfix] Loading wecrashfix v1.0-SNAPSHOT
+[10:10:11] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.6
+[10:10:11] [Server thread/INFO]: [HoweCore] Loading HoweCore v1.0
+[10:10:11] [Server thread/INFO]:               [HOWECORE 1.0]               
+[10:10:11] [Server thread/INFO]: 
+[10:10:11] [Server thread/INFO]: Author: @bestrax
+[10:10:11] [Server thread/INFO]: Version: 1.0
+[10:10:11] [Server thread/INFO]: 
+[10:10:11] [Server thread/INFO]:               [HOWECORE 1.0]               
+[10:10:11] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v2.1.9
+[10:10:11] [Server thread/INFO]: [HoweRTP] Loading HoweRTP v1.0
+[10:10:11] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;
+[10:10:11] [Server thread/INFO]: [PacketBookFix] Loading PacketBookFix v1.0
+[10:10:11] [Server thread/INFO]: [Market] Loading Market v1.0
+[10:10:11] [Server thread/INFO]: [ServerSigns] Loading ServerSigns v4.7.0
+[10:10:11] [Server thread/INFO]: [MoonCases] Loading MoonCases v2.1
+[10:10:11] [Server thread/INFO]: [CubeAbilities] Loading CubeAbilities v1.0
+[10:10:11] [Server thread/INFO]: [TitleManager] Loading TitleManager v2.3.0
+[10:10:11] [Server thread/INFO]: [AbstractCooldown] Loading AbstractCooldown v1.0
+[10:10:11] [Server thread/INFO]: [MoneyFromMobs] Loading MoneyFromMobs v3.7
+[10:10:11] [Server thread/INFO]: [AkyloffMine] Loading AkyloffMine v1.0
+[10:10:11] [Server thread/INFO]: [LiteBans] Loading LiteBans v2.3.8
+[10:10:11] [Server thread/INFO]: [Clans] Loading Clans v2.3
+[10:10:11] [Server thread/INFO]: [LiteKing] Loading LiteKing v1.0
+[10:10:11] [Server thread/INFO]: [AnimatedMenuPlus] Loading AnimatedMenuPlus v3.2.6
+[10:10:11] [Server thread/INFO]: [TAB] Loading TAB v2.6.1
+[10:10:11] [Server thread/INFO]: [WGExtender] Loading WGExtender v1.0
+[10:10:11] [Server thread/INFO]: [ItemJoin] Loading ItemJoin v4.8
+[10:10:11] [Server thread/INFO]: [AkyloffWoodCutter] Loading AkyloffWoodCutter v1.0
+[10:10:11] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10-RELEASE
+[10:10:11] [Server thread/INFO]: [AkyloffNPC] Loading AkyloffNPC v1.0
+[10:10:11] [Server thread/INFO]: [SideTrader] Loading SideTrader v0.1
+[10:10:11] [Server thread/INFO]: [AntiRelog] Loading AntiRelog v3.0.8
+[10:10:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:10:11] [Server thread/INFO]: [PandaWire] Enabling PandaWire v1.0.4-SNAPSHOT
+[10:10:11] [Server thread/INFO]: [AnimationLib] Enabling AnimationLib v1.7.0
+[10:10:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[10:10:11] [Server thread/INFO]:         __    
+[10:10:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.1.26
+[10:10:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:10:11] [Server thread/INFO]: 
+[10:10:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:10:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [JSON_COMBINED]
+[10:10:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:10:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:10:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1432ms)
+[10:10:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0
+[10:10:13] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[10:10:13] [Server thread/INFO]: [HideAchievements] Enabling HideAchievements v1.0.0
+[10:10:13] [Server thread/INFO]: [Vault] Enabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[10:10:13] [Server thread/WARN]: iConomy - If you are using Flatfile storage be aware that versions 6, 7 and 8 have a CRITICAL bug which can wipe ALL iconomy data.
+[10:10:13] [Server thread/WARN]: if you're using Votifier, or any other plugin which handles economy data in a threaded manner your server is at risk!
+[10:10:13] [Server thread/WARN]: it is highly suggested to use SQL with iCo6 or to use an alternative economy plugin!
+[10:10:13] [Server thread/INFO]: [Vault] [Economy] iConomy 6 found: Waiting
+[10:10:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:10:13] [Server thread/INFO]: [Vault] Enabled Version 1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[10:10:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:10:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:10:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:10:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:10:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:10:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[10:10:13] [Server thread/INFO]: Preparing level "world"
+[10:10:13] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7695345414770613142)
+[10:10:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7695345414770613142)
+[10:10:14] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7695345414770613142)
+[10:10:14] [Server thread/INFO]: [HideAchievements] Achievements are now hidden for world 'world'.
+[10:10:14] [Server thread/INFO]: [HideAchievements] Achievements are now hidden for world 'world_nether'.
+[10:10:14] [Server thread/INFO]: [HideAchievements] Achievements are now hidden for world 'world_the_end'.
+[10:10:14] [Server thread/INFO]: [CrashSignFix] Enabling CrashSignFix v1.0
+[10:10:14] [Server thread/INFO]: [HoweBoardAntiRelog] Enabling HoweBoardAntiRelog v1.0
+[10:10:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.9.2
+[10:10:14] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:10:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bungee
+[10:10:14] [Server thread/ERROR]: [PlaceholderAPI] Failed to init placeholder expansion from class: com.extendedclip.papi.expansion.essentials.EssentialsExpansion
+[10:10:14] [Server thread/ERROR]: [PlaceholderAPI] net/ess3/api/IEssentials
+[10:10:14] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_example% has been loaded
+[10:10:14] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_prefix% has been loaded
+[10:10:14] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_group% has been loaded
+[10:10:14] [Server thread/INFO]: [PAPI] [Javascript-Expansion] Placeholder %javascript_suffix% has been loaded
+[10:10:14] [Server thread/WARN]: [PAPI] [Javascript-Expansion] Javascript placeholder: millionaire does not have a file specified
+[10:10:14] [Server thread/WARN]: [PAPI] [Javascript-Expansion] Javascript placeholder: is_staff does not have a file specified
+[10:10:15] [Server thread/WARN]: [PAPI] [Javascript-Expansion] Javascript placeholder: health_rounded does not have a file specified
+[10:10:15] [Server thread/WARN]: [PAPI] [Javascript-Expansion] Javascript placeholder: staff_online does not have a file specified
+[10:10:15] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 4 scripts loaded!
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: redisbungee
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[10:10:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:10:15] [Server thread/INFO]: [LattyItems] Enabling LattyItems v1.0-A
+[10:10:15] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[10:10:15] [Server thread/INFO]: [RandomLootChest] Enabling RandomLootChest v1.6
+[10:10:15] [Server thread/INFO]: [wFurnace] Enabling wFurnace v1.0
+[10:10:15] [Server thread/INFO]: [aRewards] Enabling aRewards v1.0
+[10:10:15] [Server thread/INFO]: [Quests] Enabling Quests v1.0
+[10:10:15] [Server thread/INFO]: [HoweDonate] Enabling HoweDonate v1.0
+[10:10:15] [Server thread/INFO]: [RedClockDetector] Enabling RedClockDetector v23
+[10:10:16] [Server thread/INFO]: [RedClockDetector] +==============================+
+[10:10:16] [Server thread/INFO]: [RedClockDetector] | RedClockDetector v23 enabled |
+[10:10:16] [Server thread/INFO]: [RedClockDetector] +==============================+
+[10:10:16] [Server thread/INFO]: [BattlePass] Enabling BattlePass v1.0beta_quick
+[10:10:16] [Server thread/INFO]: Successfully loaded the pass type with the id: free
+[10:10:16] [Server thread/INFO]: Successfully loaded the pass type with the id: premium
+[10:10:16] [Server thread/INFO]: Finished loading the  quests. All quests loaded successfully.
+[10:10:16] [Server thread/INFO]: Finished loading the  quests. All quests loaded successfully.
+[10:10:16] [Server thread/INFO]: Finished loading the  quests. All quests loaded successfully.
+[10:10:16] [Server thread/INFO]: Finished loading the  quests. All quests loaded successfully.
+[10:10:16] [Server thread/INFO]: Finished loading the  quests. All quests loaded successfully.
+[10:10:16] [Server thread/INFO]: [JetPotions] Enabling JetPotions v1.2.0
+[10:10:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.1
+[10:10:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[10:10:16] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[10:10:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[10:10:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[10:10:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:10:16] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[10:10:16] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[10:10:16] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[10:10:16] [Server thread/INFO]: [FixPistons] Enabling FixPistons v1.0
+[10:10:16] [Server thread/INFO]: [AkyloffPerks] Enabling AkyloffPerks v1.4
+[10:10:16] [Server thread/INFO]: [AkyloffPerks] Плейсхолдер включен
+[10:10:16] [Server thread/INFO]: [FixEnchant] Enabling FixEnchant v0.1
+[10:10:16] [Server thread/INFO]: [VoidTP] Enabling VoidTP v1.4
+[10:10:16] [Server thread/INFO]: [VoidTP]: Failed to connect to metrics service
+[10:10:16] [Server thread/WARN]: java.net.UnknownHostException: metrics.joshuahagon.co.uk
+[10:10:16] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.security.ssl.BaseSSLSocketImpl.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at java.net.URL.openStream(Unknown Source)
+[10:10:16] [Server thread/WARN]: 	at co.uk.joshuahagon.web.Metrics.addMetric(Metrics.java:20)
+[10:10:16] [Server thread/WARN]: 	at co.uk.joshuahagon.plugin.voidtp.VoidTP.onEnable(VoidTP.java:24)
+[10:10:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[10:10:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[10:10:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[10:10:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[10:10:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[10:10:16] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[10:10:16] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[10:10:16] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[10:10:16] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:293)
+[10:10:16] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[10:10:16] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:10:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[10:10:17] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:10:17] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[10:10:17] [Server thread/INFO]: [FlexAPI] Enabling FlexAPI v1.0
+[10:10:17] [Server thread/INFO]: Preparing start region for level 3 (Seed: 0)
+[10:10:17] [Server thread/INFO]: [HideAchievements] Achievements are now hidden for world 'lobby'.
+[10:10:17] [Server thread/INFO]: FlexAPI: Плагин был успешно включен.
+[10:10:17] [Server thread/INFO]: [GreatKits] Enabling GreatKits v2.9
+[10:10:17] [Server thread/INFO]: GreatKits 2.9.0 --> ON
+[10:10:17] [Server thread/INFO]: [EasyPayments] Enabling EasyPayments v1.1.2
+[10:10:17] [Server thread/INFO]: [EasyPayments] Detected NMS version: 1_12_R1
+[10:10:17] [Server thread/INFO]: [EasyPayments]  
+[10:10:17] [Server thread/INFO]: [EasyPayments]  EasyPayments is an official payment processing implementation.
+[10:10:17] [Server thread/INFO]: [EasyPayments]  © EasyDonate 2020-2021 - All rights reserved.
+[10:10:17] [Server thread/INFO]: [EasyPayments]  
+[10:10:17] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[10:10:17] [Server thread/INFO]: [ClearLag] Using version-adapter: LegacyVersionAdapter
+[10:10:17] [Server thread/INFO]: [ClearLag] Loading modules...
+[10:10:17] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[10:10:17] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[10:10:17] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[10:10:17] [Server thread/INFO]: [MessageAnnouncer] Enabling MessageAnnouncer v1.8.0
+[10:10:17] [Server thread/INFO]: [MessageAnnouncer] PlaceholderAPI integration was successful!
+[10:10:17] [Server thread/INFO]: [HamsterAPI] Enabling HamsterAPI v0.1.8
+[10:10:17] [Server thread/INFO]: [FiguresFix] Enabling FiguresFix v1.0.3
+[10:10:17] [Server thread/INFO]: [FiguresFix] Max pages: 50
+[10:10:17] [Server thread/INFO]: [FiguresFix] Shulker box materials: 16
+[10:10:17] [Server thread/INFO]: [DupeFix] Enabling DupeFix v1.0
+[10:10:17] [Server thread/INFO]: [iConomy] Enabling iConomy v7.0
+[10:10:17] [Server thread/INFO]: [iConomy - April Fools] Enabled (15 ms)
+[10:10:17] [Server thread/INFO]: [iConomy] Hello, I'm Nijikokun. Yes, this is an April Fools joke, but '/money top' was fixed! Enjoy :) - Rare Version!
+[10:10:17] [Server thread/INFO]: [Vault][Economy] iConomy 7 hooked.
+[10:10:17] [Server thread/INFO]: [DispenserFix] Enabling DispenserFix v1.0
+[10:10:17] [Thread-18/INFO]: [iConomy - April Fools] Purged accounts with default balance.
+[10:10:17] [Server thread/INFO]: [ExploitFixer] Enabling ExploitFixer v1.6.2
+[10:10:17] [Server thread/INFO]: [ExploitFixer] Successfully registered commands!
+[10:10:17] [Server thread/INFO]: [ExploitFixer] Successfully registered listeners!
+[10:10:17] [Server thread/INFO]: [ExploitFixer] Successfully hooked with HamsterAPI!
+[10:10:17] [Server thread/INFO]: [ExploitFixer] Successfully registered tasks!
+[10:10:17] [Server thread/INFO]: [FixShadow] Enabling FixShadow v1.0.0
+[10:10:18] [Server thread/INFO]: [FixShadow] 
+==================================================================================
+--------------->>> | Плагин FixShadow запущен | <<<---------------
+--------------->>> | Создатель: [Charles_Grozny] | <<<---------------
+--------------->>> | Версия: 1.0.0 | <<<---------------
+==================================================================================
+[10:10:18] [Server thread/INFO]: [DailyRewards] Enabling DailyRewards v1.3.3
+[10:10:18] [Server thread/INFO]: [INFO] DailyRewards: Loaded 7 daily rewards!
+[10:10:18] [Server thread/INFO]: [INFO] DailyRewards: Storage type: SQLite
+[10:10:18] [Server thread/INFO]: [FastFix] Enabling FastFix v1.0
+[10:10:18] [Server thread/INFO]: [Matrix] Enabling Matrix v6.3.0
+[10:10:18] [Server thread/INFO]:         __  ______  __________  _____  __
+[10:10:18] [Server thread/INFO]:        /  |/  /   |/_  __/ __ \/  _/ |/ /
+[10:10:18] [Server thread/INFO]:       / /|_/ / /| | / / / /_/ // / |   / 
+[10:10:18] [Server thread/INFO]:      / /  / / ___ |/ / / _, _// / /   |  
+[10:10:18] [Server thread/INFO]:     /_/  /_/_/  |_/_/ /_/ |_/___//_/|_|  
+[10:10:18] [Server thread/INFO]: 
+[10:10:18] [Server thread/INFO]: * Matrix AntiCheat v6.3.0 | git-Paper-"5d8b3d49" (MC: 1.12.2) | PAPER
+[10:10:18] [Server thread/INFO]: [Matrix] Checking Environment...
+[10:10:18] [Server thread/INFO]: [Matrix] Passed all environment checks
+[10:10:18] [Server thread/INFO]: [Matrix] Initializing the NMSVisitor (v1_12_R1)
+[10:10:18] [Server thread/INFO]: [Matrix] Loaded 0 global placeholders
+[10:10:18] [Server thread/INFO]: [Matrix] Enabled 16 checks, Disabled 0 checks
+[10:10:18] [Server thread/INFO]: [Matrix] Loaded all configuration files
+[10:10:18] [Server thread/INFO]: [Matrix] Scanning outdated log files....
+[10:10:18] [Server thread/INFO]: [Matrix] Deleted 0 outdated log files!
+[10:10:18] [Server thread/INFO]: [Matrix] Hooked with PlaceholderAPI
+[10:10:18] [Server thread/INFO]: [Matrix] Hooked with ViaVersion 4+
+[10:10:18] [Server thread/INFO]: [Matrix] Welcome to Matrix!
+[10:10:18] [Server thread/INFO]: [wecrashfix] Enabling wecrashfix v1.0-SNAPSHOT
+[10:10:18] [Server thread/INFO]: [wecrashfix] -=-=-=-=-=-=-=-=-=-=-=-
+[10:10:18] [Server thread/INFO]: [wecrashfix] WECrashFix - #tofix/to
+[10:10:18] [Server thread/INFO]: [wecrashfix] -=-=-=-=-=-=-=-=-=-=-=-
+[10:10:18] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.6
+[10:10:19] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[10:10:19] [Server thread/INFO]: [HoweCore] Enabling HoweCore v1.0
+[10:10:19] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v2.1.9
+[10:10:19] [Server thread/INFO]: [HoweRTP] Enabling HoweRTP v1.0
+[10:10:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world) Поджигание TNT отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world) Зажигалки РАЗРЕШЕНЫ.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world) Огонь лавы отключен.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world) Все распространение огня отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world'
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_nether) Поджигание TNT отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_nether) Зажигалки РАЗРЕШЕНЫ.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_nether) Огонь лавы отключен.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_nether) Все распространение огня отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world_nether'
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Поджигание TNT отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Зажигалки РАЗРЕШЕНЫ.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Огонь лавы отключен.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Все распространение огня отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'world_the_end'
+[10:10:19] [Server thread/INFO]: [WorldGuard] (lobby) Поджигание TNT отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (lobby) Зажигалки РАЗРЕШЕНЫ.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (lobby) Огонь лавы отключен.
+[10:10:19] [Server thread/INFO]: [WorldGuard] (lobby) Все распространение огня отключено.
+[10:10:19] [Server thread/INFO]: [WorldGuard] Загрузка конфигурации для мира 'lobby'
+[10:10:19] [Server thread/INFO]: [WorldGuard] Загрузка данных региона...
+[10:10:19] [Server thread/INFO]: [PacketBookFix] Enabling PacketBookFix v1.0
+[10:10:19] [Server thread/INFO]: [Market] Enabling Market v1.0
+[10:10:19] [Server thread/WARN]: [Market] Could not save configShop.yml to plugins\Market\configShop.yml because configShop.yml already exists.
+[10:10:19] [Server thread/WARN]: [Market] Could not save auction.yml to plugins\Market\auction.yml because auction.yml already exists.
+[10:10:19] [Server thread/WARN]: [Market] Could not save lang.yml to plugins\Market\lang.yml because lang.yml already exists.
+[10:10:19] [Server thread/WARN]: [Market] Could not save auction.yml to plugins\Market\auction.yml because auction.yml already exists.
+[10:10:19] [Server thread/INFO]: [ServerSigns] Enabling ServerSigns v4.7.0
+[10:10:19] [Server thread/WARN]: [ServerSigns] Unknown blocks : END_PORTAL_FRAME
+[10:10:19] [Server thread/WARN]: [ServerSigns] Please visit the wiki : https://serversigns.de/wiki/Configuration
+[10:10:20] [Server thread/INFO]: [ServerSigns] Version 4.7.0 is now enabled.
+[10:10:20] [Server thread/INFO]: [MoonCases] Enabling MoonCases v2.1
+[10:10:20] [Server thread/INFO]: [CubeAbilities] Enabling CubeAbilities v1.0
+[10:10:24] [Server thread/WARN]: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+[10:10:24] [Server thread/WARN]: 
+[10:10:24] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2186)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2219)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2014)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+[10:10:24] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.sql.DriverManager.getConnection(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at net.marvin728.redabilities.util.MySQL.getCurrentConnection(MySQL.java:69)
+[10:10:24] [Server thread/WARN]: 	at net.marvin728.redabilities.util.MySQL.checkTable(MySQL.java:49)
+[10:10:24] [Server thread/WARN]: 	at net.marvin728.redabilities.RedAbilitiesPlugin.onEnable(RedAbilitiesPlugin.java:70)
+[10:10:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[10:10:24] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[10:10:24] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[10:10:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[10:10:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[10:10:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[10:10:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[10:10:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[10:10:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:293)
+[10:10:24] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[10:10:24] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:10:24] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: connect
+[10:10:24] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[10:10:24] [Server thread/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+[10:10:24] [Server thread/WARN]: 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+[10:10:24] [Server thread/WARN]: 	... 28 more
+[10:10:24] [Server thread/ERROR]: Error occurred while enabling CubeAbilities v1.0 (Is it up to date?)
+java.lang.NullPointerException: null
+	at net.marvin728.redabilities.util.MySQL.checkTable(MySQL.java:49) ~[?:?]
+	at net.marvin728.redabilities.RedAbilitiesPlugin.onEnable(RedAbilitiesPlugin.java:70) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:293) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) [EpixCloud.jar:git-Paper-"5d8b3d49"]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[10:10:24] [Server thread/INFO]: [CubeAbilities] Disabling CubeAbilities v1.0
+[10:10:24] [Server thread/INFO]: [TitleManager] Enabling TitleManager v2.3.0
+[10:10:25] [Server thread/INFO]: [AbstractCooldown] Enabling AbstractCooldown v1.0
+[10:10:25] [Server thread/INFO]: [MoneyFromMobs] Enabling MoneyFromMobs v3.7
+[10:10:25] [Server thread/INFO]: [AkyloffMine] Enabling AkyloffMine v1.0
+[10:10:25] [Server thread/INFO]: (AkyloffMine) -----------------------------------------------------------
+[10:10:25] [Server thread/INFO]: (AkyloffMine) 
+[10:10:25] [Server thread/INFO]: (AkyloffMine)  Плагин: uMine  | Версия: 1.0
+[10:10:25] [Server thread/INFO]: (AkyloffMine)  Разработчик плагина: CRAD
+[10:10:25] [Server thread/INFO]: (AkyloffMine)  Рефакторинг & доработка: nesc.dev
+[10:10:25] [Server thread/INFO]: (AkyloffMine)  Последнее обновление: 29.12.2020
+[10:10:25] [Server thread/INFO]: (AkyloffMine) 
+[10:10:25] [Server thread/INFO]: (AkyloffMine) -----------------------------------------------------------
+[10:10:25] [Server thread/INFO]: [LiteBans] Enabling LiteBans v2.3.8
+[10:10:25] [Server thread/INFO]: [LiteBans] Using default database drivers.
+[10:10:25] [Server thread/INFO]: [LiteBans] Loading SQL driver: h2 (org.h2.Driver)
+[10:10:25] [Server thread/INFO]: [LiteBans] Connecting to database...
+[10:10:26] [Server thread/INFO]: [LiteBans] Connected to [jdbc:h2://C:\Users\vlady\OneDrive\Рабочий стол\Refix By Reiny\plugins\LiteBans\litebans] (578,4 ms).
+[10:10:26] [Server thread/INFO]: [LiteBans] Database connection fully initialized (584,2 ms).
+[10:10:26] [Server thread/INFO]: [LiteBans] v2.3.8 enabled. Startup took 760 ms.
+[10:10:26] [Server thread/INFO]: [Clans] Enabling Clans v2.3
+[10:10:26] [Server thread/INFO]: ===========================================================================
+[10:10:26] [Server thread/INFO]: [CLANS] Connection error with spigotmc.org!
+[10:10:26] [Server thread/INFO]: ===========================================================================
+[10:10:26] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 403 for URL: http://www.spigotmc.org/api/general.php
+[10:10:26] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[10:10:26] [Server thread/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[10:10:26] [Server thread/WARN]: 	at es.darkhorizon.dev.main.versionChecker(main.java:46)
+[10:10:26] [Server thread/WARN]: 	at es.darkhorizon.dev.main.onEnable(main.java:101)
+[10:10:26] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[10:10:26] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[10:10:26] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[10:10:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[10:10:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[10:10:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442)
+[10:10:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403)
+[10:10:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341)
+[10:10:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:293)
+[10:10:26] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[10:10:26] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[10:10:26] [Server thread/INFO]: [LiteKing] Enabling LiteKing v1.0
+[10:10:26] [Server thread/INFO]: [AnimatedMenuPlus] Enabling AnimatedMenuPlus v3.2.6
+[10:10:26] [Server thread/INFO]: [TAB] Enabling TAB v2.6.1
+[10:10:26] [Server thread/INFO]: [TAB] Server version: 1.12.2 (v1_12_R1)
+[10:10:26] [Server thread/INFO]: [TAB] Enabled in 100ms
+[10:10:26] [Server thread/INFO]: [WGExtender] Enabling WGExtender v1.0
+[10:10:26] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v4.8
+[10:10:26] [Server thread/INFO]: [ItemJoin] Hooked into Vault!
+[10:10:26] [Server thread/INFO]: [ItemJoin] Hooked into PlaceholderAPI!
+[10:10:26] [Server thread/INFO]: [ItemJoin] Could not find Multiverse-Core.
+[10:10:27] [Server thread/INFO]: [ItemJoin] Could not find AuthMe.
+[10:10:27] [Server thread/INFO]: [ItemJoin] Hooked into WorldGuard!
+[10:10:27] [Server thread/INFO]: [ItemJoin] Could not find HeadDatabase.
+[10:10:27] [Server thread/INFO]: [ItemJoin] has been Enabled!
+[10:10:27] [Server thread/INFO]: [AkyloffWoodCutter] Enabling AkyloffWoodCutter v1.0
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10-RELEASE
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/eda.yml.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/grifer.yml.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Money.yml.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/opit.yml.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[10:10:27] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_12_R1! Trying to find NMS support
+[10:10:27] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[10:10:27] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[10:10:27] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[10:10:27] [Server thread/INFO]: [AkyloffNPC] Enabling AkyloffNPC v1.0
+[10:10:28] [Server thread/INFO]: [SideTrader] Enabling SideTrader v0.1
+[10:10:28] [Server thread/INFO]: [AntiRelog] Enabling AntiRelog v3.0.8
+[10:10:28] [Server thread/INFO]: [AntiRelog] Detected version: 1.12.2
+[10:10:28] [Server thread/INFO]: Done (14.873s)! For help, type "help" or "?"
+[10:10:28] [Server thread/INFO]: Using default channel type
+[10:10:28] [Server thread/INFO]: Timings Reset
+[10:10:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[10:10:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[10:10:28] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_51). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[10:10:28] [Craft Scheduler Thread - 3/INFO]: [AnimationLib] A new version is available: 1.6.9
+[10:10:28] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 190 placeholder expansions are available on the cloud.
+[10:10:28] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] 4 installed expansions have updates available.
+[10:10:29] [Server thread/INFO]: [AnimatedMenuPlus] Loading menus...
+[10:10:29] [Craft Scheduler Thread - 1/INFO]: [Matrix] Plugin Enabled
+[10:10:29] [Craft Scheduler Thread - 8/INFO]: (Matrix) <Premium> Welcome to use Matrix! You are Premium User!
+[10:10:29] [Craft Scheduler Thread - 8/INFO]: (Matrix) <Premium> Expire Time: 2120-03-03 09:03:13
+[10:10:29] [Server thread/INFO]: [AnimatedMenuPlus] 30 menus loaded
+[10:10:29] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[10:10:29] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.1.1, you're on: 4.0.1
+[10:10:30] [Craft Scheduler Thread - 9/INFO]: [Metrics] Connection refused: connect
+[10:10:33] [Craft Scheduler Thread - 2/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:10:41] [User Authenticator #1/INFO]: UUID of player I_Reinya_I is be3634e9-1fdb-33b6-8cee-22fece7a579e
+[10:10:41] [Server thread/INFO]: I_Reinya_I[/127.0.0.1:53536] logged in with entity id 213 at ([lobby]81.30000001192093, 80.5318313568695, 123.37016756900071)
+[10:10:41] [Server thread/INFO]: [Matrix] (Via) Player I_Reinya_I joined with (1.12.x/340) client
+[10:10:44] [Server thread/INFO]: Successfully connected to version MC1_12_R1'!
+[10:10:45] [Server thread/INFO]: I_Reinya_I issued server command: /spawn
+[10:10:48] [Server thread/INFO]: I_Reinya_I issued server command: /donate
+[10:11:09] [Server thread/INFO]: I_Reinya_I issued server command: /shop
+[10:11:09] [Server thread/INFO]: I_Reinya_I issued server command: /shop
+[10:11:26] [Server thread/INFO]: I_Reinya_I issued server command: /shop
+[10:11:26] [Server thread/INFO]: I_Reinya_I issued server command: /shop
+[10:11:33] [Craft Scheduler Thread - 19/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:11:35] [Server thread/INFO]: I_Reinya_I issued server command: /bp
+[10:11:35] [Server thread/INFO]: I_Reinya_I issued server command: /bp
+[10:11:40] [Server thread/INFO]: I_Reinya_I issued server command: /rewards
+[10:11:40] [Server thread/INFO]: I_Reinya_I issued server command: /rewards
+[10:11:42] [Server thread/INFO]: HoweCore/INFO: REFIXWORLD: Вы выдали 5000 ⛂ игроку I_Reinya_I
+[10:11:42] [Server thread/INFO]: HoweCore/INFO: REFIXWORLD: Игроку I_Reinya_I выдано DIAMOND 4
+[10:11:46] [Server thread/INFO]: I_Reinya_I issued server command: /rewards
+[10:11:46] [Server thread/INFO]: I_Reinya_I issued server command: /rewards
+[10:12:19] [Server thread/INFO]: I_Reinya_I issued server command: /cases give I_Reinya_I donate 120
+[10:12:34] [Craft Scheduler Thread - 26/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:12:34] [pool-12-thread-1/INFO]: [LP] I_Reinya_I now inherits permissions from knight in context global.
+[10:12:38] [Server thread/INFO]: I_Reinya_I issued server command: /donate
+[10:12:55] [Server thread/INFO]: I_Reinya_I issued server command: /donate
+[10:13:02] [Async Chat Thread - #0/INFO]: Ⓛ | %rank_player% ФЛЕКС I_Reinya_I ⇨ f
+[10:13:16] [pool-12-thread-1/INFO]: [LP] I_Reinya_I already inherits from paladin in context global.
+[10:13:22] [Server thread/INFO]: I_Reinya_I issued server command: /donate
+[10:13:34] [Craft Scheduler Thread - 27/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:13:39] [pool-12-thread-1/INFO]: [LP] I_Reinya_I already inherits from knight in context global.
+[10:13:41] [Server thread/INFO]: I_Reinya_I lost connection: Disconnected
+[10:14:34] [Craft Scheduler Thread - 25/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:15:34] [Craft Scheduler Thread - 30/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:16:35] [Craft Scheduler Thread - 29/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:17:35] [Craft Scheduler Thread - 29/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:18:35] [Craft Scheduler Thread - 35/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:19:36] [Craft Scheduler Thread - 29/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:19:57] [User Authenticator #2/INFO]: UUID of player I_Reinya_I is be3634e9-1fdb-33b6-8cee-22fece7a579e
+[10:19:57] [Server thread/INFO]: I_Reinya_I[/192.168.1.103:63846] logged in with entity id 1098 at ([lobby]79.30344608917275, 69.0, 112.37535412673103)
+[10:19:57] [Server thread/INFO]: [Matrix] (Via) Player I_Reinya_I joined with (1.12.x/340) client
+[10:20:00] [Server thread/INFO]: I_Reinya_I lost connection: Disconnected
+[10:20:33] [Craft Scheduler Thread - 36/INFO]: [Metrics] Connection refused: connect
+[10:20:36] [Craft Scheduler Thread - 39/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:21:36] [Craft Scheduler Thread - 37/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:22:37] [Craft Scheduler Thread - 36/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:23:37] [Craft Scheduler Thread - 48/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:24:37] [Craft Scheduler Thread - 37/ERROR]: [EasyPayments] Cannot connect to the API server!
+[10:25:38] [Craft Scheduler Thread - 49/ERROR]: [EasyPayments] Cannot connect to the API server!

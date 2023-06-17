@@ -1,0 +1,60 @@
+name: '&eбесплатный&7'
+default-points-required: 100
+
+items:
+  locked-tier-item:
+    material: 'furnace_minecart:0'
+    name: '&6&lБЕСПЛАТНАЯ НАГРАДА: &8(&a#%tier%&8)'
+    lore:
+      - ''
+      - '&6Призы:'
+      - '%lore_addon%'
+      - ''
+      - '&c▶ Достигни &l%tier%&c уровень, чтобы забрать данную награду.'
+  unlocked-tier-item:
+    material: 'chest_minecart:0'
+    name: '&6&lБЕСПЛАТНАЯ НАГРАДА: &8(&a#%tier%&8)'
+    lore:
+      - ''
+      - '&6Призы:'
+      - '%lore_addon%'
+      - ''
+      - '&a▶ Нажмите, чтобы забрать данную награду.'
+  claimed-tier-item:
+    material: 'minecart:0'
+    name: '&eБесплатная награда &8(&a#%tier%&8)'
+    lore:
+      - ''
+      - '&c⚠ Вы уже забрали, данную награду'
+
+tier-up-actions:
+  - '[message] {&7Вы достигли &e%tier% &7уровня}'
+
+tiers:
+  '1':
+    rewards: ['1'] 
+    required-points: 100 
+  '2':
+    rewards: ['2'] 
+    required-points: 200 
+  '3':
+    rewards: ['3'] 
+    required-points: 300 
+  '4':
+    rewards: ['4'] 
+    required-points: 400 
+  '5':
+    rewards: ['5'] 
+    required-points: 500 
+  '6':
+    rewards: ['6'] 
+    required-points: 600 
+  '7':
+    rewards: ['7'] 
+    required-points: 700 
+  '8':
+    rewards: ['8'] 
+    required-points: 800 
+  '9':
+    rewards: ['9'] 
+    required-points: 900 

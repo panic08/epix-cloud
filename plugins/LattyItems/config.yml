@@ -1,0 +1,275 @@
+items:
+  totem1:
+    name: '&6&LТОТЕМ ЖИЗНИ'
+    icon:
+      material: totem
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &7▪ &fЭффекты &7↷'
+      - ' &7+ &c❤❤'
+      - '&f'
+    effects:
+      - 'HEALTH_BOOST:1'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства
+  totem2:
+    name: '&6&LТОТЕМ ЖИЗНИ x2'
+    icon:
+      material: totem
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &7▪ &fЭффекты &7↷'
+      - ' &7+ &c❤❤❤❤'
+      - '&f'
+    effects:
+      - 'HEALTH_BOOST:2'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства
+  totem3:
+    name: '&6&LТОТЕМ ЖИЗНИ x3'
+    icon:
+      material: totem
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &7▪ &fЭффекты &7↷'
+      - ' &7+ &c❤❤❤❤❤❤'
+      - '&f'
+    effects:
+      - 'HEALTH_BOOST:3'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства  
+  shield2:
+    name: '&6&LЩИТ ХРАБРОСТИ'
+    icon:
+      material: 'shield'
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &7▪ &fЭффекты &7↷'
+      - ' &7+ &c❤❤❤❤'
+      - ' &7+ &bСкорость II'
+      - '&f'
+      - ' '
+      - ' &7▪ &fЧары &7↷'
+      - ' &7+ &eНеразрушаемость'       
+    effects:
+      - 'HEALTH_BOOST:2'
+      - 'SPEED:2'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства
+  shield1:
+    name: '&6&LЩИТ ПРОЧНОСТИ'
+    icon:
+      material: 'shield'
+      data: 0
+      ammount: 1
+    lore:
+      - ' '
+      - ' &7▪ &fЧары &7↷'
+      - ' &7+ &eНеразрушаемость' 
+      - '&f'      
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: true #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства
+  shield3:
+    name: '&6&LЩИТ УБИЙЦЫ'
+    icon:
+      material: 'shield'
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &7▪ &fЭффекты &7↷'
+      - ' &7+ &c❤❤❤❤'
+      - ' &7+ &bСкорость II'
+      - ' &7+ &cСила II'
+      - '&f'
+      - ' '
+      - ' &7▪ &fЧары &7↷'
+      - ' &7+ &eНеразрушаемость' 
+      - '&f'       
+    effects:
+      - 'HEALTH_BOOST:2'
+      - 'SPEED:2'
+      - 'strength:3'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: true #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства
+  runa1:
+    name: '&6&lРУНА СИЛЫ'
+    icon:
+      material: clay_ball
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+      - ' &e▪ &fЭффекты &7↷'
+      - ' &7+ &eСила III'
+      - ''
+    effects:
+      - 'increase_damage:3'
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: true
+      drop: true
+      save: false
+  runa2:
+    name: '&6&lРУНА СКОРОСТИ'
+    icon:
+      material: clay_ball
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+      - ' &e▪ &fЭффекты &7↷'
+      - ' &7+ &eСкорость III'
+      - ''
+    effects:
+      - 'increase_damage:3'
+    sound:
+      - 'speed:3'
+    functions:
+      break: true
+      drop: true
+      save: false
+  runa3:
+    name: '&6&lРУНА СОПРОТИВЛЕНИЯ'
+    icon:
+      material: clay_ball
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+      - ' &e▪ &fЭффекты &7↷'
+      - ' &7+ &eСопротивление III'
+      - ''
+    effects:
+      - 'damage_resistance:3'
+    sound:
+      - 'speed:3'
+    functions:
+      break: true
+      drop: true
+      save: false      
+  runa4:
+    name: '&6&lИМБОВАЯ РУНА'
+    icon:
+      material: clay_ball
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+      - ' &e▪ &c&lЭФФЕКТЫ &7↷         '
+      - ' &a+ &eСила &7&lII'
+      - ' &a+ &eСкорость &7&lII'
+      - ' &a+ &c❤❤❤❤' 
+      - ''
+    effects:
+      - 'increase_damage:2'
+      - 'speed:2'
+      - 'HEALTH_BOOST:2'       
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: true
+      drop: true
+      save: false
+  runa5:
+    name: '&6&lМЕГА РУНА'
+    icon:
+      material: clay_ball
+      data: 0
+      ammount: 1
+    lore:
+      - ''
+      - ' &e▪ &c&lЭФФЕКТЫ &7↷         '
+      - ' &a+ &eСила &7&lIII'
+      - ' &a+ &eСкорость &7&lIII'
+      - ' &a+ &c❤❤❤❤❤❤'      
+      - ''
+    effects:
+      - 'increase_damage:3'
+      - 'speed:3'
+      - 'HEALTH_BOOST:3'      
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: true
+      drop: true
+      save: false      
+  totem4:
+    name: '&6&LИМБОВЫЙ ТОТЕМ'
+    icon:
+      material: totem
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &e▪ &c&lЭФФЕКТЫ &7↷         '
+      - ' &a+ &eСила &7&lII'
+      - ' &a+ &eСкорость &7&lII'
+      - ' &a+ &c❤❤❤❤'      
+      - ''
+    effects:
+      - 'increase_damage:2'
+      - 'speed:2'
+      - 'HEALTH_BOOST:2'   
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства 
+  totem5:
+    name: '&6&LМЕГА ТОТЕМ'
+    icon:
+      material: totem
+      data: 0
+      ammount: 1
+    lore:
+      - '&f'
+      - ' &e▪ &c&lЭФФЕКТЫ &7↷         '
+      - ' &a+ &eСила &7&lIII'
+      - ' &a+ &eСкорость &7&lII'    
+      - ' &a+ &c❤❤❤❤❤❤'      
+      - ''
+    effects:
+      - 'increase_damage:3'
+      - 'speed:2'
+      - 'HEALTH_BOOST:3'   
+    sound:
+      - 'UI_BUTTON_CLICK:1.0:1.0'
+    functions:
+      break: false #Предмет никогда не сломаеться
+      drop: false #Не дропаеться при убийстве
+      save: true #Сохраняеться после убийства        

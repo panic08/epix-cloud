@@ -1,0 +1,124 @@
+global:
+  prefix: '§6§lREFIX§e§lWORLD§7§l: &r'
+  only_players: '&cТолько для игроков!'
+  no_clan: '&cВы должны быть в клане, чтобы сделать это!'
+  rank: '&cВы должны быть владельцем клана, чтобы сделать это!'
+  owner: '&cВы должны быть владельцем клана, чтобы сделать это!'
+  no_exist: '&cВы ошиблись при вводе названия клана!'
+  perms: '&cУ вас нет прав, обратитесь к vk.me/NotexOVH!'
+  negative: '&cЧисло не может быть отрицательным или нулём!'
+  disabled: '&cДанная функция выключена.'
+help:
+  commands: §a     §8§m          §6  [Кланы] §8§m          §e
+  help_cmd: §c▷ &e/clan help &7-&f показать все команды
+  create_cmd: §c▷ &e/clan create <clan> &7-&f создать клан
+  join_cmd: §c▷ &e/clan join <clan> &7-&f зайти в клан
+  invite_cmd: §c▷ &e/clan invite <player> &7-&f пригласить игрока в клан
+  kick_cmd: §c▷ &e/clan kick <player> &7-&f выкинуть игрока из клана
+  info_cmd: §c▷ &e/clan info <clan> &7-&f открыть информацию о клане
+  list_cmd: §c▷ &e/clan list &7-&f открыть список кланов
+  chat_cmd: §c▷ &e/clan chat &7-&f перейти к чату клана
+  mode_cmd: §c▷ &e/clan mode &7-&f сменить способ входа в клан
+  promote_cmd: §c▷ &e/clan promote &7-&f выдать модератора
+  demote_cmd: §c▷ &e/clan demote &7-&f снять модератора
+  pvp_cmd: §c▷ &e/clan pvp &7-&f вкл/выкл пвп в клане
+  setbase_cmd: §c▷ &e/clan setbase &7-&f установить клановый дом
+  delbase_cmd: §c▷ &e/clan delbase &7-&f удалить клановый дом
+  base_cmd: §c▷ &e/clan base &7-&f телепортироваться на клан-дом
+ahelp:
+  commands: §a     §8§m          §6  [Кланы] §8§m          §e
+  help_cmd: §c▷ &b/aclan help &7-&f показать все команды
+  slots_cmd: §c▷ &b/aclan slots <set/default/add/remove> <int> &7- &fизменить слоты
+    клана
+  level_cmd: §c▷ &b/aclan level <> <int> &7- &fизменить lvl клана
+  exp_cmd: §c▷ &b/aclan exp <> <int> &7- &fизменить exp клана
+  erase_cmd: §c▷ &b/aclan erase <clan> &7- &fудалить клан
+  reload_cmd: §c▷ &b/aclan reload &7- &fперезагрузить плагин
+create:
+  usage: '&cОшибка&f, используй:&e /clan create <clan>'
+  created: '&fИгрок &e%player% &fсоздал клан: &c%clan%'
+  no_money: '&cУ вас слишком мало монет!'
+  long: '&cНазвание клана слишком длинное!'
+  short: '&cНазвание клана слишком короткое!'
+  exist: '&cНазвание клана уже занято!'
+  has_clan: '&cВы уже состоите в клане!'
+join:
+  usage: '&cОшибка&f, используй:&e /clan join <clan>'
+  joined: '&fТы вступил в клан: &e%clan%'
+  invitation: '&cДля вступления в этот клан тебе необходимо приглашение!'
+  full: '&cКлан заполнен!'
+  has_clan: '&cВы уже состоите в клане!'
+invite:
+  usage: '&cОшибка&f, используй:&e /clan invite <user>'
+  invited: '&fТы пригласил игрока &e%player% &fв свой клан!'
+  been_invited: '&fВы были приглашены в клан: &e%clan%'
+  has_clan: '&cЭтот игрок уже состоит в клане!'
+  offline: '&cЭтот игрок не в сети!'
+info:
+  usage: '&cОшибка&f, используй:&e /clan info <clan>'
+pvp:
+  enabled: '&fPvP в клане: &aВключено'
+  disabled: '&fPvP в клане: &cВыключено'
+leave:
+  left: '&fВы успешно покинули клан!'
+kick:
+  usage: '&cОшибка&f, используй:&e /clan kick <user>'
+  kicked: '&fТы исключил игрока &c%player% &fиз клана!'
+  yourself: '&cЗачем кикать себя?'
+  no_member: '&cДанного игрока нет в твоём клане!'
+promote:
+  usage: '&cОшибка&f, используй:&e /clan promote <user>'
+  mod: '&cДанный игрок уже модератор твоего клана!'
+  promoted: '&fТы назначил этого игрока модером!'
+  no_member: '&cДанного игрока нет в твоём клане!'
+demote:
+  usage: '&cОшибка&f, используй:&e /clan demote <user>'
+  no_mod: '&cТы не можешь понизить участника!'
+  demoted: '&cТы понизил данного игрока до участника!'
+  no_member: '&cДанного игрока нет в твоём клане!'
+mode:
+  inv: '&fСпособ вступления: &bПриглашения'
+  free: '&fСпособ вступления: &aСвободный'
+chat:
+  enabled: '&fКлановый чат: &aВключен'
+  disabled: '&fКлановый чат: &cВыключен'
+event:
+  pvp:
+    same_clan: '&e%player% &f участник твоего клана!'
+    levelup: '&fКлан &c%clan% &fдостиг уровня &b%level%LVL&f!'
+base:
+  set: '&fТы установил точку кланового дома!'
+  unset: '&fТы удалил точку кланового дома!'
+  no_base: '&fУ клана нету кланового дома!'
+  tp: '&fТы был телепортирован на клановый дом!'
+admin:
+  slots:
+    usage: '&cОшибка&f, используй:&e /aclan slots <clan> <set/default/add/remove>
+      <int>!'
+    no_exist: '&cThat clan doesn''t exist!'
+    less_default: '&cSlots can''t be less than default slots number!'
+    int: '&cArgument 3 must be an integer!'
+    set: '&7Slots of clan &b%clan% &7are now &c%slots%&7!'
+    default: '&7Slots of clan &b%clan% &7are now the defaults!'
+    add: '&c%slots% &7slots have been added to clan &b%clan%&7!'
+    remove: '&c%slots% &7slots have been removed from clan &b%clan%&7!'
+  level:
+    usage: '&cОшибка&f, используй:&e /aclan level <clan> <set/reset/add/remove> <int>!'
+    no_exist: '&cThat clan doesn''t exist!'
+    less: '&cClan level can''t be less than 1!'
+    set: Nearly!
+    reset: Nearly!
+    add: Nearly!
+    remove: Nearly!
+  exp:
+    usage: '&cОшибка&f, используй:&e /aclan exp <clan> <set/reset/add/remove> <int>!'
+    no_exist: '&cThat clan doesn''t exist!'
+    less: '&cClan exp can''t be less than 0!'
+    set: Nearly!
+    reset: Nearly!
+    add: Nearly!
+    remove: Nearly!
+  erase:
+    usage: '&cОшибка&f, используй:&e /aclan erase <clan>'
+    no_exist: '&cThat clan doesn''t exist!'
+    erased: '&7You''ve deleted the clan: &b%clan%&7!'

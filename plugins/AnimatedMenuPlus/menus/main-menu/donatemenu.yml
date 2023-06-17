@@ -1,0 +1,301 @@
+Menu-Name: '&0&lДОНАТ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command:
+  Name: donate
+Items:
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  - 2, 1
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 1
+  - 9, 1
+  - 2, 6
+  - 3, 6
+  - 4, 6
+  - 6, 6
+  - 7, 6
+  - 8, 6
+  - 9, 6
+  - 2, 2
+  - 2, 4
+  - 2, 5
+  - 8, 2
+  - 8, 4
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 3, 2
+  - 2, 3
+  - 3, 4
+  - 4, 4
+  - 5, 4
+  - 6, 4
+  - 7, 4
+  - 8, 3
+  - 7, 2
+  - 3, 5
+  - 5, 5
+  - 7, 5
+  - 4, 5
+  - 4, 2
+  - 5, 2
+  - 6, 2
+  - 6, 5
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot: 3, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFhZTJiNjkxYjlhOTU3N2MzNWU0ZDg4NTQ0M2JlYzk1NzNlN2M3YzNkNDYxOWM4ZjljN2VlOWU1MDIxIn19fQ=='
+  Name: '&a&l* &a&lЛАЙТ &f%player_name% &8&l∫ &7&l&m25&b &a&l15&f рублей'
+  Lore:
+  - ''
+  - '&a&l✿ ВОЗМОЖНОСТИ:'
+  - ' &a&l⭔ &fНадеть блок на голову - &a&l/hat'
+  - ' &a&l⭔ &fОткрыть виртуальный эндер сундук - &a&l/ec'
+  - ' &a&l⭔ &fОткрыть виртуальный верстак - &a&l/craft'
+  - ' &a&l⭔ &fЗарплата каждые &a&l45 &fминут - &a&l/salary'
+  - ''
+  - '&a&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &a&l▪ &fСобственный набор - &a&l/kit'
+  - ' &a&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &a&lЛАЙТ &f%player_name%'
+  - ' &a&l▪ &fДоступно слотов на аукционе &a&l6'
+  - ' &a&l▪ &fДоступно регионов привата &a&l/rg claim - 3'
+  - ' &a&l▪ &fЗадержка при РТП: &a&l25 сек'
+  - ' &a&l▪ &fДоступно точек дома: &a&l5'
+  - ' &a&l▪ &fБустер в Шахте &fи Лесопилке: &ax1.3'
+  - ''
+  - ' &a&l↳&r &fПокупка только на сайте: &a&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 4, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyMjQ2ZmY4YjZjNjE3MTY4ZWRhZWMzOTY2MDYxMmU3MmE1NGFiMmVhY2MyN2M1ZTgxNWU0YWM3MDIzOWUzYSJ9fX0='
+  Name: '&6&l* &6&lРЫЦАРЬ &f%player_name% &8&l∫ &7&l&m55&b &6&l20&f рублей'
+  Lore:
+  - ''
+  - '&6&l✿ ВОЗМОЖНОСТИ:'
+  - ' &6&l⭔ &fВосстановить запас голода - &6&l/feed'
+  - ' &6&l⭔ &fОчистить свой инвентарь - &6&l/clear'
+  - ' &6&l⭔ &fКинуть игрока в ЧС - &6&l/ignore'
+  - ' &6&l⭔ &fВосстановить запас жизней - &6&l/heal'
+  - ' &6&l⭔ &fЗарплата каждые &6&l45 &fминут - &6&l/salary'
+  - ''
+  - '&6&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &6&l▪ &fСобственный набор - &6&l/kit'
+  - ' &6&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &6&lРЫЦАРЬ &f%player_name%'
+  - ' &6&l▪ &fДоступно слотов на аукционе: &6&l8'
+  - ' &6&l▪ &fДоступно регионов привата &6&l/rg claim - 5'
+  - ' &6&l▪ &fЗадержка при РТП: &6&l20 сек'
+  - ' &6&l▪ &fДоступно точек дома: &6&l5'
+  - ' &6&l▪ &fБустер в Шахте &fи Лесопилке: &6x1.4'
+  - ' &6&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &6&l↳&r &fПокупка только на сайте: &6&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 5, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ=='
+  Name: '&c&l* &c&lПАЛАДИН &f%player_name% &8&l∫ &7&l&m79&b &c&l30&f рублей'
+  Lore:
+  - ''
+  - '&c&l✿ ВОЗМОЖНОСТИ:'
+  - ' &c&l⭔ &fУстановить время для себя - &c&l/ptime'
+  - ' &c&l⭔ &fПосмотреть кто рядом - &c&l/near'
+  - ' &c&l⭔ &fЗарплата каждые &c&l45 &fминут - &c&l/salary'
+  - ''
+  - '&c&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &c&l▪ &fСобственный набор - &c&l/kit'
+  - ' &c&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &c&lПАЛАДИН &f%player_name%'
+  - ' &c&l▪ &fДоступно слотов на аукционе: &c&l10'
+  - ' &c&l▪ &fДоступно регионов привата &c&l/rg claim - 7'
+  - ' &c&l▪ &fЗадержка при РТП: &c&l20 сек'
+  - ' &c&l▪ &fДоступно точек дома: &c&l5'
+  - ' &c&l▪ &fБустер в Шахте &fи Лесопилке: &cx1.5'
+  - ' &c&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &c&l↳&r &fПокупка только на сайте: &c&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 6, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5YTIzNzUzNjNiZTg5MTM4MWQ0MmM0NWIzNzc1NTNjMmI2ZTBmYmRjMTZkZWY1ZmJjNmIzMmVkNWNhZDdhNyJ9fX0='
+  Name: '&5&l* &5&lДРАГОН &f%player_name% &8&l∫ &7&l&m99&b &5&l40&f рублей'
+  Lore:
+  - ''
+  - '&5&l✿ ВОЗМОЖНОСТИ:'
+  - ' &5&l⭔ &fПосмотреть инвентарь - &5&l/invsee'
+  - ' &5&l⭔ &fУзнать настоящий ник игрока - &5&l/realname'
+  - ' &5&l⭔ &fПосмотреть погоду на сервере - &5&l/weather'
+  - ' &5&l⭔ &fПосмотреть время на сервере - &5&l/time'
+  - ' &5&l⭔ &fЗарплата каждые &5&l45 &fминут - &5&l/salary'
+  - ''
+  - '&5&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &5&l▪ &fСобственный набор - &5&l/kit'
+  - ' &5&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &5&lДРАГОН &f%player_name%'
+  - ' &5&l▪ &fДоступно слотов на аукционе: &5&l12'
+  - ' &5&l▪ &fДоступно регионов привата &5&l/rg claim - 9'
+  - ' &5&l▪ &fЗадержка при РТП: &5&l15 сек'
+  - ' &5&l▪ &fДоступно точек дома: &5&l10'
+  - ' &5&l▪ &fБустер в Шахте &fи Лесопилке: &5x1.6'
+  - ' &5&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &5&l↳&r &fПокупка только на сайте: &5&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 7, 3
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0MjdhZGZmMzU2ZjA5NDVlYmJhMzkxY2EwZWVmNDY1YWUxNzQ2MWVhN2M1M2FkMTczZmJiNmM3ZjM2YTgifX19'
+  Name: '&b&l* &b&lRYZEN &f%player_name% &8&l∫ &7&l&m129&b &b&l50&f рублей'
+  Lore:
+  - ''
+  - '&b&l✿ ВОЗМОЖНОСТИ:'
+  - ' &b&l⭔ &fУзнать всю информацию о игроке - &b&l/whois'
+  - ' &b&l⭔ &fПотушить себя - &b&l/ext'
+  - ' &b&l⭔ &fУзнать координаты игрка - &b&l/getpos'
+  - ' &b&l⭔ &fДонат-Чат - &b&l/d (сообщение)'
+  - ' &b&l⭔ &fЗапустить фейрверк - &b&l/firework'
+  - ' &b&l⭔ &fЗарплата каждые &b&l45 &fминут - &b&l/salary'
+  - ''
+  - '&b&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &b&l▪ &fСобственный набор - &b&l/kit'
+  - ' &b&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &b&lЛЕГЕНДА &f%player_name%'
+  - ' &b&l▪ &fДоступно слотов на аукционе: &b&l14'
+  - ' &b&l▪ &fДоступно регионов привата &b&l/rg claim - 11'
+  - ' &b&l▪ &fЗадержка при РТП: &b&l13 сек'
+  - ' &b&l▪ &fДоступно точек дома: &b&l10'
+  - ' &b&l▪ &fБустер в Шахте &fи Лесопилке: &bx1.7'
+  - ' &b&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &b&l↳&r &fПокупка только на сайте: &b&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 4, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkZjcwZGM5ODg1ZTQxOGI1OGQ4ZTc0ODZhODFlZDRlYzJlNzk2M2M0MjU2OWM0NjgwODRkNGY1NjdjNiJ9fX0='
+  Name: '&d&l* &d&lИМПЕРАТОР &f+ &c&l1000&cⓅ &f%player_name% &8&l∫ &7&l&m299&b &d&l119&f рублей'
+  Lore:
+  - ''
+  - '&d&l✿ ВОЗМОЖНОСТИ:'
+  - ' &d&l⭔ &fВключить WalHack - &d&l/wh'
+  - ' &d&l⭔ &fУстановить варп - &d&l/setwarp &7(Лимит: 5 варпов)'
+  - ' &d&l⭔ &fУдалить варп - &d&l/delwarp'
+  - ' &d&l⭔ &fУстановить день - &d&l/day'
+  - ' &d&l⭔ &fУстановить ночь - &d&l/night'
+  - ' &d&l⭔ &fОткрыть наковальню - &d&l/anvil'
+  - ' &d&l⭔ &fОткрыть зачаровальный стол - &d&l/etable'
+  - ' &d&l⭔ &fЗарплата каждые &d&l45 &fминут - &d&l/salary'
+  - ''
+  - '&d&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &d&l▪ &fСобственный набор - &d&l/kit'
+  - ' &d&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &d&lИМПЕРАТОР &f%player_name%'
+  - ' &d&l▪ &fДоступно слотов на аукционе &d&l18'
+  - ' &d&l▪ &fДоступно регионов привата &d&l/rg claim - 15'
+  - ' &d&l▪ &fЗадержка при РТП: &d&l10 сек'
+  - ' &d&l▪ &fДоступно точек дома: &d&l15'
+  - ' &d&l▪ &fБустер в Шахте &fи Лесопилке: &dx1.8'
+  - ' &d&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &d&l↳&r &fПокупка только на сайте: &d&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 5, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkMjZjNDI5M2ZhYWQ3ZTBmZDFlOTFjNzFkYzU4YjRlYmMzOGM5MGRhYmFjOTE1NTU5NzY4ZDJkOWY0YWYifX19'
+  Name: '&e&l* &e&lMODER &f+ &c&l7000&cⓅ &f%player_name% &8&l∫ &7&l&m419&b &e&l239&f рублей'
+  Lore:
+  - ''
+  - '&e&l✿ ВОЗМОЖНОСТИ:'
+  - ' &e&l⭔ &fБонус к покупке - &c&l7000&cⓅ &c&lдонат-валюты'
+  - ' &e&l⭔ &fЗаблокировать чат игроку - &e&l/tempmute &7(строго по правилам)'
+  - ' &e&l⭔ &fТелепортироваться к рандомному игроку - &e&l/rtp'
+  - ' &e&l⭔ &fВключить полет - &e&l/fly'
+  - ' &e&l⭔ &fУстановить ясную погоду - &e&l/sun'
+  - ' &e&l⭔ &fУстановить штормовую погоду - &e&l/storm'
+  - ' &e&l⭔ &fУстановить варп - &e&l/setwarp &7(Лимит: 10 варпов)'
+  - ' &e&l⭔ &fПочинить все предметы - &e&l/repair all'
+  - ' &e&l⭔ &fВылечить игрока - &e&l/heal (ник)'
+  - ' &e&l⭔ &fНакормить игрока - &e&l/feed (ник)'
+  - ' &e&l⭔ &fПосмотреть чужой эндер-сундук - &e&l/ec (ник)'
+  - ' &e&l⭔ &fЗарплата каждые &e&l45 &fминут - &e&l/salary &7(РУБЛЕВАЯ ЗАРПЛАТА)'
+  - ''
+  - '&e&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &e&l▪ &fСобственный набор - &e&l/kit'
+  - ' &e&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &e&lMODER &f%player_name%'
+  - ' &e&l▪ &fДоступно слотов на аукционе: &e&l20'
+  - ' &e&l▪ &fДоступно регионов привата &e&l/rg claim - 27'
+  - ' &e&l▪ &fЗадержка при РТП: &e&l7 сек'
+  - ' &e&l▪ &fДоступно точек дома: &e&l15'
+  - ' &e&l▪ &fБустер в Шахте &fи Лесопилке: &ex1.9'
+  - ' &e&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &e&l↳&r &fПокупка только на сайте: &e&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 6, 4
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M1NjhhMTUyZGI1NzA1OTNjYzg5ZmFiYzAzMWJlY2RiOWJkYmRkZDFlYmI5MDM3ZWJhZTQ4ZGE5OGYwZTdjNyJ9fX0='
+  Name: '&c&l* &4&lSTAFF &f+ &c&l15000&cⓅ &f%player_name% &8&l∫ &7&l&m999&b &4&l399&f рублей'
+  Lore:
+  - ''
+  - '&4&l✿ ВОЗМОЖНОСТИ:'
+  - ' &4&l⭔ &fБонус к покупке - &c&l15000&cⓅ &c&lдонат-валюты'
+  - ' &4&l⭔ &fВы можете вызывать на &4&lПроверки'
+  - ' &4&l⭔ &fЗаблокировать игрока - &4&l&n/tempban&8&o (строго по правилам)'
+  - ' &4&l⭔ &fЗаблокировать чат игроку - &4&l&n/tempmute&8&o (строго по правилам)'
+  - ' &4&l⭔ &fСмотреть бан-лист - &4&l&n/banlist'
+  - ' &4&l⭔ &fВключить креатив - &4&l&n/gamemode 1'
+  - ' &4&l⭔ &fСообщение на весь сервер - &4&l&n/broadcast'
+  - ' &4&l⭔ &fПосмотреть TPS сервера - &4&l&n/gc'
+  - ' &4&l⭔ &fУстановить точку телепортации - &4&l&n/setwarp &7(Лимит: 20 варпов)'
+  - ' &4&l⭔ &fЗарплата каждые &4&l45 &fминут - &4&l&n/salary &7(РУБЛЕВАЯ ЗАРПЛАТА)'
+  - ''
+  - '&4&l⚝ ДОПОЛНИТЕЛЬНО:'
+  - ' &4&l▪ &fСобственный набор - &4&l&n/kit'
+  - ' &4&l▪ &fПрефикс в ТАБЕ и ЧАТЕ &4&lSTAFF &f%player_name%'
+  - ' &4&l▪ &fДоступно слотов на аукционе: &4&l&n25'
+  - ' &4&l▪ &fДоступно регионов привата &4&l&n/rg claim &e&l- &4&l&n30'
+  - ' &4&l▪ &fДоступно точек дома: &4&l&n15'
+  - ' &4&l▪ &fЗадержка при РТП: &4&l&n5 сек'
+  - ' &4&l▪ &fБустер в Шахте &fи Лесопилке: &4&l&nx2.0'
+  - ' &4&l▪ &fВсе возможности предыдущей привилегии'
+  - ''
+  - ' &4&l↳&r &fПокупка только на сайте: &4&lUnixDonate.ru&r'
+  Commands:
+  - 'message: &r'
+  close: true
+- Slot: 5, 6
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmM2VhN2M3YjI2YTA1NGE5ZmJiYjI4Yjk3YTYwODk5OWMyYzczZGY3NWJmNmIyMzQ4ZDdmYjFlNTllODU1In19fQ=='
+  Name: '&6&LВЕРНУТЬСЯ'
+  Lore:
+  - ''
+  - '&6↪ &fНажмите, &6чтобы &fвернуться'
+  - ''
+  Commands:
+  - 'menu: menu'

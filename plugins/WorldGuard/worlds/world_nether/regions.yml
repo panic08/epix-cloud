@@ -1,0 +1,98 @@
+#
+# Файл регионов WorldGuard
+#
+# ПРЕДУПРЕЖДЕНИЕ: ЭТОТ ФАЙЛ АВТОМАТИЧЕСКИ СГЕНЕРИРОВАН. Если изменить этот файл
+# вручную, имейте в виду, ЧТО ОДИН НЕПРАВИЛЬНО ВВЕДЕННЫЙ СИМВОЛ МОЖЕТ ПОВЕРЕДИТЬ ФАЙЛ. Если
+# WorldGuard будет неспособен разобрать файл, ваши регионы НЕ ЗАГРУЗЯТСЯ, и
+# содержимое этого файла будет сброшено. Пожалуйста, используйте валидатор YAML, такой как
+# http://yaml-online-parser.appspot.com (для небольших файлов).
+#
+# НЕ ЗАБУДЬТЕ ПЕРИОДИЧЕСКИ ДЕЛАТЬ РЕЗЕРВНЫЕ КОПИИ.
+#
+regions:
+    farm_ef:
+        min: {x: 109.0, y: 0.0, z: 56.0}
+        max: {x: 124.0, y: 168.0, z: 67.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [8745cea9-7ffe-3ddb-84e4-2d237c165d64]
+        type: cuboid
+        priority: 0
+    farmilka:
+        min: {x: -48.0, y: 76.0, z: 39.0}
+        max: {x: -34.0, y: 110.0, z: 54.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [d36481f2-ccb4-3d46-9a35-4522a2cc422b]
+        type: cuboid
+        priority: 0
+    kokos2:
+        min: {x: 124.0, y: 39.0, z: 77.0}
+        max: {x: 141.0, y: 89.0, z: 97.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [29cc3690-cfb3-3c18-86f5-1e161f43c5e0]
+        type: cuboid
+        priority: 0
+    spawner:
+        min: {x: 388.0, y: 48.0, z: -1436.0}
+        max: {x: 398.0, y: 88.0, z: -1428.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [645aedd1-4b0a-378b-ae92-34ad5676cd79]
+        type: cuboid
+        priority: 0
+    ad:
+        min: {x: -9.0, y: 0.0, z: -3.0}
+        max: {x: -3.0, y: 255.0, z: 3.0}
+        members: {}
+        flags: {lightning: deny, pvp: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    shraaaaa:
+        min: {x: -30.0, y: 81.0, z: 33.0}
+        max: {x: -24.0, y: 112.0, z: 48.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [d36481f2-ccb4-3d46-9a35-4522a2cc422b]
+        type: cuboid
+        priority: 0
+    spawner2:
+        min: {x: 379.0, y: 35.0, z: -1434.0}
+        max: {x: 388.0, y: 95.0, z: -1430.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [645aedd1-4b0a-378b-ae92-34ad5676cd79]
+        type: cuboid
+        priority: 0
+    grief3:
+        min: {x: -95.0, y: 48.0, z: -123.0}
+        max: {x: -83.0, y: 57.0, z: -118.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [7f003dbd-fd3e-3490-83b0-45881dee1b57]
+        type: cuboid
+        priority: 0
+    __global__:
+        members: {}
+        flags: {}
+        owners: {}
+        type: global
+        priority: 0
+    home:
+        min: {x: 353.0, y: 36.0, z: -1461.0}
+        max: {x: 367.0, y: 79.0, z: -1446.0}
+        members: {}
+        flags: {lightning: deny, pvp: allow}
+        owners:
+            unique-ids: [4a8d75f0-8516-36c6-acf1-fd1afb9b38f8]
+        type: cuboid
+        priority: 0

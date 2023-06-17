@@ -1,0 +1,71 @@
+Menu-Name: '&0&lРТП'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Command:
+  Name: rtp;randomtp
+Rows: 3
+Items:
+- Slot:
+  - 1, 1
+  - 9, 1
+  - 1, 3
+  - 9, 3
+  - 2, 1
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1 
+  - 8, 1
+  - 9, 1
+  - 2, 3
+  - 3, 3
+  - 4, 3
+  - 5, 3
+  - 6, 3
+  - 7, 3 
+  - 8, 3
+  - 9, 3
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 1, 2
+  - 9, 2
+  - 2, 2
+  - 3, 2
+  - 4, 2
+  - 5, 2
+  - 6, 2
+  - 7, 2
+  - 8, 2
+  - 9, 2
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+- Slot: 4, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkxOThlYjVlNjUwMDdkZWNlZWMxZWY1NzI3MGQyY2E1ZWJhMTUxZmU1MmZkOWE0YWE3ODQxMGQxYjNiNTNmYSJ9fX0='
+  Name: '&6&lРАНДОМНЫЙ ТЕЛЕПОРТ К ИГРОКУ'
+  Lore:
+  - ''
+  - ' &fПри этом виде телепортации'
+  - ' &fВы гарантированно окажетесь около игроков'
+  - ''
+  - '&f&lДОСТУПНО ОТ ПРИВИЛЕГИИ &b&lRYZEN'
+  - ''
+  - '&a&l► &aНажмите, чтобы телепортировать'
+  Commands:
+  - 'rrtp near'
+  close: true
+- Slot: 6, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFlYjk4NjI3ZWMyZDI2ODBkMWU2YzdiYjYwOWJiNzViZDNlMjMzNDEzNDc5MzgyMDQyYjMzZWU0MjYifX19'
+  Name: '&6&lРАНДОМНЫЙ ТЕЛЕПОРТ'
+  Lore:
+  - ''
+  - ' &fПри этом виде телепортации'
+  - ' &fВы телепортируетесь в рандомную точку мира'
+  - ''
+  - '&a&l► &aНажмите, чтобы телепортировать'
+  Commands:
+  - 'rrtp safe'
+  close: true

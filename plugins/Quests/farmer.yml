@@ -1,0 +1,567 @@
+farmer_main:
+  title: §0§lФермер
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+    quests:
+      name: §6§l♫ §f§lЗАДАНИЯ ФЕРМЕРА
+      quests: true
+      material: WHEAT
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете просмотреть'
+      - '&6&l┗ &fСписок необходимых заданий'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 21
+    buy:
+      name: §6§l♫ §f§lМАГАЗИН ФЕРМЕРА
+      buy: true
+      material: CHEST
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете купить'
+      - '&6&l┗ &fПредметы фермера &c&l&o(NEW)'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 23
+farmer_quests:
+  title: §0§lЗадания фермера
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+  quests:
+    farmer1:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #1'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/128'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l128 &fпшеницы'
+      - ''
+      - '&6&l♨ &fЧтобы сдать пшеницы, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ &a&l10 &aлвл'
+      - ''
+      - '%status2%'
+      slot: 11 
+      amount: 1
+      quest:
+        name: farmer1
+        type: sell-items
+        sell-item: WHEAT
+        sell-item-amount: 128
+        prize:
+        - '[money] 500'
+        - '[level] 10'
+    farmer2:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #2'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/10'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l10 &fжелезных мотыг'
+      - ''
+      - '&6&l♨ &fЧтобы сдать мотыги, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l350&6⛂ &f+ §a§lзелье фармера'
+      - ''
+      - '%status2%'
+      slot: 12 
+      amount: 1
+      quest:
+        name: farmer2
+        type: sell-items
+        sell-item: IRON_HOE
+        sell-item-amount: 10
+        prize:
+        - '[money] 350'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Duration:1200}],CustomPotionColor:16175616,display:{Name:"\"Зелье Фармера\""}}'
+    farmer3:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #3'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/2'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l2 &fвизера с эффектом слепоты'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l200&6⛂ &f+ &a&lзелье слепоты'
+      - ''
+      - '%status2%'
+      slot: 13 
+      amount: 1
+      quest:
+        name: farmer3
+        type: kill-mobs
+        mobtype: WITHER
+        difficulty:
+        - '[effect] BLINDNESS:1'
+        mobs-amount: 2
+        prize:
+        - '[money] 200'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:15,Duration:9400}],CustomPotionColor:8661972}'
+    farmer4:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #4'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/30'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l30 &fсвино-зомби с эффектом слабости'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ &a&l16 яблок &f+ &a&lтотем'
+      - ''
+      - '%status2%'
+      slot: 14 
+      amount: 1
+      quest:
+        name: farmer4
+        type: kill-mobs
+        mobtype: ZOMBIE_PIGMAN
+        difficulty:
+        - '[effect] WEAKNESS:1'
+        mobs-amount: 30
+        prize:
+        - '[money] 500'
+        - '[console] give %player_name% golden_apple 16'
+        - '[console] give %player_name% totem 1'
+    farmer5:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #5'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/10'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l10 &fалмазных мотыг'
+      - ''
+      - '&6&l♨ &fЧтобы сдать мотыги, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l1000&6⛂'
+      - ''
+      - '%status2%'
+      slot: 15 
+      amount: 1
+      quest:
+        name: farmer5
+        type: sell-items
+        sell-item: DIAMOND_HOE
+        sell-item-amount: 10
+        prize:
+        - '[money] 1000'
+    farmer6:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #6'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/150'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l150 &fкостей'
+      - ''
+      - '&6&l♨ &fЧтобы сдать кости, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l10§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 21 
+      amount: 1
+      quest:
+        name: farmer6
+        type: sell-items
+        sell-item: BONE
+        sell-item-amount: 150
+        prize:
+        - '[console] p give %player_name% 10'
+    farmer7:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #7'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/100'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l100 &fтыквы'
+      - ''
+      - '&6&l♨ &fЧтобы сдать тыквы, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l30§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 22 
+      amount: 1
+      quest:
+        name: farmer7
+        type: sell-items
+        sell-item: PUMPKIN
+        sell-item-amount: 100
+        prize:
+        - '[console] p give %player_name% 30'
+    farmer8:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #8'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/30'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l30 &fсвёкольного супа'
+      - ''
+      - '&6&l♨ &fЧтобы сдать свёкольные супа, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l50§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 23 
+      amount: 1
+      quest:
+        name: farmer8
+        type: sell-items
+        sell-item: BEETROOT_SOUP
+        sell-item-amount: 30
+        prize:
+        - '[console] p give %player_name% 50'
+farmer_shop:
+  title: §0§lМагазин фермера
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+  shop-items:
+    farmer-shop1:
+      material: WHEAT
+      material-hide: BARRIER
+      slot: 20
+      amount: 16
+      amount-hide: 1
+      quest: farmer1
+      name: '§a§l✔ §f§lТОВАР #1'
+      name-hide: '§c§l⚠ §f§lТОВАР #1'
+      item:
+        price: 300
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% WHEAT 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Фермер ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'farmer1'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Пшеница'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e300⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#1 &fдля разблокировки!'
+      - ''
+    farmer-shop2:
+      material: BAKED_POTATO
+      material-hide: BARRIER
+      slot: 21
+      amount: 16
+      amount-hide: 1
+      quest: farmer2
+      name: '§a§l✔ §f§lТОВАР #2'
+      name-hide: '§c§l⚠ §f§lТОВАР #2'
+      item:
+        price: 1000
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% baked_potato 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Фермер ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'farmer2'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Печёная картошка'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1000⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#2 &fдля разблокировки!'
+      - ''
+    farmer-shop3:
+      material: PUMPKIN_PIE
+      material-hide: BARRIER
+      slot: 22
+      amount: 16
+      amount-hide: 1
+      quest: farmer3
+      name: '§a§l✔ §f§lТОВАР #3'
+      name-hide: '§c§l⚠ §f§lТОВАР #3'
+      item:
+        price: 1100
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% pumpkin_pie 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Фермер ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'farmer3'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Пирог'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1100⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#3 &fдля разблокировки!'
+      - ''
+    farmer-shop4:
+      material: MELON_SEEDS
+      material-hide: BARRIER
+      slot: 23
+      amount: 16
+      amount-hide: 1
+      quest: farmer4
+      name: '§a§l✔ §f§lТОВАР #4'
+      name-hide: '§c§l⚠ §f§lТОВАР #4'
+      item:
+        price: 1400
+        symbol: ⛂
+        give-events:
+        - '[console] give %player_name% MELON_SEEDS 16'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Фермер ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'farmer4'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &6Семена арбуза'
+      - '&6&l♨ &fКоличество: &e16x'
+      - '&6&l♨ &fСтоимость: &e1400⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#4 &fдля разблокировки!'
+      - ''
+    farmer-shop5:
+      material: GOLDEN_APPLE
+      material-hide: BARRIER
+      slot: 24
+      amount: 4
+      amount-hide: 1
+      quest: farmer5
+      name: '§a§l✔ §f§lТОВАР #5'
+      name-hide: '§c§l⚠ §f§lТОВАР #5'
+      item:
+        price: 2900
+        symbol: ⛂
+        give-events:
+        - '[console] minecraft:give %player_name% GOLDEN_APPLE 4'
+        - '[message] §6§lFLEX§e§lMC§7§l: &fВы успешно &aприобрели&f предмет!'
+        - '[title] &e♨ Фермер ♨%nl&aУспешная &fпокупка!'
+      quest-name: 'farmer5'
+      lore:
+      - ''
+      - '&6&l♨ &fПредмет: &a&lЗОЛОТЫЕ ЯБЛОКИ'
+      - '&6&l♨ &fКоличество: &e4x'
+      - '&6&l♨ &fСтоимость: &e2900⛂'
+      - ''
+      - '&c&l❤ &fНажмите &6&lЛКМ &fдля покупки!'
+      lore-hide:
+      - ''
+      - '&6&l♨ &fВыполните квест &6&l#5 &fдля разблокировки!'
+      - ''
+

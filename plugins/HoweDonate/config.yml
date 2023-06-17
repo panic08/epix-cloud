@@ -1,0 +1,71 @@
+avaible-items:
+  - 'glass'
+  - 'stone'
+  - 'grass'
+  - 'dirt'
+  - 'cobblestone'
+  - 'bedrock'
+  - 'sand'
+  - 'gravel'
+  - 'step'
+  - 'log'
+  - 'concrete'
+  - 'sandstone'
+  - 'stained_clay'
+  - 'wool'
+  - 'wood'
+  - 'stained_glass'
+gamemode-blocked: # bypass - core.gamemode.all
+  - 'adventure'
+  - 'spectator'
+gamemode:
+  - '§6§lUNIX§F§lMINE§7§l: &fВы не можете включить этот режим.'
+message:
+  mode:
+    - '§6§lUNIX§F§lMINE§7§l: &fДанный режим заблокирован.'
+  command:
+    - '§6§lUNIX§F§lMINE§7§l: &fВы не можете использовать эту комманду.'
+  permission:
+    - '§6§lUNIX§F§lMINE§7§l: &fУ вас нет прав.'
+  creative:
+    - '§6§lUNIX§F§lMINE§7§l: &fВы не можете сломать данный блок.'
+  glow:
+    on:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы включили глов.'
+    off:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы выключили глов.'
+  gamemode:
+    spawn-entity:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете спавнить ентити.'
+    potion:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете использовать зелья.'
+    frame:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете класть туда предметы.'
+    place:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете ставить/ломать этот блок.'
+    damage:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете бить игроков в режиме креатива.'
+    drop:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете выкидывать предметы.'
+    open:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете открывать этот инвентарь.'
+  vanish:
+    place:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете ставить/ломать блоки в ванише.'
+    damage:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете бить игроков находясь в ванише.'
+    open:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете открывать сундук находясь в ванише.'
+    drop:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете выкидывать предметы.'
+    potion:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете использовать зелья.'
+  god:
+    place:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете ставить/ломать блоки.'
+    damage:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете бить игроков находясь в годе.'
+    open:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете открывать сундук находясь в годе.'
+    potion:
+      - '§6§lUNIX§F§lMINE§7§l: &fВы не можете использовать зелья.'

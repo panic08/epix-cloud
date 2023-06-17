@@ -1,0 +1,8 @@
+prefix: '§6§lREFIX§e§lWORLD§7§l: &f '
+notEnoughPermission: '&fВы не можете использовать это!'
+reloaded: '&fКонфигурация и сообщения успешно обновлены!'
+waitCooldown: '&fВы сможете использовать эту команду только через &a&l{time}'
+allCleaned: '&fВсе кулдауны успешно очищены!'
+playerNotOnline: '&fИгрок &a&l{0} &fне в сети'
+playerCleaned: '&fУ игрока &a&l{0} &fуспешно очищены все кулдауны'
+cooldownExpireNotify: '&fЗадержка на команду &a&l{0} &fистекла'

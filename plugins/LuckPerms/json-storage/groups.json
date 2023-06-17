@@ -1,0 +1,1280 @@
+{
+  "default": {
+    "permissions": [
+      {
+        "permission": "clan.user.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.addmember.own.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.addowner.own.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.info.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.remove.own.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.removemember.own.*",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.removeowner.own.*",
+        "value": true
+      },
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "clans.ally",
+        "value": true
+      },
+      {
+        "permission": "clans.base",
+        "value": true
+      },
+      {
+        "permission": "clans.breakally",
+        "value": true
+      },
+      {
+        "permission": "clans.chat",
+        "value": true
+      },
+      {
+        "permission": "clans.chest",
+        "value": true
+      },
+      {
+        "permission": "clans.color",
+        "value": true
+      },
+      {
+        "permission": "clans.create",
+        "value": true
+      },
+      {
+        "permission": "clans.delbase",
+        "value": true
+      },
+      {
+        "permission": "clans.demote",
+        "value": true
+      },
+      {
+        "permission": "clans.disband",
+        "value": true
+      },
+      {
+        "permission": "clans.enemy",
+        "value": true
+      },
+      {
+        "permission": "clans.help",
+        "value": true
+      },
+      {
+        "permission": "clans.info",
+        "value": true
+      },
+      {
+        "permission": "clans.invite",
+        "value": true
+      },
+      {
+        "permission": "clans.join",
+        "value": true
+      },
+      {
+        "permission": "clans.kick",
+        "value": true
+      },
+      {
+        "permission": "clans.leave",
+        "value": true
+      },
+      {
+        "permission": "clans.list",
+        "value": true
+      },
+      {
+        "permission": "clans.neutral",
+        "value": true
+      },
+      {
+        "permission": "clans.pinfo",
+        "value": true
+      },
+      {
+        "permission": "clans.promote",
+        "value": true
+      },
+      {
+        "permission": "clans.pvp",
+        "value": true
+      },
+      {
+        "permission": "clans.setbase",
+        "value": true
+      },
+      {
+        "permission": "clans.setleader",
+        "value": true
+      },
+      {
+        "permission": "clans.tops",
+        "value": true
+      },
+      {
+        "permission": "clans.user",
+        "value": true
+      },
+      {
+        "permission": "core.balance.other",
+        "value": true
+      },
+      {
+        "permission": "core.delhome",
+        "value": true
+      },
+      {
+        "permission": "core.home",
+        "value": true
+      },
+      {
+        "permission": "core.message",
+        "value": true
+      },
+      {
+        "permission": "core.pay",
+        "value": true
+      },
+      {
+        "permission": "core.r",
+        "value": true
+      },
+      {
+        "permission": "core.sethome",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.1",
+        "value": true
+      },
+      {
+        "permission": "core.spawn",
+        "value": true
+      },
+      {
+        "permission": "core.tpa",
+        "value": true
+      },
+      {
+        "permission": "core.tpaccept",
+        "value": true
+      },
+      {
+        "permission": "core.tpadeny",
+        "value": true
+      },
+      {
+        "permission": "core.tptoggle",
+        "value": true
+      },
+      {
+        "permission": "core.warp",
+        "value": true
+      },
+      {
+        "permission": "dailyrewards.user",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.free",
+        "value": true
+      },
+      {
+        "permission": "itemjoin.use",
+        "value": true
+      },
+      {
+        "permission": "kits.start",
+        "value": true
+      },
+      {
+        "permission": "nte.default",
+        "value": true
+      },
+      {
+        "permission": "prefix.default",
+        "value": true
+      },
+      {
+        "permission": "serversigns.use",
+        "value": true
+      },
+      {
+        "permission": "umine.command.salary",
+        "value": true
+      },
+      {
+        "permission": "weight.1",
+        "value": true
+      },
+      {
+        "permission": "woodcutter.salary",
+        "value": true
+      },
+      {
+        "permission": "worldedit.selection.expand",
+        "value": true
+      },
+      {
+        "permission": "worldedit.selection.hpos",
+        "value": true
+      },
+      {
+        "permission": "worldedit.selection.pos",
+        "value": true
+      },
+      {
+        "permission": "worldedit.wand",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.claim",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.info.member",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.info.own",
+        "value": true
+      },
+      {
+        "permission": "worldguard.region.list.own",
+        "value": true
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&7&lИГРОК &f",
+        "priority": 1
+      }
+    ]
+  },
+  "youtube": {
+    "permissions": [
+      {
+        "permission": "core.back",
+        "value": true
+      },
+      {
+        "permission": "core.nick",
+        "value": true
+      },
+      {
+        "permission": "core.realname",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.flex",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.youtube",
+        "value": true
+      },
+      {
+        "permission": "weight.10",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "flex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lЮТУБЕР &f",
+        "priority": 10
+      }
+    ]
+  },
+  "dragon": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.invsee",
+        "value": true
+      },
+      {
+        "permission": "core.realname",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.10",
+        "value": true
+      },
+      {
+        "permission": "core.time",
+        "value": true
+      },
+      {
+        "permission": "core.weather",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.dragon",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": false
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.dragon",
+        "value": true
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": false
+      },
+      {
+        "permission": "prefix.dragon",
+        "value": true
+      },
+      {
+        "permission": "weight.5",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "paladin"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&5&lДРАГОН &f",
+        "priority": 5
+      }
+    ]
+  },
+  "knight": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.clear",
+        "value": true
+      },
+      {
+        "permission": "core.feed",
+        "value": true
+      },
+      {
+        "permission": "core.heal",
+        "value": true
+      },
+      {
+        "permission": "core.ignore",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.5",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.knight",
+        "value": true
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "prefix.knight",
+        "value": true
+      },
+      {
+        "permission": "weight.3",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "lite"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lРЫЦАРЬ &f",
+        "priority": 3
+      }
+    ]
+  },
+  "tiktok": {
+    "permissions": [
+      {
+        "permission": "greatkits.kits.tiktok",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.youtube",
+        "value": false
+      },
+      {
+        "permission": "weight.11",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "youtube"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&d&lТИК&5&lТОКЕР &f",
+        "priority": 11
+      }
+    ]
+  },
+  "lite": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.enderchest",
+        "value": true
+      },
+      {
+        "permission": "core.hat",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.5",
+        "value": true
+      },
+      {
+        "permission": "core.workbench",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": true
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": true
+      },
+      {
+        "permission": "prefix.lite",
+        "value": true
+      },
+      {
+        "permission": "weight.2",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "default"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&a&lЛАЙТ &f",
+        "priority": 2
+      }
+    ]
+  },
+  "imperator": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.anvil",
+        "value": true
+      },
+      {
+        "permission": "core.delwarp",
+        "value": true
+      },
+      {
+        "permission": "core.etable",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.15",
+        "value": true
+      },
+      {
+        "permission": "core.setwarp",
+        "value": true
+      },
+      {
+        "permission": "core.setwarp.limit.5",
+        "value": true
+      },
+      {
+        "permission": "core.time.change",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.dragon",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.imperator",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.legenda",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": false
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.dragon",
+        "value": false
+      },
+      {
+        "permission": "nte.imperator",
+        "value": true
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.legenda",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": false
+      },
+      {
+        "permission": "perks.command.wallhack",
+        "value": true
+      },
+      {
+        "permission": "pleasantwallhack.use",
+        "value": true
+      },
+      {
+        "permission": "prefix.imperator",
+        "value": true
+      },
+      {
+        "permission": "wallhack.use",
+        "value": true
+      },
+      {
+        "permission": "weight.7",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "legenda"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&d&lИМПЕРАТОР &f",
+        "priority": 7
+      }
+    ]
+  },
+  "moder": {
+    "permissions": [
+      {
+        "permission": "core.tp",
+        "value": true
+      },
+      {
+        "permission": "core.tp.other",
+        "value": true
+      },
+      {
+        "permission": "core.vanish",
+        "value": true
+      },
+      {
+        "permission": "donate.gm",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.moder",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.tiktok",
+        "value": false
+      },
+      {
+        "permission": "litebans.ban",
+        "value": true
+      },
+      {
+        "permission": "litebans.banlist",
+        "value": true
+      },
+      {
+        "permission": "litebans.kick",
+        "value": true
+      },
+      {
+        "permission": "litebans.mute",
+        "value": true
+      },
+      {
+        "permission": "litebans.unmute",
+        "value": true
+      },
+      {
+        "permission": "weight.13",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "tiktok"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&9&lМОДЕРАТОР &f",
+        "priority": 13
+      }
+    ]
+  },
+  "paladin": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.near",
+        "value": true
+      },
+      {
+        "permission": "core.ptime",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.5",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": true
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": true
+      },
+      {
+        "permission": "prefix.paladin",
+        "value": true
+      },
+      {
+        "permission": "weight.4",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "knight"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&c&lПАЛАДИН &f",
+        "priority": 4
+      }
+    ]
+  },
+  "helper": {
+    "permissions": [
+      {
+        "permission": "donate.gm",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.flex",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.helper",
+        "value": true
+      },
+      {
+        "permission": "litebans.kick",
+        "value": true
+      },
+      {
+        "permission": "litebans.mute",
+        "value": true
+      },
+      {
+        "permission": "litebans.tempmute",
+        "value": true
+      },
+      {
+        "permission": "litebans.unmute",
+        "value": true
+      },
+      {
+        "permission": "weight.12",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "flex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&6&lХЕЛПЕР &f",
+        "priority": 12
+      }
+    ]
+  },
+  "admin": {
+    "permissions": [
+      {
+        "permission": "weight.999",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "moder"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&lАДМИН &f",
+        "priority": 15
+      }
+    ]
+  },
+  "stmoder": {
+    "permissions": [
+      {
+        "permission": "litebans.*",
+        "value": true
+      },
+      {
+        "permission": "weight.14",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "moder"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&3&lСТ.МОДЕРАТОР &f",
+        "priority": 14
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "&f",
+        "priority": 14
+      }
+    ]
+  },
+  "moderdon": {
+    "permissions": [
+      {
+        "permission": "battlepass.premium",
+        "value": true
+      },
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.enderchest.other",
+        "value": true
+      },
+      {
+        "permission": "core.feed.other",
+        "value": true
+      },
+      {
+        "permission": "core.fly",
+        "value": true
+      },
+      {
+        "permission": "core.heal.other",
+        "value": true
+      },
+      {
+        "permission": "core.repair.all",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.15",
+        "value": true
+      },
+      {
+        "permission": "core.weather.change",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.dragon",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.imperator",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.legenda",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.rolex",
+        "value": true
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "litebans.tempmute",
+        "value": true
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.dragon",
+        "value": false
+      },
+      {
+        "permission": "nte.imperator",
+        "value": false
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.legenda",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": false
+      },
+      {
+        "permission": "nte.rolex",
+        "value": true
+      },
+      {
+        "permission": "prefix.rolex",
+        "value": true
+      },
+      {
+        "permission": "weight.8",
+        "value": true
+      },
+      {
+        "permission": "zarplata.rolex",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "imperator"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&e&lMODER &f",
+        "priority": 8
+      }
+    ]
+  },
+  "staff": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.broadcast",
+        "value": true
+      },
+      {
+        "permission": "core.gamemode",
+        "value": true
+      },
+      {
+        "permission": "core.gc",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.15",
+        "value": true
+      },
+      {
+        "permission": "core.setwarp.limit.20",
+        "value": true
+      },
+      {
+        "permission": "donate.gm",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.dragon",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.flex",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.imperator",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.legenda",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.rolex",
+        "value": false
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "litebans.banlist",
+        "value": true
+      },
+      {
+        "permission": "litebans.tempban",
+        "value": true
+      },
+      {
+        "permission": "litebans.unban",
+        "value": true
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.dragon",
+        "value": false
+      },
+      {
+        "permission": "nte.flex",
+        "value": true
+      },
+      {
+        "permission": "nte.imperator",
+        "value": false
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.legenda",
+        "value": false
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": false
+      },
+      {
+        "permission": "prefix.flex",
+        "value": true
+      },
+      {
+        "permission": "weight.9",
+        "value": true
+      },
+      {
+        "permission": "zarplata.flex",
+        "value": true
+      },
+      {
+        "permission": "zarplata.rolex",
+        "value": false
+      }
+    ],
+    "parents": [
+      {
+        "group": "rolex"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&4&l* ADMIN &f",
+        "priority": 9
+      }
+    ]
+  },
+  "ryzen": {
+    "permissions": [
+      {
+        "permission": "bukkit.command.me",
+        "value": false
+      },
+      {
+        "permission": "core.donatechat",
+        "value": true
+      },
+      {
+        "permission": "core.ext",
+        "value": true
+      },
+      {
+        "permission": "core.firework",
+        "value": true
+      },
+      {
+        "permission": "core.getpos",
+        "value": true
+      },
+      {
+        "permission": "core.sethome.limit.10",
+        "value": true
+      },
+      {
+        "permission": "core.whois",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.dragon",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.knight",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.legenda",
+        "value": true
+      },
+      {
+        "permission": "greatkits.kits.lite",
+        "value": false
+      },
+      {
+        "permission": "greatkits.kits.paladin",
+        "value": false
+      },
+      {
+        "permission": "kits.start",
+        "value": false
+      },
+      {
+        "permission": "nte.default",
+        "value": false
+      },
+      {
+        "permission": "nte.dragon",
+        "value": false
+      },
+      {
+        "permission": "nte.knight",
+        "value": false
+      },
+      {
+        "permission": "nte.legenda",
+        "value": true
+      },
+      {
+        "permission": "nte.lite",
+        "value": false
+      },
+      {
+        "permission": "nte.paladin",
+        "value": false
+      },
+      {
+        "permission": "prefix.legenda",
+        "value": true
+      },
+      {
+        "permission": "weight.6",
+        "value": true
+      }
+    ],
+    "parents": [
+      {
+        "group": "dragon"
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "&b&lRYZEN &f",
+        "priority": 6
+      }
+    ]
+  }
+}

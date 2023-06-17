@@ -1,0 +1,20 @@
+quests:
+  1:
+    name: 'Шахтер'
+    type: block-break
+    variable: coal_ore:0
+    required-progress: 64
+    points: 50
+    item:
+      material: diamond_pickaxe:0
+      amount: 1
+      name: '&6&lШАХТЕР'
+      lore:
+        - ''
+        - ' &8▪ &fЦель:'
+        - ' &8▪ &fДобыть &c64 улгя'
+        - ''
+        - ' &8▪ &fЗа завершение задания вы'
+        - '&f   получите &a50 &lочков'
+        - ''
+        - ' &8▪ &fПрогресс: &7%progress_bar% &7(&a%percentage_progress%&7)'

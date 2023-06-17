@@ -1,0 +1,578 @@
+30.08.2021 - 17:07:47 - [TAB v2.6.1] An error occurred when processing packet out
+30.08.2021 - 17:07:47 - java.lang.NullPointerException: null
+30.08.2021 - 17:07:47 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+30.08.2021 - 17:07:47 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+30.08.2021 - 17:07:47 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+30.08.2021 - 17:07:47 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+30.08.2021 - 17:07:47 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+30.08.2021 - 17:07:47 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+30.08.2021 - 17:07:47 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+30.08.2021 - 17:07:47 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.08.2021 - 17:07:47 -        at java.lang.Thread.run(Thread.java:748)
+30.08.2021 - 18:18:38 - [TAB v2.6.1] An error occurred when processing packet out
+30.08.2021 - 18:18:38 - java.lang.NullPointerException: null
+30.08.2021 - 18:18:38 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+30.08.2021 - 18:18:38 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+30.08.2021 - 18:18:38 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+30.08.2021 - 18:18:38 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+30.08.2021 - 18:18:38 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+30.08.2021 - 18:18:38 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+30.08.2021 - 18:18:38 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+30.08.2021 - 18:18:38 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+30.08.2021 - 18:18:38 -        at java.lang.Thread.run(Thread.java:748)
+30.08.2021 - 20:13:56 - [TAB v2.6.1] Data of 8695 don't exist ? Returned as a member of world CraftWorld{name=lobby}
+31.08.2021 - 14:51:44 - [TAB v2.6.1] An error occurred when processing packet out
+31.08.2021 - 14:51:44 - java.lang.NullPointerException: null
+31.08.2021 - 14:51:44 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+31.08.2021 - 14:51:44 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+31.08.2021 - 14:51:44 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+31.08.2021 - 14:51:44 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+31.08.2021 - 14:51:44 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+31.08.2021 - 14:51:44 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+31.08.2021 - 14:51:44 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+31.08.2021 - 14:51:44 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+31.08.2021 - 14:51:44 -        at java.lang.Thread.run(Thread.java:748)
+01.09.2021 - 15:20:36 - [TAB v2.6.1] An error occurred when processing packet out
+01.09.2021 - 15:20:36 - java.lang.NullPointerException: null
+01.09.2021 - 15:20:36 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.destroy(NameTagLineManager.java:29)
+01.09.2021 - 15:20:36 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:149)
+01.09.2021 - 15:20:36 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+01.09.2021 - 15:20:36 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+01.09.2021 - 15:20:36 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+01.09.2021 - 15:20:36 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+01.09.2021 - 15:20:36 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+01.09.2021 - 15:20:36 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+01.09.2021 - 15:20:36 -        at java.lang.Thread.run(Thread.java:748)
+03.09.2021 - 19:05:09 - [TAB v2.6.1] An error occurred when processing packet out
+03.09.2021 - 19:05:09 - java.lang.NullPointerException: null
+03.09.2021 - 19:05:09 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+03.09.2021 - 19:05:09 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+03.09.2021 - 19:05:09 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+03.09.2021 - 19:05:09 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+03.09.2021 - 19:05:09 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+03.09.2021 - 19:05:09 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03.09.2021 - 19:05:09 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+03.09.2021 - 19:05:09 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+03.09.2021 - 19:05:09 -        at java.lang.Thread.run(Thread.java:748)
+07.09.2021 - 17:19:19 - [TAB v2.6.1] An error occurred when processing packet out
+07.09.2021 - 17:19:19 - java.lang.NullPointerException: null
+07.09.2021 - 17:19:19 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+07.09.2021 - 17:19:19 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+07.09.2021 - 17:19:19 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+07.09.2021 - 17:19:19 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+07.09.2021 - 17:19:19 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+07.09.2021 - 17:19:19 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+07.09.2021 - 17:19:19 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+07.09.2021 - 17:19:19 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+07.09.2021 - 17:19:19 -        at java.lang.Thread.run(Thread.java:748)
+08.09.2021 - 19:05:45 - [TAB v2.6.1] An error occurred when processing packet out
+08.09.2021 - 19:05:45 - java.lang.NullPointerException: null
+08.09.2021 - 19:05:45 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+08.09.2021 - 19:05:45 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+08.09.2021 - 19:05:45 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+08.09.2021 - 19:05:45 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+08.09.2021 - 19:05:45 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+08.09.2021 - 19:05:45 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08.09.2021 - 19:05:45 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+08.09.2021 - 19:05:45 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+08.09.2021 - 19:05:45 -        at java.lang.Thread.run(Thread.java:748)
+08.09.2021 - 19:26:33 - [TAB v2.6.1] Failed to inject QLS_Lpamer_QLS, packet_handler does not exist
+08.09.2021 - 19:37:46 - [TAB v2.6.1] An error occurred when processing packet out
+08.09.2021 - 19:37:46 - java.lang.NullPointerException: null
+08.09.2021 - 19:37:46 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+08.09.2021 - 19:37:46 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+08.09.2021 - 19:37:46 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+08.09.2021 - 19:37:46 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+08.09.2021 - 19:37:46 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+08.09.2021 - 19:37:46 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08.09.2021 - 19:37:46 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+08.09.2021 - 19:37:46 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+08.09.2021 - 19:37:46 -        at java.lang.Thread.run(Thread.java:748)
+08.09.2021 - 20:37:58 - [TAB v2.6.1] An error occurred when processing packet out
+08.09.2021 - 20:37:58 - java.lang.NullPointerException: null
+08.09.2021 - 20:37:58 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+08.09.2021 - 20:37:58 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+08.09.2021 - 20:37:58 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+08.09.2021 - 20:37:58 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+08.09.2021 - 20:37:58 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+08.09.2021 - 20:37:58 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+08.09.2021 - 20:37:58 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+08.09.2021 - 20:37:58 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+08.09.2021 - 20:37:58 -        at java.lang.Thread.run(Thread.java:748)
+09.09.2021 - 12:58:17 - [TAB v2.6.1] An error occurred when processing packet out
+09.09.2021 - 12:58:17 - java.lang.NullPointerException: null
+09.09.2021 - 12:58:17 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+09.09.2021 - 12:58:17 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+09.09.2021 - 12:58:17 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+09.09.2021 - 12:58:17 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+09.09.2021 - 12:58:17 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+09.09.2021 - 12:58:17 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+09.09.2021 - 12:58:17 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+09.09.2021 - 12:58:17 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+09.09.2021 - 12:58:17 -        at java.lang.Thread.run(Thread.java:748)
+10.09.2021 - 13:35:52 - [TAB v2.6.1] An error occurred when processing packet out
+10.09.2021 - 13:35:52 - java.lang.NullPointerException: null
+10.09.2021 - 13:35:52 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+10.09.2021 - 13:35:52 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+10.09.2021 - 13:35:52 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+10.09.2021 - 13:35:52 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+10.09.2021 - 13:35:52 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+10.09.2021 - 13:35:52 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+10.09.2021 - 13:35:52 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+10.09.2021 - 13:35:52 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+10.09.2021 - 13:35:52 -        at java.lang.Thread.run(Thread.java:748)
+11.09.2021 - 20:03:42 - [TAB v2.6.1] An error occurred when processing packet out
+11.09.2021 - 20:03:42 - java.lang.NullPointerException: null
+11.09.2021 - 20:03:42 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+11.09.2021 - 20:03:42 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+11.09.2021 - 20:03:42 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+11.09.2021 - 20:03:42 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+11.09.2021 - 20:03:42 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+11.09.2021 - 20:03:42 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11.09.2021 - 20:03:42 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+11.09.2021 - 20:03:42 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+11.09.2021 - 20:03:42 -        at java.lang.Thread.run(Thread.java:748)
+11.09.2021 - 22:11:16 - [TAB v2.6.1] An error occurred when processing packet out
+11.09.2021 - 22:11:16 - java.lang.NullPointerException: null
+11.09.2021 - 22:11:16 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+11.09.2021 - 22:11:16 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+11.09.2021 - 22:11:16 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+11.09.2021 - 22:11:16 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+11.09.2021 - 22:11:16 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+11.09.2021 - 22:11:16 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11.09.2021 - 22:11:16 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+11.09.2021 - 22:11:16 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+11.09.2021 - 22:11:16 -        at java.lang.Thread.run(Thread.java:748)
+12.09.2021 - 01:31:09 - [TAB v2.6.1] An error occurred when processing packet out
+12.09.2021 - 01:31:09 - java.lang.NullPointerException: null
+12.09.2021 - 01:31:09 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagLineManager.spawnArmorStand(NameTagLineManager.java:33)
+12.09.2021 - 01:31:09 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:144)
+12.09.2021 - 01:31:09 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+12.09.2021 - 01:31:09 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+12.09.2021 - 01:31:09 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+12.09.2021 - 01:31:09 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+12.09.2021 - 01:31:09 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+12.09.2021 - 01:31:09 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+12.09.2021 - 01:31:09 -        at java.lang.Thread.run(Thread.java:748)
+12.09.2021 - 16:14:15 - [TAB v2.6.1] Failed to inject Panro, packet_handler does not exist
+17.09.2021 - 17:40:47 - [TAB v2.6.1] tablist objective only accepts numeric values! (Attempted to use "2⚔")
+17.09.2021 - 17:40:47 - [TAB v2.6.1] tablist objective only accepts numeric values! (Attempted to use "2⚔")
+17.09.2021 - 17:40:47 - [TAB v2.6.1] tablist objective only accepts numeric values! (Attempted to use "0⚔")
+17.09.2021 - 17:40:47 - [TAB v2.6.1] tablist objective only accepts numeric values! (Attempted to use "0⚔")
+22.09.2021 - 18:47:24 - [TAB v2.6.1] An error occurred when processing packet out
+22.09.2021 - 18:47:24 - java.lang.NullPointerException: null
+22.09.2021 - 18:47:24 -        at me.neznamy.tab.platforms.bukkit.unlimitedtags.NameTagX.processPacketOUT(NameTagX.java:125)
+22.09.2021 - 18:47:24 -        at me.neznamy.tab.platforms.bukkit.Injector$1$1.run(Injector.java:115)
+22.09.2021 - 18:47:24 -        at me.neznamy.tab.shared.Shared$3.run(Shared.java:180)
+22.09.2021 - 18:47:24 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+22.09.2021 - 18:47:24 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+22.09.2021 - 18:47:24 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+22.09.2021 - 18:47:24 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+22.09.2021 - 18:47:24 -        at java.lang.Thread.run(Thread.java:748)
+04.10.2021 - 19:18:37 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:18:37 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:18:37 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:18:37 - java.lang.NullPointerException: null
+04.10.2021 - 19:18:37 -        at org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+04.10.2021 - 19:18:37 -        at ru.bestrax.rang.managers.RangManager.getDisplayRank(RangManager.java:53)
+04.10.2021 - 19:18:37 -        at ru.bestrax.rang.PlaceHolderRank.onRequest(PlaceHolderRank.java:38)
+04.10.2021 - 19:18:37 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:237)
+04.10.2021 - 19:18:37 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:377)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.PluginHooks.PlaceholderAPI_setPlaceholders(PluginHooks.java:159)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.Property.isUpdateNeeded(Property.java:100)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.ITabPlayer.isListNameUpdateNeeded(ITabPlayer.java:176)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.Playerlist.updateNames(Playerlist.java:30)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.Playerlist.access$0(Playerlist.java:27)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.Playerlist$1.run(Playerlist.java:22)
+04.10.2021 - 19:18:37 -        at me.neznamy.tab.shared.Shared$2.run(Shared.java:162)
+04.10.2021 - 19:18:37 -        at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+04.10.2021 - 19:18:37 -        at java.util.concurrent.FutureTask.run(Unknown Source)
+04.10.2021 - 19:18:37 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+04.10.2021 - 19:18:37 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+04.10.2021 - 19:18:37 -        at java.lang.Thread.run(Unknown Source)
+04.10.2021 - 19:18:45 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:18:45 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:18:45 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:18:45 - java.lang.NullPointerException: null
+04.10.2021 - 19:18:47 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:18:47 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:18:47 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:18:47 - java.lang.NullPointerException: null
+04.10.2021 - 19:18:57 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:18:57 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:18:57 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:18:57 - java.lang.NullPointerException: null
+04.10.2021 - 19:19:07 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:19:07 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:19:07 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:19:07 - java.lang.NullPointerException: null
+04.10.2021 - 19:19:19 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:19:19 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:19:19 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:19:19 - java.lang.NullPointerException: null
+04.10.2021 - 19:19:30 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:19:30 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:19:30 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:19:30 - java.lang.NullPointerException: null
+04.10.2021 - 19:19:40 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:19:40 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:19:40 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:19:40 - java.lang.NullPointerException: null
+04.10.2021 - 19:19:50 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:19:50 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:19:50 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:19:50 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:01 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:01 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:01 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:01 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:12 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:12 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:12 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:12 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:23 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:23 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:23 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:23 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:34 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:34 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:34 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:34 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:45 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:45 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:45 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:45 - java.lang.NullPointerException: null
+04.10.2021 - 19:20:54 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:20:54 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:20:54 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:20:54 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:03 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:03 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:03 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:03 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:13 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:13 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:13 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:13 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:24 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:24 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:24 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:24 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:34 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:34 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:34 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:34 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:44 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:44 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:44 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:44 - java.lang.NullPointerException: null
+04.10.2021 - 19:21:55 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:21:55 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:21:55 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:21:55 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:04 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:04 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:04 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:04 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:13 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:13 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:13 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:13 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:23 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:23 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:23 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:23 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:32 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:32 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:32 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:32 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:42 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:42 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:42 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:42 - java.lang.NullPointerException: null
+04.10.2021 - 19:22:52 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:22:52 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:22:52 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:22:52 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:03 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:03 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:03 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:03 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:13 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:13 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:13 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:13 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:24 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:24 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:24 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:24 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:35 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:35 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:35 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:35 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:44 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:44 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:44 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:44 - java.lang.NullPointerException: null
+04.10.2021 - 19:23:45 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+04.10.2021 - 19:23:45 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=FriZZer}, String =  %rank_player%&r %vault_suffix% &r]
+04.10.2021 - 19:23:45 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+04.10.2021 - 19:23:45 - java.lang.NullPointerException: null
+14.10.2021 - 21:15:46 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:15:46 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:15:46 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:15:46 - java.lang.NullPointerException: null
+14.10.2021 - 21:15:46 -        at org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+14.10.2021 - 21:15:46 -        at ru.bestrax.rang.managers.RangManager.getDisplayRank(RangManager.java:53)
+14.10.2021 - 21:15:46 -        at ru.bestrax.rang.PlaceHolderRank.onRequest(PlaceHolderRank.java:38)
+14.10.2021 - 21:15:46 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:237)
+14.10.2021 - 21:15:46 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:377)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.PluginHooks.PlaceholderAPI_setPlaceholders(PluginHooks.java:159)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.Property.isUpdateNeeded(Property.java:100)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.ITabPlayer.isListNameUpdateNeeded(ITabPlayer.java:176)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.Playerlist.updateNames(Playerlist.java:30)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.Playerlist.access$0(Playerlist.java:27)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.Playerlist$1.run(Playerlist.java:22)
+14.10.2021 - 21:15:46 -        at me.neznamy.tab.shared.Shared$2.run(Shared.java:162)
+14.10.2021 - 21:15:46 -        at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+14.10.2021 - 21:15:46 -        at java.util.concurrent.FutureTask.run(Unknown Source)
+14.10.2021 - 21:15:46 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+14.10.2021 - 21:15:46 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+14.10.2021 - 21:15:46 -        at java.lang.Thread.run(Unknown Source)
+14.10.2021 - 21:15:55 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:15:55 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:15:55 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:15:55 - java.lang.NullPointerException: null
+14.10.2021 - 21:15:55 -        at org.bukkit.ChatColor.translateAlternateColorCodes(ChatColor.java:324)
+14.10.2021 - 21:15:55 -        at ru.bestrax.rang.managers.RangManager.getDisplayRank(RangManager.java:53)
+14.10.2021 - 21:15:55 -        at ru.bestrax.rang.PlaceHolderRank.onRequest(PlaceHolderRank.java:38)
+14.10.2021 - 21:15:55 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:237)
+14.10.2021 - 21:15:55 -        at me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:377)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.shared.PluginHooks.PlaceholderAPI_setPlaceholders(PluginHooks.java:159)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.shared.Property.isUpdateNeeded(Property.java:100)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.shared.ITabPlayer.isListNameUpdateNeeded(ITabPlayer.java:176)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.shared.ITabPlayer.updatePlayerListName(ITabPlayer.java:181)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.shared.ITabPlayer.onWorldChange(ITabPlayer.java:497)
+14.10.2021 - 21:15:55 -        at me.neznamy.tab.platforms.bukkit.Main.a(Main.java:208)
+14.10.2021 - 21:15:55 -        at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor422.execute(Unknown Source)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70)
+14.10.2021 - 21:15:55 -        at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.PlayerList.moveToWorld(PlayerList.java:753)
+14.10.2021 - 21:15:55 -        at org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer.teleport(CraftPlayer.java:655)
+14.10.2021 - 21:15:55 -        at org.bukkit.craftbukkit.v1_12_R1.entity.CraftEntity.teleport(CraftEntity.java:310)
+14.10.2021 - 21:15:55 -        at ru.bestrax.core.modules.listeners.OtherListener.join(OtherListener.java:46)
+14.10.2021 - 21:15:55 -        at ru.bestrax.core.modules.listeners.OtherListener.onJoin(OtherListener.java:26)
+14.10.2021 - 21:15:55 -        at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor229.execute(Unknown Source)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:70)
+14.10.2021 - 21:15:55 -        at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62)
+14.10.2021 - 21:15:55 -        at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:513)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.PlayerList.onPlayerJoin(PlayerList.java:370)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.PlayerList.a(PlayerList.java:183)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.LoginListener.b(LoginListener.java:178)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.LoginListener.e(LoginListener.java:68)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.NetworkManager.a(NetworkManager.java:273)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:150)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:948)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774)
+14.10.2021 - 21:15:55 -        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666)
+14.10.2021 - 21:15:55 -        at java.lang.Thread.run(Unknown Source)
+14.10.2021 - 21:15:56 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:15:56 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:15:56 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:15:56 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:07 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:07 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:07 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:07 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:17 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:17 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:17 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:17 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:28 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:28 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:28 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:28 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:38 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:38 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:38 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:38 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:47 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:47 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:47 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:47 - java.lang.NullPointerException: null
+14.10.2021 - 21:16:57 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:16:57 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:16:57 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:16:57 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:06 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:06 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:06 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:06 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:15 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:15 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:15 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:15 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:25 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:25 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:25 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:25 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:34 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:34 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:34 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:34 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:43 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:43 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:43 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:43 - java.lang.NullPointerException: null
+14.10.2021 - 21:17:52 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:17:52 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:17:52 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:17:52 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:01 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:01 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:01 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:01 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:10 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:10 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:10 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:10 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:19 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:19 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:19 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:19 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:29 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:29 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:29 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:29 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:38 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:38 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:38 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:38 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:47 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:47 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:47 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:47 - java.lang.NullPointerException: null
+14.10.2021 - 21:18:56 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:18:56 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:18:56 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:18:56 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:05 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:05 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:05 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:05 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:15 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:15 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:15 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:15 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:24 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:24 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:24 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:24 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:33 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:33 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:33 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:33 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:42 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:42 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:42 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:42 - java.lang.NullPointerException: null
+14.10.2021 - 21:19:51 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:19:51 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:19:51 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:19:51 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:00 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:00 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:00 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:00 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:10 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:10 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:10 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:10 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:19 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:19 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:19 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:19 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:28 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:28 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:28 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:28 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:37 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:37 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:37 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:37 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:46 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:46 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:46 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:46 - java.lang.NullPointerException: null
+14.10.2021 - 21:20:55 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:20:55 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:20:55 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:20:55 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:05 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:05 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:05 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:05 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:14 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:14 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:14 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:14 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:23 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:23 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:23 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:23 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:33 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:33 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:33 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:33 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:42 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:42 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:42 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:42 - java.lang.NullPointerException: null
+14.10.2021 - 21:21:51 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:21:51 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:21:51 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:21:51 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:00 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:00 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:00 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:00 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:08 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:08 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:08 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:08 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:17 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:17 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:17 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:17 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:26 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:26 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:26 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:26 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:36 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:36 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:36 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:36 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:45 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:45 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:45 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:45 - java.lang.NullPointerException: null
+14.10.2021 - 21:22:54 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:22:54 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:22:54 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:22:54 - java.lang.NullPointerException: null
+14.10.2021 - 21:23:03 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:23:03 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:23:03 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:23:03 - java.lang.NullPointerException: null
+14.10.2021 - 21:23:12 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:23:12 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:23:12 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:23:12 - java.lang.NullPointerException: null
+14.10.2021 - 21:23:21 - [TAB v2.6.1] PlaceholderAPI replace task failed. PlaceholderAPI version: 2.9.2. Placeholders to replace: [%rank_player%, %vault_suffix%]
+14.10.2021 - 21:23:21 - [TAB v2.6.1] Input arguments: [Player = CraftPlayer{name=INCREASE}, String =  %rank_player%&r %vault_suffix% &r]
+14.10.2021 - 21:23:21 - [TAB v2.6.1] Please send this error to the FIRST author whose name or plugin name you see here:
+14.10.2021 - 21:23:21 - java.lang.NullPointerException: null

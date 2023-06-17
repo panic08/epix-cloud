@@ -1,0 +1,441 @@
+global:
+  permission: '§6§LUNIX§у§lMINE: &fУ вас недостаточно прав, наш сайт: &f&lUnixDonate.ru'
+  myself: '§6§LUNIX§у§lMINE: &fНельзя использовать это на себе.'
+  unknown: '§6§LUNIX§у§lMINE: &fВы ввели неверный аргумент.'
+  player: '§6§LUNIX§у§lMINE: &fИгрока нет на сервере.'
+  creative: '§6§LUNIX§у§lMINE: &fВ режиме креатив нельзя это делать.'
+  console: 'Эта команда только для игроков.'
+bossbar: # Бары идут по порядку. Сверху вниз
+  firstbar:
+    value: '&f&lУспей купить &a&lновый &f&lДОНАТ &4&LADMIN &f&lи получи &4&l/GM 1 /GOD /FLY'
+    style: 'SEGMENTED_6'
+    color: 'RED'
+    time: 200.0 # Сколько он простоит.
+  secondbar:
+    value: '&fПолучи &a&lДОНАТ &fбесплатно! Пиши - &6&l/ＧＥＴＢＯＸ'
+    style: 'SEGMENTED_6'
+    color: 'YELLOW'
+    time: 200.0
+quit:
+  - ''
+join:
+  - ''
+laggclear:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/laggclear &a&l[Мир]&7/&a&l[all]'
+  display:
+    all: '§6§LUNIX§у§lMINE: &fВы &aуспешно &fудалили &c&l{count} &fпредметов.'
+    world: '§6§LUNIX§у§lMINE: &fВы &aуспешно &fудалили &c&l{count} &fпредметов в мире &a&l{world}'
+  broadcast: '§6§LUNIX§у§lMINE: &fИгрок &a&l{player} &fочистил &c&l{count} &fпредметов.'
+disguise:
+  found: '§6§LUNIX§у§lMINE: &fГруппа &a&l{group} не найдена. Обратитесь в нашу группу: &e&lvk.com/RefixWorld_mc'
+  usage:
+    - '&r'
+    - ' &6&l• &fИспользование команды &a/disguise &a&l[Ник] [Группа]'
+    - ' &6&l• &fИспользование команды &a/disguise reset'
+    - '&r'
+  display:
+    enable:
+      - '&r'
+      - ' &6&l• &fВаш новый ник &a&l{player}'
+      - ' &6&l• &fВаша новая привилегия &e&l{group} &8➥ &7[Права остались старые]'
+      - '&r'
+    reset:
+      - '§6§LUNIX§у§lMINE: &fВы больше не скрываетесь.'
+mobkill: '§6§LUNIX§у§lMINE: &fВы &aудалили &fвсех мобов.'
+chat:
+  format:
+    global: '&a&lⒼ &7&l| %rank_player% %vault_prefix%&f{player} &8⇨ &f{message}'
+    local: '&e&lⓁ &7&l| %rank_player% %vault_prefix%&f{player} &8⇨ &7{message}'
+  time: '&r'
+  time-over:
+    - '&r'
+  cooldown: '§6§LUNIX§у§lMINE: &fПеред отправкой сообщения подождите &a&l5 &aсекунд'
+  sender: '&6&l✉ &f&lЛС &fдля &7{recipient} &8➥ &e&o{message}'
+  recipient: '&6&l✉ &f&lЛС &fот &7{sender} &8➥ &e{message}'
+  anti:
+    caps: '§6§LUNIX§у§lMINE: &fВ вашем сообщение обнаружен капс &c&l⚠'
+    swears: '§6§LUNIX§у§lMINE: &fВ вашем сообщение обнаружены запрещенные слова &c&l⚠'
+    chars: '§6§LUNIX§у§lMINE: &fВ вашем сообщение обнаружены запрещенные символы &c&l⚠'
+    format:
+      swears: 'Мат'
+      caps: 'Капс'
+  admin: '§6§LUNIX§у§lMINE: &fВ сообщении &a&l{player} &fобнаружен {type} &8➥ &e{message}'
+ignore:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/ignore &a&l[Игрок]'
+  display:
+    enable:
+      - '§6§LUNIX§у§lMINE: &fВы добавили игрока &a&l{player} &fв черный список.'
+      - 'title:&4&l◄ &6&lUnix&f&lMine &4&l►&4&l%nl%&fВы &aуспешно &fдобавили &c{player}&f в чс.'
+    disable:
+      - '§6§LUNIX§у§lMINE: &fВы убрали игрока &a&l{player} &fиз черного списка.'
+      - 'title:&4&l◄ §6§lUNIX&f&lMINE &4&l►&4&l%nl%&fВы &aуспешно &fубрали &c{player}&f из чс.'
+  from: '§6§LUNIX§у§lMINE: &fИгрок &a&l{player} &fнаходится у вас в черном списке.'
+  to: '§6§LUNIX§у§lMINE: &fИгрок &a&l{player} &fдобавил вас в черный список.'
+socialspy:
+  display:
+    enable:
+      - '§6§LUNIX§у§lMINE: &fВы &aвключили &fрежим шпиона.'
+      - 'actionbar:&aРежим шпиона включен.'
+    disable:
+      - '§6§LUNIX§у§lMINE: &fВы &cвыключили &fрежим шпиона'
+      - 'actionbar:&aРежим шпиона отключен.'
+  format:
+    chat: ''
+    message: '&7[СЛЕЖКА] &6&l✉ &f&lЛС &fот &7{sender} &fдля &7{recipient} &8➥ &f{message}'
+    comment: ''
+r:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/r &a&l[Сообщение]'
+msg:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/msg &a&l[Игрок] &a&l[Сообщение]'
+first-join:
+  - '&c&m           &r&6&m           &r&e&m           &r&a&m           &r&b&m           &r&9&m           &r&d&m           &r'
+  - '&7'
+  - '&f               &fНаш сайт: &c&lwww.UnixDonate.ru&r &8&l| &a&lСКИДКА ９０% ✔'
+  - '&f                &fНаша группа ВКонтакте: &b&lvk.com/UnixMine&r'
+  - '&r'
+  - '&f                          &fРазрешено гриферить:'
+  - '&6                  &6&lПОРШНЯМИ&f, &a&lВОРОНКАМИ&f, &b&lЛОВУШКАМИ'
+  - '&7'
+  - '&c&m           &r&6&m           &r&e&m           &r&a&m           &r&b&m           &r&9&m           &r&d&m           &r'
+other-join:
+  - '&c&m           &r&6&m           &r&e&m           &r&a&m           &r&b&m           &r&9&m           &r&d&m           &r'
+  - '&7'
+  - '&f               &fНаш сайт: &c&lwww.UnixDonate.ru&r &8&l| &a&lСКИДКА ９０% ✔'
+  - '&f                &fНаша группа ВКонтакте: &b&lvk.com/UnixMine&r'
+  - '&r'
+  - '&f                          &fРазрешено гриферить:'
+  - '&6                  &6&lПОРШНЯМИ&f, &a&lВОРОНКАМИ&f, &b&lЛОВУШКАМИ'
+  - '&7'
+  - '&c&m           &r&6&m           &r&e&m           &r&a&m           &r&b&m           &r&9&m           &r&d&m           &r'
+setspawn: '§6§LUNIX§у§lMINE: &fВы &aустановили &fточку спавна.'
+hat:
+  succes: '§6§LUNIX§у§lMINE: &fВы одели данный предмет на голову.'
+  item: '§6§LUNIX§у§lMINE: &fВ вашей руке нет предмета.'
+enderchest:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/enderchest &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aоткрыли &fэндер-сундук.'
+feed:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/feed &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aвосстановили &fуровень голода.'
+heal:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/heal &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aисцелили'
+ext:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/ext &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aпотушили'
+burn:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/burn &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aподожгли'
+clear:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/clear &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aочистили &fинвентарь.'
+getpos:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/getpos &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fКоординаты: &a{world}, {x}, {y}, {z}'
+weather:
+  format:
+    sun: '&a&lСолнечная погода'
+    rain: '&a&lДождливая погода'
+    storm: '&a&lШтормовая погода'
+  weather:
+    - '&r'
+    - ' &6&l• &fТекущая погода: {weather}'
+    - ' &6&l• &fУстановить штормовую погоду &8➥ &a/storm'
+    - ' &6&l• &fУстановить ясную погоду &8➥ &a/sun'
+    - '&r'
+  number: '§6§LUNIX§у§lMINE: &fУкажите правильное число тиков'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aустановили &fпогоду на &a&l{ticks}'
+  broadcast:
+    - '&r'
+    - ' &6&l• &fИгрок &a{player}'
+    - ' &6&l• &fУстановил &a{weather} &fпогоду на сервере'
+    - '&r'
+home:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/home &a&l-p &a&l[Игрок] &a&l[Название дома]'
+  list:
+    result: '§6§LUNIX§у§lMINE: &fВаши дома: &a{homes}'
+    delimiter: ', '
+    empty: '§6§LUNIX§у§lMINE: &fУ вас &cнет &fдомов'
+  create:
+    usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/sethome &a&l[Название дома]'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aустановили &fточку дома.'
+    limit: '§6§LUNIX§у§lMINE: &fВы достигли &cлимита &fточек дома.'
+  delete:
+    usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/delhome &a&l[Название дома]'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aудалили &fточку дома &a&l{home}'
+    empty: '§6§LUNIX§у§lMINE: &fУ вас нет этой точки дома.'
+  teleport:
+    unknown: '§6§LUNIX§у§lMINE: &fНет точки дома с таким именем.'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aтелепортированы &fна точку дома &a&l{home}'
+autosave:
+  - '§6§LUNIX§у§lMINE: &fВсе миры были успешно сохранены.'
+  - '§6§LUNIX§у§lMINE: &fСледующее сохранение через &a&l30 минут'
+online:
+  - '&r'
+  - ' &6&l• &fСейчас играет &a&l{online}&f игроков:'
+  - ' &6&l• &fИгроки: {players}'
+  - '&r'
+warp:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/warp &a&l[Название варпа]'
+  list:
+    list: '§6§LUNIX§у§lMINE: &fВарпы сервера&f: &a{warps}'
+    delimiter: ', '
+  create:
+    usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/setwarp &a&l[Варп]'
+    exists: '§6§LUNIX§у§lMINE: &fВарп с названием &a&l{warp}&f уже существует.'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aсоздали &fварп с названием &a&l{warp}'
+    limit: '§6§LUNIX§у§lMINE: &fВы достигли &cлимита &fсоздания точек.'
+  delete:
+    usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/delwarp &a&l[Варп]'
+    unknown: '§6§LUNIX§у§lMINE: &fВарп с названием &a&l{warp}&f не найден.'
+    permission: '§6§LUNIX§у§lMINE: &fВы не можете удалить этот варп.'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aудалили &fварп с названием &a&l{warp}'
+  teleport:
+    unknown: '§6§LUNIX§у§lMINE: &fВарп с названием &a&l{warp}&f не найден.'
+    succes: '§6§LUNIX§у§lMINE: &fВы &aтелепортировались &fна варп &a&l{warp}' # {player} - показывает РЕАЛЬНОЕ имя создателя варпа. (Permission: core.warp.see)
+gc:
+  - '&r'
+  - ' &6&l• &fВерсия java: &a{java}'
+  - ' &6&l• &fЗагруженные миры: &a{worlds}'
+  - ' &6&l• &fВыделено памяти: &a{totalMemory} MB'
+  - ' &6&l• &fСвободно памяти: &a{freeMemory} MB'
+  - ' &6&l• &fВсего памяти: &a{maxMemory} MB'
+  - ' &6&l• &fТПС: &a{tps}'
+  - ' &6&l• &fАптайм: &a{uptime}'
+  - ' &6&l• &fИгроков на сервере: &a{online}/{players}'
+  - ' &6&l• &fКоличество плагинов: &a{plugins}'
+  - '&r'
+time:
+  format:
+    day: '&a&lДень'
+    night: '&d&lНочь'
+  time:
+    - '&r'
+    - ' &6&l• &fТекущее время суток: {time}'
+    - ' &6&l• &fУстановить день &8➥ &a/day'
+    - ' &6&l• &fУстановить ночь &8➥ &a/night'
+    - '&r'
+  set: '§6§LUNIX§у§lMINE: &fВы &aустановили &fвремя &a&l{time}&f в мире &a&l{world}'
+  number: '§6§LUNIX§у§lMINE: &fНеверный формат.'
+  broadcast:
+    - '&r'
+    - ' &6&l• &fИгрок &a&l{player}'
+    - ' &6&l• &fПоставил &a&l{time}&f!'
+    - '&r'
+invsee:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/invsee &a&l[Игрок]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aоткрыли &fчужой инвентарь.'
+tppos:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/tppos &a&l[Игрок] &a&l[Координаты]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aтелепортировались &fпо координатам.'
+  number: '§6§LUNIX§у§lMINE: &fНеверные координаты.'
+tptoggle:
+  enable: '§6§LUNIX§у§lMINE: &fВы &aвключили &fтелепортации.'
+  disable: '§6§LUNIX§у§lMINE: &fВы &cотключили &fтелепортации.'
+tpa:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/tpa &a&l[Ник] &a&l[Комментарий]'
+  timeout: '§6§LUNIX§у§lMINE: &fВремя на принятие запроса истекло'
+  request:
+    received:
+      - '&r'
+      - ' &6&l• &fЗапрос на телепортацию от игрока &6&l{player}'
+      - ' &6&l• &fКомментарий: &a&l{comment}'
+      - '&r'
+      - ' &6&l• &fПриянять запрос: &a&l/tpaccept'
+      - ' &6&l• &fОтклонить запрос: &c&l/tpadeny'
+      - '&r'
+    send:
+      - '§6§LUNIX§у§lMINE: &fВы &aотправили &fзапрос на телепортацию игроку &a&l{player}'
+    already_send: '§6§LUNIX§у§lMINE: &fВы уже отправили запрос на телепортацию игроку &a&l{player}'
+  no-teleport: '§6§LUNIX§у§lMINE: &fУ игрока &a&l{player} &fотключены телепортации.'
+tpaccept:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/tpaccept'
+  no_requests:
+    common: '§6§LUNIX§у§lMINE: &fУ вас нет запросов на телепортацию'
+  received: '§6§LUNIX§у§lMINE: &fИгрок &a&l{player} &fпринял ваш запрос на телепортацию.'
+  player: '§6§LUNIX§у§lMINE: &fВы &aприняли &fзапрос на телепортацию от игрока &a&l{player}'
+tpadeny:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/tpadeny'
+  no_requests:
+    common: '§6§LUNIX§у§lMINE: &fУ вас нет запросов на телепортацию'
+    from: '§6§LUNIX§у§lMINE: &fУ вас нет запросов на телепортацию от игрока &a&l{player}'
+  player:
+    canceled: '§6§LUNIX§у§lMINE: &fВаш запрос на телепортацию был отклонен.'
+  you:
+    canceled: '§6§LUNIX§у§lMINE: &fВы &aотклонили &fзапрос на телепортацию игрока &a&l{player}'
+back:
+  usage: '§6§LUNIX§у§lMINE: &fВы умерли, используйте &a/back &fчто-бы вернуться на место смерти'
+  empty: '§6§LUNIX§у§lMINE: &fУ вас нет места смерти.'
+  succes: '§6§LUNIX§у§lMINE: &fТелепортация..'
+tp:
+  usage:
+    - '&r'
+    - ' &6&l• &fИспользование команды &a/tp &a&l[Игрок]'
+    - ' &6&l• &fИспользование команды &a/tpo &a&l[Игрок]'
+    - ' &6&l• &fИспользование команды &a/s &a&l[Игрок]'
+    - '&r'
+  you:
+    teleport: '§6§LUNIX§у§lMINE: &fВы были телепортированы к игроку &a&l{player}'
+    from: '§6§LUNIX§у§lMINE: &fВы &aтелепортировали &fигрока &a&l{player}'
+  player:
+    teleport: '§6§LUNIX§у§lMINE: &fК вам телепортировался игрок &a&l{player}'
+    to: '§6§LUNIX§у§lMINE: &fИгрок &a&l{player} &fтелепортировал вас.'
+firework: '§6§LUNIX§у§lMINE: &fВы &aзапустили &fфейрверк'
+gamemode:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/gamemode &a&l[Режим] &a&l[Игрок]'
+  set: '§6§LUNIX§у§lMINE: &fВы &aустановили &fрежим игры &a&l{mode}'
+broadcast:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/broadcast &a&l[Сообщение]'
+  format:
+    - '&r'
+    - ' &6&l• &fОбъявление: &a{player}'
+    - ' &6&l• &fСообщение: &a{message}'
+    - '&r'
+fly:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/fly'
+  succes:
+    enable: '§6§LUNIX§у§lMINE: &fВы &aвключили &fрежим полета'
+    disable: '§6§LUNIX§у§lMINE: &fВы &cвыключили &fрежим полета'
+  target:
+    enable: '§6§LUNIX§у§lMINE: &fРежим полета &aвключен'
+    disable: '§6§LUNIX§у§lMINE: &fРежим полета &cвыключен'
+whois:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/whois &a&l[Игрок]'
+  succes:
+    - '&r'
+    - ' &6&l• &fНик: &a%player_name%'
+    - ' &6&l• &fПривилегия: %javascript_group%'
+    - '&r'
+    - ' &6&l• &fУ/C: &7%statistic_player_kills%&7/&7%statistic_deaths% &c⚔'
+    - ' &6&l• &fБаланс: &e%vault_eco_balance_fixed% &6⛂'
+    - ' &6&l• &fНаигранно: &7%statistic_hours_played%&7 ч. &a♻'
+    - '&r'
+nick:
+  set: '§6§LUNIX§у§lMINE: &fВы &aустановили &fник: {player}'
+  reset: '§6§LUNIX§у§lMINE: &fВы сбросили свой ник.'
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/nick &a&l[Ник]'
+  error: '§6§LUNIX§у§lMINE: &fВы не можете использовать этот символ.'
+  chars-allowed: qQwWeErRtTyYuUiIoOpP aAsSdDfFgGhHjJkKlL zZxXcCvVbBnNmM 1234567890
+realname:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/realname &a&l[Ник]'
+  succes: '§6§LUNIX§у§lMINE: &fНастоящий ник: {player}'
+donatechat:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/d &a&l[Сообщиение]'
+  format: '&6&l✉ &f&lДОНАТ-ЧАТ: {prefix} &f{player} &fнаписал: &f{message}'
+balance:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/balance &a&l[Игрок]'
+  display:
+    you:
+      - '&r'
+      - ' &6&l• &fВаш баланс &8➥ &e{balance} &6⛂'
+      - ' &6&l• &fВаши рубли &8➥ &d%playerpoints_points%Ⓟ'
+      - '&r'
+    other:
+      - '&r'
+      - ' &6&l• &fБаланс игрока &a{player} &8➥ &e{balance} &6⛂'
+      - ' &6&l• &fБаланс рублей &a{player} &8➥ &d%playerpoints_points%Ⓟ'
+      - '&r'
+eco:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/eco give/take/set &a&l[Игрок] &a&l[Сумма]'
+  balance:
+    set: '§6§LUNIX§у§lMINE: &fВы &aустановили &fбаланс &e&l{summ} &6⛂ &fигроку &a&l{player}'
+    give: '§6§LUNIX§у§lMINE: &fВы выдали &e&l{summ} &6⛂ &fигроку &a&l{player}'
+    take: '§6§LUNIX§у§lMINE: &fВы отняли &e&l{summ} &6⛂ &fу игрока &a&l{player}'
+    negative: '§6§LUNIX§у§lMINE: &fЧисло не может быть таким.'
+  target:
+    set: '§6§LUNIX§у§lMINE: &fВаш баланс установлен на &e&l{summ} &6⛂'
+    give: '§6§LUNIX§у§lMINE: &fК вашему балансу было добавлено &e&l{summ} &6⛂'
+    take: '§6§LUNIX§у§lMINE: &fУ вас отняли &e&l{summ} &6⛂'
+god:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/god &a&l[Игрок]'
+  you:
+    enable: '§6§LUNIX§у§lMINE: &fВы &aвключили&f игроку &a&l{player}&f режим бога'
+    disable: '§6§LUNIX§у§lMINE: &fВы &cвыключили&f игроку &a&l{player}&f режим бога'
+  target:
+    enable: '§6§LUNIX§у§lMINE: &fРежим бога &aвключен'
+    disable: '§6§LUNIX§у§lMINE: &fРежим бога &cвыключен'
+flyspeed:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/flyspeed &a&l[Значение] [Игрок]'
+  number: '§6§LUNIX§у§lMINE: &fНеверное значение.'
+  display:
+    you: '§6§LUNIX§у§lMINE: &fВы &aустановили &fскорость полета &a&l{value}'
+    other: '§6§LUNIX§у§lMINE: &fВы &aустановили &fигроку &a&l{player} &fскорость полета &a&l{value}'
+  target: '§6§LUNIX§у§lMINE: &fВаша скорость полета установлена на &a&l{value}'
+repair:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/repair all'
+  money: '§6§LUNIX§у§lMINE: &fДля починки всех предметов нужно &e10.000 &6⛂'
+  display:
+    all: '§6§LUNIX§у§lMINE: &fВы &aпочинили &fвсе предметы в инвентаре.'
+    hand: '§6§LUNIX§у§lMINE: &fВы &aпочинили &fпредмет в руке.'
+    item: '§6§LUNIX§у§lMINE: &fУ вас нет предмета в руке.'
+give:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/give &a&l[Ник] &a&l[Предмет] &a&l[Количество]'
+  succes: '§6§LUNIX§у§lMINE: &fИгроку &a&l{player} &fвыдано &a&l{item} &a&l{count}'
+  target: '§6§LUNIX§у§lMINE: &fВам выдано &a&l{item} &a&l{count}'
+  wrong: '§6§LUNIX§у§lMINE: &fПредмет &a&l{item} &fне найден.'
+  number: '§6§LUNIX§у§lMINE: &fНеверное количество.'
+enchant:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/enchant &a&l[Энчант] &a&l[Уровень]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aзачаровали &fпредмет на &a&l{enchant}'
+  no-hand: '§6§LUNIX§у§lMINE: &fВ руке нет предмета, который можно зачаровать.'
+  no-found: '§6§LUNIX§у§lMINE: &fЗачарование &a&l{enchant} &fне найдено.'
+  number: '§6§LUNIX§у§lMINE: &fНеверный формат.'
+tpall:
+  to: '§6§LUNIX§у§lMINE: &fВы были телепортированы к игроку &a&l{player}'
+  from: '§6§LUNIX§у§lMINE: &fТелепортирование..'
+speed:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/speed &a&l[Игрок] &a&l[Уровень]'
+  number: '§6§LUNIX§у§lMINE: &fНеверное значение.'
+  display:
+    you: '§6§LUNIX§у§lMINE: &fВаша скорость ходьбы была изменена на &a&l{level}'
+    other: '§6§LUNIX§у§lMINE: &fВы &aизменили &fскорость ходьбы на &a&l{level} &fигроку &a&l{player}'
+  target: '§6§LUNIX§у§lMINE: &fСкорость ходьбы была изменена на &a&l{level}'
+near:
+  format:
+    up: '↑'
+    up-left: '↖'
+    left: '←'
+    left-down: '↙'
+    down: '↓'
+    down-right: '↘'
+    right: '→'
+    up-right: '↗'
+  alone: '§6§LUNIX§у§lMINE: &fВокруг вас нет игроков.'
+  succes:
+    - '§6§LUNIX§у§lMINE: &fИгроки вокруг вас: &a{players}'
+  delimiter: '&f, '
+  distance: '&a{player} &8({where} {distance})'
+pay:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/pay &a&l[Игрок] [Сумма] [Комментарий]'
+  number: '§6§LUNIX§у§lMINE: &fНеверное число.'
+  money: '§6§LUNIX§у§lMINE: &fУ вас &cнедостаточно &fмонет'
+  succes:
+    - '&r'
+    - ' &6&l• &fВы перевели игроку &a&l{player} &e&l{summ} &6⛂'
+    - ' &6&l• &fВаш комментарий: &e{comment}'
+    - '&r'
+  received:
+    - '&r'
+    - ' &6&l• &fВы получили от игрока &a&l{player} &e&l{summ} &6⛂'
+    - ' &6&l• &fЕго комментарий: &e{comment}'
+    - '&r'
+spawn:
+  empty: '§6§LUNIX§у§lMINE: &fТочка спавна не установлена.'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aтелепортированы &fна спавн.'
+vanish:
+  usage:
+    - '§6§LUNIX§у§lMINE: &fИспользование команды &a/vanish &a&l[Игрок]'
+  hidden:
+    self: '§6§LUNIX§у§lMINE: &fВы &aвключили &fрежим невидимки.'
+    other: '§6§LUNIX§у§lMINE: &fВы &aвключили &fрежим невидимки для игрока &a&l{player}'
+    target: '§6§LUNIX§у§lMINE: &fРежим невидимки включен.'
+  shown:
+    self: '§6§LUNIX§у§lMINE: &fВы &cвыключили &fрежим невидимки.'
+    other: '§6§LUNIX§у§lMINE: &fВы &cвыключили &fрежим невидимки для игрока &a&l{player}'
+    target: '§6§LUNIX§у§lMINE: &fРежим невидимки выключен.'
+  bossbar: '&f&n&lРЕЖИМ НЕВИДИМКИ &8(Выключить - /vanish)'
+new_player: '§6§LUNIX§у§lMINE: &fНа сервер впервые зашел &a&l{player}'
+ptime:
+  usage: '§6§LUNIX§у§lMINE: &fИспользование команды &a/ptime &a&l[Тик]'
+  succes: '§6§LUNIX§у§lMINE: &fВы &aустановили &fвремя &a&l{ticks} &fдля себя.'
+  number: '§6§LUNIX§у§lMINE: &fНеверное число.'

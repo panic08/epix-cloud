@@ -1,0 +1,79 @@
+menu-title: '&0&lНеделя #%week%'
+menu-rows: 6
+
+quest-slots:
+  slots: '21...23, 30...32'
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '49':
+    item:
+      material: spectral_arrow
+      name: '§6§lВЕРНУТЬСЯ В МЕНЮ'
+      lore:
+        - '&r'
+        - '&6↪ &fНажмите сюда, чтобы'
+        - '&6↪ &fвернуться в &aглавное меню'
+        - '&r'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'

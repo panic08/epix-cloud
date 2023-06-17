@@ -1,0 +1,185 @@
+warps:
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 33.50495622362173
+    y: 105.0625
+    z: -29.396767574583006
+    pitch: -6.7500224
+    yaw: 179.5993
+  warpName: quests
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 37.4885568631612
+    y: 106.0
+    z: -33.69127613858016
+    pitch: -0.30002302
+    yaw: 179.89789
+  warpName: seller
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 20.055066537951653
+    y: 105.0
+    z: -1.2525098092056184
+    pitch: -9.450026
+    yaw: 43.097504
+  warpName: ah
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 27.52552209223149
+    y: 105.0
+    z: -15.55737283973452
+    pitch: -6.7500367
+    yaw: 88.69748
+  warpName: case
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 27.52552209223149
+    y: 105.0
+    z: -15.55737283973452
+    pitch: -6.7500367
+    yaw: 88.69748
+  warpName: chests
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: 33.59194676584852
+    y: 105.0625
+    z: -28.97478666275827
+    pitch: -6.7500386
+    yaw: 179.44684
+  warpName: shop
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: -5.140287988379769
+    y: 99.0
+    z: 7.496311374216086
+    pitch: -1.500035
+    yaw: 66.64752
+  warpName: mine
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: -16.896753726325763
+    y: 103.0
+    z: -46.26679020434594
+    pitch: -7.500037
+    yaw: 113.29794
+  warpName: wood
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: -17.04063312585582
+    y: 110.0
+    z: 9.068558673497824
+    pitch: -1.8000457
+    yaw: 90.79797
+  warpName: pvp
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: -17.04063312585582
+    y: 110.0
+    z: 9.068558673497824
+    pitch: -1.8000457
+    yaw: 90.79797
+  warpName: pvp_no
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: lobby
+    x: -55.18302609510278
+    y: 117.0
+    z: -5.817809512125798
+    pitch: -7.9533456E-5
+    yaw: 308.29733
+  warpName: pvp_yes
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: world_the_end
+    x: -48.800344511813016
+    y: 58.0
+    z: 24.510497988058503
+    pitch: -10.49996
+    yaw: 248.54962
+  warpName: end
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: world_nether
+    x: -4.223309854071725
+    y: 89.0
+    z: 0.0558146676524572
+    pitch: 1.5000005
+    yaw: -63.000114
+  warpName: ad
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 772.7447643246874
+    y: 64.0
+    z: 1.208693522206838
+    pitch: -3.8236644
+    yaw: -59.912426
+  warpName: topka
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: NotexTeam
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -2217.585867359977
+    y: 78.0
+    z: -1021.0324099751494
+    pitch: 18.29997
+    yaw: 169.35043
+  warpName: xxx
+- ==: ru.bestrax.core.modules.world.WarpData
+  ownerName: Misha1000TOP
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -335.8434702894338
+    y: 81.0
+    z: 2092.996725125846
+    pitch: 2.7000635
+    yaw: -90.14988
+  warpName: ezzka
+spawn:
+  ==: org.bukkit.Location
+  world: lobby
+  x: 118.5
+  y: 71.0
+  z: 116.5
+  pitch: -6.1500134
+  yaw: 89.85023

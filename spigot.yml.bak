@@ -1,0 +1,187 @@
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
+
+config-version: 11
+settings:
+  debug: false
+  save-user-cache-on-stop-only: false
+  sample-count: 12
+  timeout-time: 60
+  restart-on-crash: false
+  restart-script: ./start.sh
+  bungeecord: false
+  player-shuffle: 0
+  late-bind: true
+  int-cache-limit: 1024
+  user-cache-size: 1000
+  item-dirty-ticks: 20
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+  netty-threads: 4
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
+  moved-too-quickly-multiplier: 10.0
+  moved-too-quickly-threshold: 100.0
+  log-filters:
+  - ^(.*)(/login)(.*)$
+  bungeecord-addresses:
+  - 127.0.0.1
+  prevent-proxies: false
+messages:
+  whitelist: \n§cСервер на технических работах.\n§c Открытие сервера 26-27 сентября.
+  unknown-command: '§6§lFLEX§e§lMC§7§l: §fУвы, но данной команды не существует.'
+  server-full: \n§cОшибка присоединения к серверу - сервер переполнен
+  outdated-client: \n§cВерсии с которых можно зайти 1.12.2 - 1.16
+  outdated-server: \n§cВерсии с которых можно зайти 1.12.2 - 1.16
+  restart: §cСервер перезагружается, перезайдите через несколько минут
+commands:
+  tab-complete: -1
+  spam-exclusions:
+  - /skill
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  log: true
+  silent-commandblock-console: false
+stats:
+  disable-saving: false
+  forced-stats: {}
+advancements:
+  disable-saving: false
+  disabled:
+  - minecraft:story/disabled
+world-settings:
+  default:
+    verbose: false
+    item-despawn-rate: 4000
+    merge-radius:
+      item: 4
+      exp: 6
+    view-distance: 3
+    arrow-despawn-rate: 300
+    entity-tracking-range:
+      players: 48
+      animals: 40
+      monsters: 40
+      misc: 15
+      other: 48
+    ticks-per:
+      hopper-transfer: 24
+      hopper-check: 24
+    hopper-amount: 3
+    random-light-updates: false
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    squid-spawn-range:
+      min: 45.0
+    growth:
+      cactus-modifier: 800
+      cane-modifier: 800
+      melon-modifier: 800
+      mushroom-modifier: 800
+      pumpkin-modifier: 800
+      sapling-modifier: 800
+      wheat-modifier: 800
+      netherwart-modifier: 800
+      vine-modifier: 800
+      cocoa-modifier: 800
+    mob-spawn-range: 3
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+    entity-activation-range:
+      animals: 6
+      monsters: 16
+      misc: 2
+      tick-inactive-villagers: false
+      water: 2
+    save-structure-info: true
+    max-tnt-per-tick: 100
+    enable-zombie-pigmen-portal-spawns: false
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    nerf-spawner-mobs: true
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
+    max-entity-collisions: 1
+    chunks-per-tick: 80
+    clear-tick-list: false
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+      blocks:
+      - 1
+      - 5
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+    max-bulk-chunks: 10
+    hopper-alt-ticking: false
+timings:
+  enabled: false
+  verbose: false
+  server-name-privacy: false
+  hidden-config-entries:
+  - database
+  - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
+listeners:
+- port: default
+  host: default
+  netty: true

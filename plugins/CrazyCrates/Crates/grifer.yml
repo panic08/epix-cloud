@@ -1,0 +1,146 @@
+Crate:
+  #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateType: Wonder
+  #Name of the Inventory if a GUI crate.
+  CrateName: '&0Кейс грифера'
+  #The name of the inventory that will be in the preview GUI.
+  Preview-Name: '&0Кейс грифера'
+  #Starting amount of keys when the player 1st joins.
+  StartingKeys: 0
+  #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  InGUI: true
+  #Slot the item is in the GUI.
+  Slot: 21
+  #Enables/Disables the Broadcasts message when they open a crate.
+  OpeningBroadCast: false
+  #Message that is broadcast when opening the crate.
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &7&lBasic Chest&7.'
+  #Item the crate is in the GUI
+  Item: 'CHEST'
+  #If the crate in the main /cc GUI is glowing or not.
+  Glowing: false
+  #Name of the item in the GUI.
+  Name: '&0Кейс с валютой:'
+  #The lore of the item in the GUI.
+  Lore:
+    - '&7Этот кейс содержит разные предметы.'
+    - '&7У вас &6%Keys% ключей &7для открытия данного кейса.'
+  Preview:
+    #Turn on and off the preview for this crate.
+    Toggle: true
+    #How many lines the previewChest should have. Including Header and Bottom (Between 3 and 6)
+    ChestLines: 3
+    Glass:
+      #Turn the glass boarder in the preview on and off.
+      Toggle: true
+      #The item that shows in the boarder. Can be glass or any other item.
+      Item: 'STAINED_GLASS_PANE:7'
+  PhysicalKey:
+    #Name of the Key.
+    Name: '&bКлюч(а) &7к кейсу с валютой'
+    #Lore of the Key.
+    Lore:
+      - '&7A special Key'
+      - '&7For a special Crate.'
+    #The item the key is.
+    Item: 'TRIPWIRE_HOOK'
+    #Makes the key look enchanted.
+    Glowing: true
+  #All the prizes that can be gotten in the Crate.
+  Prizes:
+    1:
+      DisplayName: ''
+      DisplayItem: '265'
+      DisplayAmount: 64
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 70
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 265 64'
+    2:
+      DisplayName: ''
+      DisplayItem: '264'
+      DisplayAmount: 64
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 60
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 264 64'
+    3:
+      DisplayName: ''
+      DisplayItem: '266'
+      DisplayAmount: 32
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 45
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 266 32'
+    4:
+      DisplayName: ''
+      DisplayItem: '368'
+      DisplayAmount: 64
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 40
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 368 16'
+    5:
+      DisplayName: ''
+      DisplayItem: '219'
+      DisplayAmount: 1
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 35
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 219 1'
+    6:
+      DisplayName: ''
+      DisplayItem: '29'
+      DisplayAmount: 16
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 29 16'
+    7:
+      DisplayName: ''
+      DisplayItem: '154'
+      DisplayAmount: 32
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 30
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 154 32'
+    8:
+      DisplayName: ''
+      DisplayItem: '449'
+      DisplayAmount: 1
+      Lore:
+        - ''
+      MaxRange: 100
+      Chance: 40
+      Firework: true
+      Glowing: true
+      Commands:
+        - 'give %Player% 449 1'

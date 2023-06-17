@@ -1,0 +1,200 @@
+ABSENT: Отсутствует
+SELL_NO_PERMS: §6§lFLEX§e§lMC§7§l› §fНедостаточно прав.
+AUCTION_SHOW_FORMAT: '§6§lFLEX§e§lMC§7§l› §fПравильное использование команды: §a/ah
+  show §a§l[Ник]'
+AUCTION_HELP_ITEM_NAME: §6Помощь
+AUCTION_HELP_ITEM_LORE:
+- ''
+- §fДля продаэи предметов
+- '§fИспользуйте команду:'
+- §a/ah sell §a§l[Цена] [Кол-Во]
+AUCTION_ITEM_LORE:
+- ''
+- §fДанный предмет продает
+- §a%s §f%s
+- ''
+- §7Нажмите, чтобы купить §a↷
+AUCTION_MAIN_LORE:
+- ''
+- §fПокупка предметов
+- §fвыставленных на аукцион
+- ''
+- §fВ данный момент продается
+- §a%s §fтоваров
+- ''
+- §7Нажмите, чтобы открытье §a↷
+AUCTION_MAIN_HELP_LORE:
+- ''
+- §fВ первом разделе вы можете продавать
+- §fлюбые вещи за ресурсы, которые вам необходимы
+- ''
+- §fВторой раздел в меню отвечает
+- §fза покупку любых товаров, которые
+- §fбыли заранее выставлены на продажу
+- §fдругими игроками
+- ''
+- §fС помощью третьего раздела вы можете
+- §fзабрать ваши не проданные или купленные вещи
+AUCTION_MAIN_CHEST_LORE:
+- ''
+- §fЗабрать ваши предметы с аукциона
+- §fили получить обменные товары
+- §fза ваши предметы
+- ''
+- §7Нажмите, чтобы открыть §a↷
+AUCTION_MAIN_SELL_LORE:
+- ''
+- §fВыставить на продажу ваши
+- §fвещи и предметы
+- ''
+- §7Нажмите, чтобы продать §a↷
+AUCTION_SELL_ITEM_LORE:
+- ''
+- §fВложите в этот слот предмет,
+- §fкоторый хотите продать
+- ''
+AUCTION_SELL_PRICE_ITEM_LORE:
+- ''
+- §fВложите в этот слот предмет,
+- §fкоторый хотите получить после
+- §fили нажмите, чтобы открыть меню выбора
+- ''
+AUCTION_ACCEPT_WAIT_LORE:
+- ''
+- §fВложите предметы в верхние слоты
+- §fчтобы выставить их на продажу
+AUCTION_ACCEPT_ALL_LORE:
+- ''
+- §7Нажмите, чтобы подтвердить §a↷
+ACCEPT_LORE_NO:
+- §fНажмите, чтобы отменить покупку
+AUCTION_CHEST_SELLED_LORE:
+- ''
+- §fТо, что вы получили за
+- §fпродажу §a%s
+AUCTION_CHEST_NOT_AVAILABLE_LORE:
+- ''
+- §fВремя истекло, предмет снят с продажи
+AUCTION_CHEST_AVAILABLE_LORE:
+- ''
+- §7Нажмите, чтобы снять с продажи §a↷
+AUCTION_SELECT_BLOCK_LORE:
+- ''
+- §7Нажмите, чтобы выбрать предмет §a↷
+AUCTION_SELECTED_BLOCK_LORE:
+- ''
+- §fДанный предмет будет в качестве цены
+AUCTION_BUY_ITEM_LORE:
+- ''
+- §fТо, что вы покупаете
+AUCTION_BUY_PRICE_LORE:
+- ''
+- §fТо, что вы отдаете
+AUCTION_NO_RESOURCES_NAME: §cУ вас недостаточно ресурсов!
+AUCTION_BUY_GUI_ITEM_LORE:
+- ''
+- '§fПродавец: §6%s'
+- ''
+- §7Нажмите, чтобы купить §a↷
+AUCTION_SELECT_BLOCK_GUI: Выбор блока
+AUCTION_MAINGUI_NAME: Аукцион
+AUCTION_GUI_NAME: Мои предметы
+AUCTION_GUI_SELL_NAME: Продажа
+AUCTION_GUI_BUY_NAME: Покупка
+AUCTION_PLAYERGUI_NAME: Аукцион %s
+AUCTION_FORMAT_NO_ARGS: '§6§lFLEX§e§lMC§7§l› §fПравильное использование команды: §a/ah
+  sell §a§l[Цена] [Кол-Во]'
+AUCTION_SELL_AIR: §6§lFLEX§e§lMC§7§l› §fПредмет для продажи должен находится в руке.
+AUCTION_COMMAND_ERROR: §6§lFLEX§e§lMC§7§l› §fНеверная цена.
+AUCTION_COMMAND_ERROR1: §6§lFLEX§e§lMC§7§l› §fКол-во предметов должно быть больше
+  0
+AUCTION_COMMAND_ERROR2: §6§lFLEX§e§lMC§7§l› §fневерное кол-во предметов.
+AUCTION_COMMAND_ERROR3: §6§lFLEX§e§lMC§7§l› §fНевозможно продать предмет из второй
+  руки.
+AUCTION_ADD_TO_SELL: §6§lFLEX§e§lMC§7§l› §fВы §aуспешно §fвыставили товар на продажу
+  за §a%s
+AUCTION_ADD_TO_SELL_ERROR: §6§lFLEX§e§lMC§7§l› §fУ вас недостаточно предметов для
+  продажи.
+AUCTION_ITEM_ALLREADY_SELLED: §6§lFLEX§e§lMC§7§l› §fДанный лот уже купил кто-то другой.
+AUCTION_NO_MONEY: §6§lFLEX§e§lMC§7§l› §fНедостаточно средств для покупки.
+AUCTION_BUY_YOU_ERROR: §6§lFLEX§e§lMC§7§l› §fНевозможно купить свой же товар.
+AUCTION_BUY: §6§lFLEX§e§lMC§7§l› §fВы §aуспешно §fкупили §f%s §fx §f%s §fза §6⛂%s
+AUCTION_BUY_SELLER: §6§lFLEX§e§lMC§7§l› §fИгрок §a%s §fкупил у вас §f%s §fx §f%s §fза
+  §6⛂%s
+AUCTION_LIMIT_ERROR: §6§lFLEX§e§lMC§7§l› §fВы выставили слишком много лотов. Дождитесь
+  пока их купят.
+AUCTION_SHOW_ERROR: §6§lFLEX§e§lMC§7§l› §fУ игрока §6%s §fнет активных товаров на
+  продаже.
+AUCTION_TYPE_ARMOR_NAME: Броня
+AUCTION_TYPE_WEAPON_NAME: Оружие
+AUCTION_TYPE_TOOLS_NAME: Инструменты
+AUCTION_TYPE_FOOD_NAME: Еда
+AUCTION_TYPE_POTION_NAME: Зелья
+AUCTION_TYPE_BLOCKS_NAME: Блоки
+AUCTION_TYPE_ENCHANTING_NAME: Зачарования
+AUCTION_TYPE_RESOURCES_NAME: Ресурсы
+AUCTION_TYPE_FARMING_NAME: Растения
+AUCTION_TYPE_OTHER_NAME: Остальное
+AUCTION_TYPE_ALL_NAME: Все
+AUCTION_NO_ITEMS_NAME: Ничего не найдено
+AUCTION_CATEGORY_NAME: Текующая категория предметов
+AUCTION_MYGUI_ITEM_NAME: §6Мои товары
+AUCTION_MYGUI_ITEM_LORE:
+- ''
+- §fОткрыть список моих товаров,
+- §fкоторые выставленны на торги
+- ''
+- §7Нажмите, чтобы перейти §a↷
+AUCTION_CATEGORY_LORE:
+- ''
+- §fВ данный момент вы включили
+- §fотображение предметов - §f%s
+- ''
+- §7Нажмите, чтобы сменить категорию §a↷
+AUCTION_NO_ITEMS_LORE:
+- ''
+- §fКажется, я ничего не нашел,
+- §fили предметы отсутствуют
+AUCTION_REMOVED_ITEM: §6§lFLEX§e§lMC§7§l› §fВы §aуспешно §fсняли лот с аукциона.
+AUCTION_LORE_MYGUI:
+- ''
+- '§fЦена продажи: §6%s⛂'
+- '§fИстекает через:'
+- §a%s
+- ''
+- §7Нажмите, чтобы снять лот §a↷
+AUCTION_NO_AUCTION: Снят с продажи
+AUCTION_SUB_TYPE_LORE:
+- ''
+- §fОтсортировать все предметы
+- §fпо данному типу
+- ''
+- §7Нажмите, чтобы выбрать категорию §a↷
+AUCTION_COMMAND_HELP:
+- §a/ah §f- открыть аукцион.
+- §a/ah sell §a§l[Цена] [Кол-Во] §f- выставить предметы в руке на продажу.
+- §a/ah show §a§l[Ник] §f- посмотреть продаевые предметы этим игроком.
+AUCTION_CONFIRMED_GUI: Подтверждение покупки
+AUCTION_CONFIRMED_GUI_LORE:
+- ''
+- '§fкупить §7%s §fx §7%s '
+- §fза §6%s⛂ §fу игрока §a%s
+- ''
+AUCTION_LORE_ITEM:
+- ''
+- '§fПродавец: §a%s'
+- '§fЦена: §6%s⛂'
+- '§fИстекает через:'
+- §a%s
+- ''
+- §7Нажмите ЛКМ, чтобы купить §a↷
+- §7§7Нажмите ПКМ, чтобы открыть все товары продавца §a↷
+PROFILE_BACK_ITEM_NAME: §cВернуться назад
+PROFILE_BACK_ITEM_LORE2:
+- ''
+- §fНажмите, чтобы вернуться назад
+CANCEL_NAME: §cОтменить
+CONFIRMED_NAME: Подтвердить
+PAGE_ARROW1: §6Следующая страница
+PAGE_ARROW_LORE: §7Нажмите, чтобы перейти §a↷
+PAGE_ARROW2: §6Следующая страница

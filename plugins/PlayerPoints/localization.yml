@@ -1,0 +1,51 @@
+message:
+  noPermission: '§6§lREFIX§e§lWORLD§7§l: &fУ вас недостаточно прав.'
+  noConsole: '§6§lREFIX§e§lWORLD§7§l: &fДанная команда доступна только игрокам.'
+  notIntenger: '&r'
+  reload: '§6§lREFIX§e§lWORLD§7§l: &fКонфигурация плагина &aуспешно &fперезагружена.'
+  broadcast: '§6§lREFIX§e§lWORLD§7§l: &fИгрок &a&l%player &fимеет на счету &dⓅ%amount
+    &fрублей&f.'
+  command:
+    unknown: '§6§lREFIX§e§lWORLD§7§l: &fНеизвестная команда'
+    give: '§6§lREFIX§e§lWORLD§7§l: &fВыдать рубли: &a/points give &a&l[Ник] [Рубли]'
+    giveall: '§6§lREFIX§e§lWORLD§7§l: &fВыдать всем рубли: &a/points giveall &a&l[Рубли]'
+    take: '§6§lREFIX§e§lWORLD§7§l: &fЗабрать рубли: &a/points take &a&l[Ник] [Рубли]'
+    look: '§6§lREFIX§e§lWORLD§7§l: &fПосмотреть аккаунт: &a/points look &a&l[Ник]'
+    pay: '§6§lREFIX§e§lWORLD§7§l: &fПеревести рубли: &a/points give &a&l[Ник] [Рубли]'
+    set: '§6§lREFIX§e§lWORLD§7§l: &fУстановить рубли: &a/points set &a&l[Ник] [Рубли]'
+    reset: '§6§lREFIX§e§lWORLD§7§l: &fОчистить рубли: &a/points reset &a&l[Ник]'
+    me: '§6§lREFIX§e§lWORLD§7§l: &fПосмотреть свой аккаунт: &a/points me'
+    lead: '§6§lREFIX§e§lWORLD§7§l: &f/points lead'
+    broadcast: '§6§lREFIX§e§lWORLD§7§l: &f/points broadcast &a&l[Ник]'
+  points:
+    success: '§6§lREFIX§e§lWORLD§7§l: &fИгрок &a&l%player &fимеет на счету &dⓅ%amount
+      &fрублей&f.'
+    successall: '§6§lREFIX§e§lWORLD§7§l: &fВы раздали &dⓅ%amount &fрублей&f, рубли
+      получили &a&l%player &fигроков.'
+    fail: '§6§lREFIX§e§lWORLD§7§l: &fВы не смогли выдать/забрать &dрубли &fигрокам&f.'
+    failall: '§6§lREFIX§e§lWORLD§7§l: &fВы не смогли передать &dⓅ%amount &fрублей
+      &a&l%player&f игрокам&f.'
+    look: '§6§lREFIX§e§lWORLD§7§l: &fИгрок &a&l%player &fимеет на счету &dⓅ%amount
+      &fрублей&f.'
+    pay:
+      send: '§6§lREFIX§e§lWORLD§7§l: &fВы отправили &dⓅ%amount &fрублей &fигроку &a&l%player&f.'
+      receive: '§6§lREFIX§e§lWORLD§7§l: &fВы получили &dⓅ%amount &fот &cнеизвестного
+        &fигрока.'
+      invalid: '§6§lREFIX§e§lWORLD§7§l: &fНельзя отправить данное число.'
+    lack: '§6§lREFIX§e§lWORLD§7§l: &fУ вас недостаточно &dрублей &fна игровом счету.'
+    reset: '§6§lREFIX§e§lWORLD§7§l: &fРубли &fигроку &a&l%player &fбыли успешно возвращены.'
+    me: '§6§lREFIX§e§lWORLD§7§l: &fНа вашем счету &dⓅ%amount &fрублей&f.'
+  help:
+    header: ''
+    me: '&8• &fУзнать свое количество &dрублей&f - &a/points me '
+    give: '&8• &fВыдать игроку &dрубли &f- &a/points give &a&l[Ник] [Рубли]'
+    giveall: '&8• &fВыдать всем игрокам &dрубли&f - &a/points giveall &a&l[Рубли]'
+    take: '&8• &fЗабрать у игрока &dрубли &f - &a/points take &a&l[Ник] [Рубли]'
+    look: '&8• &fПосмотреть количество &dрублей &fу игрока - &a/points look &a&l[Ник]'
+    set: '&8• &fУстановить количество &dрублей &fигроку - &a/points set &a&l[Ник]
+      [Рубли]'
+    reset: '&8• &fВосстановить количество &dрублей&f - &a/points reset &a&l[Ник]'
+    pay: '&8• &fОтправить &dрубли &fигроку - &a/points pay &a&l[Ник] [Рубли]'
+    lead: '&8• &fТаблица лидеров - &a/points lead'
+    broadcast: ''
+    reload: '&8• &fПерезагрузить плагин - &a/points reload'

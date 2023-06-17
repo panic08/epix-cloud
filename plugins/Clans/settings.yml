@@ -1,0 +1,11 @@
+cost: 50000.0
+slots: 15
+maxlvl: 35
+clan_min_lenght: 2
+clan_max_lenght: 12
+chat:
+  format: ''
+  owner_prefix: '**'
+  mod_prefix: '*'
+clan_chat:
+  format: '&8[&f&l%clan%&r&8] &c%player% &8&l»&r &f%message%'

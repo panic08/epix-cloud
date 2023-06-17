@@ -1,0 +1,23 @@
+timeout: 25
+min_online: 3
+top_location: lobby;63;73;94
+hd_placeholder_id: '%gora'
+hd_placeholder_empty: '&6&lникто'
+king_more_players_message: '§6§lREFIX§e§lWORLD§7§l: &fВаши результаты анулированы!'
+king_more_players_remain_message: '§6§lREFIX§e§lWORLD§7§l: &fНа платформе больше 2ух игроков.
+  У вас есть &a%time'
+already_has_current_king: '§6§lREFIX§e§lWORLD§7§l: &fДанную гору уже захватывает &a%name&f,
+  столкните его!'
+small_online_message: '§6§lREFIX§e§lWORLD§7§l: &fСлишком мало игроков на сервере, чтоб
+  играть в &aЦаря Горы'
+more_players_message: '§6§lREFIX§e§lWORLD§7§l: &fНа горе более &c1&f игрока!'
+remain_time_message: '§6§lREFIX§e§lWORLD§7§l: &fУдержись еще &e&l%time&e сек&f, чтобы стать
+  &aЦарем Горы!'
+already_king_message: '§6§lREFIX§e§lWORLD§7§l: &fТы уже Царь Горы!'
+fly_or_creative_message: '§6§lREFIX§e§lWORLD§7§l: &fОтключи &aФлай/Креатив/Бессмертие,
+  &fчтобы попробовать стать &cЦарем Горы!'
+actions:
+- 'broadcast: §6§lREFIX§e§lWORLD§7§l: &fИгрок &6%name &fстал царем горы! Он получает: &e&l500&6⛂ &7(/warp
+  king)'
+- title:&a&lПОЗДРАВЛЯЕМ;;&fВы стали царем горы и получили &e&l500&6⛂
+- command:eco give %name 500

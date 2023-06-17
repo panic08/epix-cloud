@@ -1,0 +1,5 @@
+teleport-location: lobby;118.5;71.0;116.5;89.85023;-6.1500134
+yPosition: -5
+disabledWorlds:
+- world_nether
+- world_the_end

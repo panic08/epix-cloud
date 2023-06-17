@@ -1,0 +1,83 @@
+world: 'world' # Мир в котором будет телепорт.
+x-max: 3000
+z-max: 3000
+x-min: -3000
+z-min: -3000
+avoid-blocks:
+  - AIR
+  - LAVA
+  - STATIONARY_LAVA
+  - WATER
+  - STATIONARY_WATER
+near: 100
+min: 1 # Минимальное число игроков для /rtp near
+message:
+  rtp-safe:
+    - '§6§lUNIX§f§lMINE§7§l: &fВы телепортировались на координаты &a&l{xyz}'
+    - 'title;&4&l◄ §6§lUNIX§f§lMINE§7§l &4&l►;&fВы были телепортированы на координаты &a&l{xyz}'
+  rtp-near:
+    - '§6§lUNIX§f§lMINE§7§l: &fВы телепортировались рядом с игроком'
+    - 'title;&4&l◄ §6§lUNIX§f§lMINE§7§l &4&l►;&fВы были телепортированы рядом с &a&l{name}'
+  permission:
+    - '§6§lUNIX§f§lMINE§7§l: &fУ вас недостаточно прав, наш сайт: &e&lUnixDonate.ru'
+  argument:
+    - '§6§lUNIX§f§lMINE§7§l: &fНеверный аргумент.'
+  disable:
+    - '§6§lUNIX§f§lMINE§7§l: &fВы не можете использовать рандомную телепортацию в этом мире.'
+  cooldown:
+    - '§6§lUNIX§f§lMINE§7§l: &fПеред использованием телепортации подождите еще &a&l{cooldown} &fсекунд(ы)'
+  min:
+    - '§6§lUNIX§f§lMINE§7§l: &fВы не можете телепортироваться, в вашем мире меньше 10 игроков.'
+groups:
+  default:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 30
+    near: false
+  lite:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 25
+    near: false
+  knight:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 20
+    near: false
+  paladin:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 20
+    near: false
+  dragon:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 15
+    near: false
+  ryzen:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 13
+    near: false
+  imperator:
+    near-cooldown: 30 # 1 - 1 секунда.
+    safe-cooldown: 10
+    near: false
+  moderdon:
+    near-cooldown: 15 # 1 - 1 секунда.
+    safe-cooldown: 7
+    near: true
+  staff:
+    near-cooldown: 10 # 1 - 1 секунда.
+    safe-cooldown: 5
+    near: true
+  youtube:
+    near-cooldown: 10 # 1 - 1 секунда.
+    safe-cooldown: 5
+    near: true
+  tiktok:
+    near-cooldown: 10 # 1 - 1 секунда.
+    safe-cooldown: 5
+    near: true
+  moder:
+    near-cooldown: 5 # 1 - 1 секунда.
+    safe-cooldown: 5
+    near: true
+  helper:
+    near-cooldown: 5 # 1 - 1 секунда.
+    safe-cooldown: 1
+    near: true

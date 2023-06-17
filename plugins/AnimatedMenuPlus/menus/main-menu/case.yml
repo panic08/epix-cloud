@@ -1,0 +1,99 @@
+Menu-Name: '&0&lГРИФЕРСКИЕ КЕЙСЫ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Command:
+  Name: case;griefcase
+Rows: 3
+Items:
+- Slot:
+  - 1, 1
+  - 9, 1
+  - 1, 3
+  - 9, 3
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 1, 2
+  - 9, 2
+  Material: stained_glass_pane:1:14
+  Name: '&r'
+- Slot: 3, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdhYWRmZjlkZGM1NDZmZGNlYzZlZDU5MTljYzM5ZGZhOGQwYzA3ZmY0YmM2MTNhMTlmMmU2ZDdmMjU5MyJ9fX0='
+  Name: '&6&lКЕЙС С ЕДОЙ'
+  Lore:
+  - ''
+  - '&fЦена кейса: &6⛂599'
+  - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+  - ''
+  - '&a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ]'
+  - ''
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Requirement-Script: '%vault_eco_balance_fixed% >= 599'
+  Script-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно средств.'
+  Close: on-failure
+  Commands:
+  - 'console: crate forceopen eda %player_name%'
+  - 'console: eco take %player_name% 599'
+- Slot: 4, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19'
+  Name: '&6&lКЕЙС С ОПЫТОМ'
+  Lore:
+  - ''
+  - '&fЦена кейса: &6⛂1899'
+  - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+  - ''
+  - '&a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ]'
+  - ''
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Requirement-Script: '%vault_eco_balance_fixed% >= 1899'
+  Script-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно средств.'
+  Close: on-failure
+  Commands:
+  - 'console: crate forceopen opit %player_name%'
+  - 'console: eco take %player_name% 1899'
+- Slot: 6, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxYjE2MTc3MGYwMjAyMzdiNGFhMWU5MjhjNTQ4MGM4YjM2Y2JmZTNhNmFhYjllMjJlNTU3YzFkOTEwIn19fQ=='
+  Name: '&6&lКЕЙС С МОНЕТКАМИ'
+  Lore:
+  - ''
+  - '&fЦена кейса: &6⛂5999'
+  - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+  - ''
+  - '&a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ]'
+  - ''
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Requirement-Script: '%vault_eco_balance_fixed% >= 5999'
+  Script-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно средств.'
+  Close: on-failure
+  Commands:
+  - 'console: crate forceopen money %player_name%'
+  - 'console: eco take %player_name% 5999'
+- Slot: 7, 2
+  Material: skull:1:3
+  Skull-Owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNlZTNhZWFkZDY4YjI0N2ZkZmUzZWE3YmMwMDhkMTJmZDk3YWMxNWVkMTViZjc0Njg1NDNhMDY2ODAifX19'
+  Name: '&6&lКЕЙС С ГРИФЕРА'
+  Lore:
+  - ''
+  - '&fЦена кейса: &6⛂6999'
+  - '&fБаланс: &6⛂%vault_eco_balance_fixed%'
+  - ''
+  - '&a[НАЖМИТЕ ЧТОБЫ ОТКРЫТЬ]'
+  - ''
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Requirement-Script: '%vault_eco_balance_fixed% >= 6999'
+  Script-Message: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ вас недостаточно средств.'
+  Close: on-failure
+  Commands:
+  - 'console: crate forceopen grifer %player_name%'
+  - 'console: eco take %player_name% 6999'

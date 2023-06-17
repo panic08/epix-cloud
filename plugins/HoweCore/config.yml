@@ -1,0 +1,39 @@
+# Настройки
+settings:
+  world-save-location:
+    - 'world'
+    - 'lobby'
+    - 'world_nether'
+    - 'world_the_end'
+  tpa_timeout: 60 # Через сколько запрос на телепортацию автоматически удалится
+  near_radius: 200 # Радус ближайших игроков.
+  repair_cost_hand: 5000 # Стоимость починки предмета.
+  repair_cost_all: 10000 # Стоимость починки всех предметов.
+  chat:
+    chars-allowed: ~ `1!2@3#4$5%6^7&§8*9(0)-_=+ qQwWeErRtTyYuUiIoOpP[{]}\| aAsSdDfFgGhHjJkKlL;:'\" zZxXcCvVbBnNmM,<.>/? ёЁ!№ йЙцЦуУкКеЕнНгГшШщЩзЗхХъЪ фФыЫвВаАпПрРоОлЛдДжЖэЭ яЯчЧсСмМиИтТьЬбБюЮ
+    caps: false # Запретить капс
+    swears: true # Запрещенные слова
+    cooldown: true # Задержка на сообщения
+    cooldowntime: 5 # Время задержки на сообщения
+    local: true # Локальный чат
+    local_radius: 200 # Радиус локального чата
+    new-player-time: 900 # Блокировка чата новому игроку (В секунах)
+    new-player-block: false # Блокировка чата новому игроку
+    blacklist-commands: # Запрещенные команды при блокировке чата
+      - 'm'
+      - 'w'
+      - 'msg'
+      - 'pm'
+      - 'tell'
+      - 'r'
+      - 'message'
+  disguise:
+    words_name:
+      - 'NotexTeam'
+    words_group: # Обход core.disguise.bypass.group
+      - 'flex'
+      - 'yt'
+
+disable: # Что отключить, true - отключить, false - оставить.
+  join: true
+  quit: true

@@ -1,0 +1,93 @@
+main:
+  title: '§0§lВыбор квестов'
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+    quest1:
+      name: '§6§l♫ §f§lФЕРМЕР'
+      quest: farmer
+      material: WHEAT
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете просмотреть'
+      - '&6&l┗ &fКвесты и магазин фермера!'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 21
+    quest2:
+      name: '§6§l♫ §f§lАЛХИМИК'
+      quest: alximik
+      material: BLAZE_POWDER
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете просмотреть'
+      - '&6&l┗ &fКвесты и магазин алхимика!'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 23
+#    quest3:
+#      name: '§6Кузнец'
+#      quest: kyznec
+#      material: HAY_BLOCK
+#      amount: 1
+#      slot: 23

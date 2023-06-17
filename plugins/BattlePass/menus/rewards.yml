@@ -1,0 +1,103 @@
+menu-title: '&0&lНаграды'
+menu-rows: 6
+draw-past-max-tier: false
+
+free-reward-slots:
+  slots: '10...12, 19...21, 28...30'
+
+premium-reward-slots:
+  slots: '14...16, 23...24'
+
+progress-track-slots:
+  slots: ''
+
+menu:
+  '0':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '9':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '18':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '27':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '36':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '45':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '8':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '17':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '26':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '35':
+    item:
+      material: stained_glass_pane:14
+      name: '§r'
+      lore: []
+  '44':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '53':
+    item:
+      material: stained_glass_pane:1
+      name: '§r'
+      lore: []
+  '48':
+    item:
+      material: spectral_arrow
+      name: '&6&lПРЕДЫДУЩИЯ СТРАНИЦА'
+      lore:
+        - '&r'
+        - '&6↪ &fНажмите сюда, чтобы'
+        - '&6↪ &fвключить в &aпредыдущую страницу'
+        - '&r'
+    actions:
+      - '[menu](page = 1) {portal}'
+      - '[menu](page ! 1) {previous-page}'
+  '50':
+    item:
+      material: spectral_arrow
+      name: '&6&lСЛЕДУЮЩАЯ СТРАНИЦА'
+      lore:
+        - '&r'
+        - '&6↪ &fНажмите сюда, чтобы'
+        - '&6↪ &fвключить в &aследующую страницу'
+        - '&r'
+
+static-items:
+  progress-track-locked-item:
+    material: 'black_stained_glass_pane:0'
+    name: 'Уровень %tier%'
+  progress-track-unlocked-item:
+    material: 'lime_stained_glass_pane:0'
+    name: 'Уровень %tier%'

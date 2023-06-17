@@ -1,0 +1,6 @@
+Name: staff
+Cooldown: 81600
+Permission: greatkits.kits.staff
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false

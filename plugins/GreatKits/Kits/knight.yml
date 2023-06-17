@@ -1,0 +1,143 @@
+Name: knight
+Cooldown: 86400
+Permission: greatkits.kits.knight
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 2
+        DURABILITY: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 2
+        ARROW_DAMAGE: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 1
+        LOOT_BONUS_BLOCKS: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SPADE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 1
+        DURABILITY: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: COOKED_BEEF
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: LOG
+    amount: 48
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOL
+    damage: 1
+    amount: 32
+  - ==: org.bukkit.inventory.ItemStack
+    type: LOG
+    damage: 2
+    amount: 48
+  - ==: org.bukkit.inventory.ItemStack
+    type: COBBLESTONE
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+    amount: 16
+  - ==: org.bukkit.inventory.ItemStack
+    type: ENDER_PEARL
+    amount: 4
+  - ==: org.bukkit.inventory.ItemStack
+    type: ARROW
+    amount: 64
+  - ==: org.bukkit.inventory.ItemStack
+    type: SHIELD
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 1
+        DURABILITY: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        THORNS: 1
+        DURABILITY: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 2
+        THORNS: 1
+        DURABILITY: 2
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 3
+        THORNS: 1
+        DURABILITY: 2

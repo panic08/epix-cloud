@@ -1,0 +1,432 @@
+# 
+# Плагин был разработан командой разработчиков студии "MoonStudio" и является их гордостью.
+# По любым вопросам просьба клиентам незамедлительно обращаться в сообщения сообщества.
+# Vk: vk.com/moonstudio_mc
+DEFAULT_HOLOGRAM:
+- '&6&lОТКРЫТИЕ КЕЙСОВ'
+- '&fОткрой кейс и выйграй приз!'
+- '&fПокупка кейсов - &a&lFlexMC.ru'
+HISTORY:
+  FORMAT:
+    NAME: '&a&l{player}'
+    LORE:
+    - ''
+    - ' &8▪ &fДата открытия: &a{date}'
+    - ' &8▪ &fВремя открытия: &c{time}'
+    - ' &8▪ &fВыигрыш: {prize}'
+    - ''
+  PRIZES:
+  - lenov0;§f§c§lПАЛАДИН;24.09.2021;02:13:01
+  - lenov0;§f§6§lРЫЦАРЬ;24.09.2021;02:12:44
+  - lenov0;§f§5§lДРАГОН;24.09.2021;02:12:01
+  - lenov0;§f§c§lПАЛАДИН;24.09.2021;02:11:47
+  - lenov0;§f§c§lПАЛАДИН;24.09.2021;02:11:13
+  - goldmers56;§f§c§lПАЛАДИН;24.09.2021;12:24:15
+  - Skeletonik;§f§a§lЛАЙТ;24.09.2021;12:19:36
+  - Skeletonik;§f§c§lПАЛАДИН;24.09.2021;12:19:16
+  - Skeletonik;§f§a§lЛАЙТ;24.09.2021;12:18:58
+GUI:
+  ROWS: 6
+  TITLE: '&7Кейсы'
+  CASES_ITEMS:
+    donate:
+      ID: DIAMOND
+      SLOT: 21
+      NAME: '&6&lКЕЙС С ДОНАТОМ'
+      LORE:
+      - ' &8▪ &fКоличество ключей на вашем счету: &b&l%cases_donate% &bшт.'
+      - ''
+      - ' &8▪ &fВыигрыш в кейсе:'
+      - ' &e15% &8&l|&r &b&l৩ &b&lЛЕГЕНДА &7(&b/getbox&7)'
+      - ' &e37% &8&l|&r &5&l৩ &5&lДРАГОН &7(&5/getbox&7)'
+      - ' &e40% &8&l|&r &c&l৩ &c&lПАЛАДИН &7(&c/getbox&7)'
+      - ' &e45% &8&l|&r &6&l৩ &6&lРЫЦАРЬ &7(&6/getbox&7)'
+      - ' &e50% &8&l|&r &a&l৩ &a&lЛАЙТ &7(&a/getbox&7)'
+      - ''
+      - ' &8▪ &fКупить кейсы можно на сайте:'
+      - '  &5&l↳ &d&lwww.FlexMC.ru&r'
+      - ''
+    rubcase:
+      ID: TRIPWIRE_HOOK
+      SLOT: 23
+      NAME: '&6&lКЕЙС С РУБЛЯМИ'
+      LORE:
+      - ' &8▪ &fКоличество ключей на вашем счету: &b&l%cases_rubcase% &bшт.'
+      - '&r'
+      - ' &c⚠ &lВнимание!&r &fШансы в кейсах увеличены.'
+      - ' &8▪ &fОткрыв этот кейс, вы &d&lТОЧНО ПОЛУЧИТЕ'
+      - ' &8▪ &fодин из &c&lУНИКАЛЬНЫХ &fпризов на сервере.'
+      - ' &8▪ &fУ нас отсутствует подкрутка, только &a&lчестный рандом'
+      - ''
+      - ' &a↳ &a&l1x &fКейс с Рублями &7> &a&l49 &fРублей'
+      - ' &b↳ &b&l3x &fКейс с Рублями &7> &b&l99 &fРублей'
+      - ' &c↳ &c&l5x &fКейс с Рублями &7> &c&l149 &fРублей &7(&c&lСКИДКА&7)'
+      - ' &d↳ &d&l10x &fКейс с Рублями &7> &d&l219 &fРублей &7(&d&lСКИДКА&7)'
+      - ''
+      - ''
+      - ' &8▪ &fКупить кейсы можно на сайте:'
+      - '  &5&l↳ &d&lwww.FlexMC.ru&r'
+      - ''
+  DEFAULT_ITEMS:
+    info:
+      SLOT: 21
+      ID: PAPER
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass1:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass2:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass3:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass4:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass5:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass6:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass7:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass8:
+      SLOT: 8
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass9:
+      SLOT: 9
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass10:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass11:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass12:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass13:
+      SLOT: 17
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass14:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass15:
+      SLOT: 0
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass16:
+      SLOT: 27
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass17:
+      SLOT: 35
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass18:
+      SLOT: 36
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass19:
+      SLOT: 44
+      ID: LEGACY_STAINED_GLASS_PANE:1
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass20:
+      SLOT: 18
+      ID: LEGACY_STAINED_GLASS_PANE:14
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+    glass21:
+      SLOT: 26
+      ID: LEGACY_STAINED_GLASS_PANE:14
+      NAME: ''
+      LORE:
+      - ''
+      AMOUNT: 1
+MESSAGES:
+  NO_PERMISSIONS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ Вас недостаточно прав!'
+  HELP:
+  - ''
+  - '&8▪ &fВыдать кейсы игроку - &a/cases give [ник] [название_кейса] [количество]'
+  - '&8▪ &fУстановить кейсы игроку - &a/cases set [ник] [название_кейса] [количество]'
+  - '&8▪ &fОтнять кейсы у игрока - &a/cases delete [ник] [название_кейса] [количество]'
+  - '&8▪ &fУстановить кейс - &a/cases setcase [направление x или z]'
+  - ''
+  NOT_NUMERIC: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы неправильно ввели число!'
+  COMMAND_GIVE_USE: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы неправильно ввели команду!'
+  COMMAND_SET_USE: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы неправильно ввели команду!'
+  COMMAND_DELETE_USE: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы неправильно ввели команду!'
+  COMMAND_SETCASE_USE: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы неправильно ввели команду!'
+  COMMAND_GIVE_SUCCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы выдали игроку &a{player}&f &e{amount}&f
+    &e{case} &fкейсов!'
+  COMMAND_SET_SUCCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы установили игроку &a{player}&f &e{amount}&f
+    &e{case} &fкейсов!'
+  COMMAND_DELETE_SUCCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы отняли у игрока &a{player}&f &e{amount}&f
+    &e{case} &fкейсов!'
+  COMMAND_SETCASE_SUCCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы успешно установили кейс по направлению
+    вращения &e{direction}'
+  COMMAND_DELCASE_SUCCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы успешно удалили локацию последнего
+    кейса!'
+  COMMAND_DELCASE_NOT_FOUND: '&6&lＦｌｅｘ&c&lＭＣ &8› &fНа данный момент не установлен
+    ещё ни один кейс!'
+  CASE_NOT_LOADED: '&6&lＦｌｅｘ&c&lＭＣ &8› &fНепредвиденная ошибка!'
+  CASE_IN_OPEN: '&6&lＦｌｅｘ&c&lＭＣ &8› &fКейс уже открывается, пожалуйста, подождите!'
+  NO_CASES: '&6&lＦｌｅｘ&c&lＭＣ &8› &fУ Вас нет &e{case} &fкейсов!'
+  COMMAND_SETCASE_SUCESS: '&6&lＦｌｅｘ&c&lＭＣ &8› &fВы успешно установили кейс по направлению
+    вращения &e{direction}'
+  CASE_IS_OPEN: '&6&lＦｌｅｘ&c&lＭＣ &8› &fКейс уже открывает кто-то другой!'
+CASES:
+  donate:
+    OPEN_MESSAGES:
+    - ''
+    - '  &8▪ &fИгрок &a{player} &fоткрывает &a&lДонат-Кейс&f &7(/warp case)'
+    - '  &8▪ &fКейс можно получить командой: &b&l/ＧＥＴＢＯＸ'
+    - ''
+    LEVEL_GROUPS:
+      ENABLE: true
+      LEVELS:
+        default: 0
+        lite: 1
+        knight: 2
+        paladin: 3
+        dragon: 4
+        legenda: 5
+        imperator: 6
+        rolex: 7
+        admin: 8
+        youtube: 9
+        tiktok: 10
+        moder: 11
+        veltik: 12
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: true
+      ROTATE_TIME: 3
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 8
+    ITEMS:
+      lite:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFhZTJiNjkxYjlhOTU3N2MzNWU0ZDg4NTQ0M2JlYzk1NzNlN2M3YzNkNDYxOWM4ZjljN2VlOWU1MDIxIn19fQ==
+        GROUP: lite
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&a&lЛАЙТ'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &a&lЛАЙТ
+        CHANCE: 10
+      knight:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyMjQ2ZmY4YjZjNjE3MTY4ZWRhZWMzOTY2MDYxMmU3MmE1NGFiMmVhY2MyN2M1ZTgxNWU0YWM3MDIzOWUzYSJ9fX0=
+        GROUP: knight
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&6&lРЫЦАРЬ'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &6&lРЫЦАРЬ
+        CHANCE: 20
+      paladin:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4ZmI2YjJiM2VmYTZhYjI5OWY5ZjRlN2Q4YzFhMWQ3MzM4NzUzYmRmOGZlZjgxMDc1ZjIxNTU5NDNiYzY5In19fQ==
+        GROUP: paladin
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&c&lПАЛАДИН'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &c&lПАЛАДИН
+        CHANCE: 30
+      dragon:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5YTIzNzUzNjNiZTg5MTM4MWQ0MmM0NWIzNzc1NTNjMmI2ZTBmYmRjMTZkZWY1ZmJjNmIzMmVkNWNhZDdhNyJ9fX0=
+        GROUP: dragon
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&5&lДРАГОН'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &5&lДРАГОН
+        CHANCE: 40
+      legenda:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0MjdhZGZmMzU2ZjA5NDVlYmJhMzkxY2EwZWVmNDY1YWUxNzQ2MWVhN2M1M2FkMTczZmJiNmM3ZjM2YTgifX19
+        GROUP: legenda
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&b&lЛЕГЕНДА'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &b&lЛЕГЕНДА
+        CHANCE: 15
+      imperator:
+        TYPE: GROUP
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzFkZjcwZGM5ODg1ZTQxOGI1OGQ4ZTc0ODZhODFlZDRlYzJlNzk2M2M0MjU2OWM0NjgwODRkNGY1NjdjNiJ9fX0=
+        GROUP: imperator
+        GROUP_COMMAND: lp user {player} group add {group}
+        TITLE: '&d&lИМПЕРАТОР'
+        COMMANDS:
+        - tm;&a&lПОЗДРАВЛЯЕМ!;&fВы выбили &d&lИМПЕРАТОР
+        CHANCE: 1
+  rubcase:
+    OPEN_MESSAGES:
+    - ''
+    - ' &6► &fИгрок &a&l{player} &fоткрывает &a&lРублевый-Кейс&f &7(/warp case)'
+    - ' &6► &fСайт для покупки - &6&lFlexMC.ru'
+    - ''
+    ANIMATION_SETTINGS:
+      ROTATE_SOUND: UI_BUTTON_CLICK
+      END_SOUND: BLOCK_CHEST_CLOSE
+      RADIUS: 1.5
+      USE_FROSTLORD: true
+      ROTATE_TIME: 3
+      ITEMS_SPEED: 11.5
+      PARTICLES_SPEED: 8
+    ITEMS:
+      125r:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+        TITLE: '&e125Ⓟ'
+        COMMANDS:
+        - console;p give {player} 125
+        - bc;&r
+        - bc; &6► &fИгрок &a&l{player} &fвыиграл &e125Ⓟ &fв кейсе с &e&lРублями
+        - bc; &6► &fКупить ключи без &e&lкомиссии&7 можно на сайте &e&nFlexMC.ru&r
+        - bc; &f       &7&oПовышенные шансы +70% на целый день!
+        - bc;&r
+        - tm;&e125Ⓟ;Поздравляем!
+        CHANCE: 20
+      250r:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+        TITLE: '&e250Ⓟ'
+        COMMANDS:
+        - console;p give {player} 250
+        - bc;&r
+        - bc; &6► &fИгрок &a&l{player} &fвыиграл &e250Ⓟ &fв кейсе с &e&lРублями
+        - bc; &6► &fКупить ключи без &e&lкомиссии&7 можно на сайте &e&nFlexMC.ru&r
+        - bc; &f       &7&oПовышенные шансы +70% на целый день!
+        - bc;&r
+        - tm;&e250Ⓟ;Поздравляем!
+        CHANCE: 20
+      500r:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+        TITLE: '&e500Ⓟ'
+        COMMANDS:
+        - console;p give {player} 500
+        - bc;&r
+        - bc; &6► &fИгрок &a&l{player} &fвыиграл &e500Ⓟ &fв кейсе с &e&lРублями
+        - bc; &6► &fКупить ключи без &e&lкомиссии&7 можно на сайте &e&nFlexMC.ru&r
+        - bc; &f       &7&oПовышенные шансы +70% на целый день!
+        - bc;&r
+        - tm;&e500Ⓟ;Поздравляем!
+        CHANCE: 20
+      750r:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+        TITLE: '&e750Ⓟ'
+        COMMANDS:
+        - console;p give {player} 750
+        - bc;&r
+        - bc; &6► &fИгрок &a&l{player} &fвыиграл &e750Ⓟ &fв кейсе с &e&lРублями
+        - bc; &6► &fКупить ключи без &e&lкомиссии&7 можно на сайте &e&nFlexMC.ru&r
+        - bc; &f       &7&oПовышенные шансы +70% на целый день!
+        - bc;&r
+        - tm;&e750Ⓟ;Поздравляем!
+        CHANCE: 20
+      1000r:
+        TYPE: COMMAND
+        ID: LEGACY_SKULL_ITEM;eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyZjRhOWQxODJjYzYyNTkyNWU1ZGVhN2UyOWQxM2E5NDhhZDY0ZmY0Mjg3MTc4YWYyM2EwNDI4ZTFmYTU0ZSJ9fX0=
+        TITLE: '&e1000Ⓟ'
+        COMMANDS:
+        - console;p give {player} 1000
+        - bc;&r
+        - bc; &6► &fИгрок &a&l{player} &fвыиграл &e1000Ⓟ &fв кейсе с &e&lРублями
+        - bc; &6► &fКупить ключи без &e&lкомиссии&7 можно на сайте &e&nFlexMC.ru&r
+        - bc; &f       &7&oПовышенные шансы +70% на целый день!
+        - bc;&r
+        - tm;&e1000Ⓟ;Поздравляем!
+        CHANCE: 20
+BACKEND: sqlite
+MYSQL:
+  HOST: localhost
+  USER: cases
+  PASSWORD: ''
+  DATABASE: moon
+  PORT: 3306
+CASES_LOCATIONS:
+- lobby;20;107;-14;x
+- lobby;79;70;109;z

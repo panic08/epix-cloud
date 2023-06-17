@@ -1,0 +1,41 @@
+# MessageAnnouncer v1.8.0 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 180
+sound:
+  enabled: true
+  sound_name: BLOCK_GLASS_BREAK
+  volume: 3
+  pitch: 1
+interval_announcement_list:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+announcements:
+  '1':
+  - '{"text": "&r"}'
+  - '{"text": "&r &6&l• &fПервым хочешь узнавать о &a&lРаздачах &fИ &eновостей &fсервера?"}'
+  - '{"text": "&r &6&l• &fПодпишитесь и &b&lвступайте &fв наше сообщество!"}'
+  - '{"text": "&r &6&l• &fНаша группа ВКонтакте - &b&lvk.com/UnixMine"}'
+  - '{"text": "&r"}'
+  '2':
+  - '{"text": "&r"}'
+  - '{"text": "&r &6&l• &fУ нас новый донат &4&lADMIN &FЗа 1179p"}'
+  - '{"text": "&r &6&l• &fПри покупке много крутых &4&lкомманд &F&l+ &4&l14000р "}'
+  - '{"text": "&r &6&l• &fПокупка доната на сайте - &c&lUnixDonate.Ru"}'
+  - '{"text": "&r"}'
+  '3':
+  - '{"text": "&r"}'
+  - '{"text": "&r &6&l• &fПривяжите свой аккаунт к группе ВК"}'
+  - '{"text": "&r &6&l• &fНапиши в личные сообщения нашей группы &a&lvk.com/unixmine"}'
+  - '{"text": "&r &6&l• &fСообщение: &e&l!Аккаунт привязать [ваш ник]"}'
+  - '{"text": "&r"}'
+  '4':
+  - '{"text": "&r"}'
+  - '{"text": "&r &6&l• &fНе знаете, какие возможности есть у доната?"}'
+  - '{"text": "&r &6&l• &fТак напишите команду &b&l/donate &f"}'
+  - '{"text": "&r &6&l• &fСайт для совершения покупок: &c&lUnixDonate.Ru"}'
+  - '{"text": "&r"}'

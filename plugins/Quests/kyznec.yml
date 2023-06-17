@@ -1,0 +1,524 @@
+kyznec_main:
+  title: §0§lКузнец
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+    quests:
+      name: §6§l♫ §f§lВ РАЗРАБОТКЕ
+      quests: false
+      material: EXP_BOTTLE
+      lore:
+      - ''
+      - '&6&l┏ &fТут вы можете просмотреть'
+      - '&6&l┗ &fСписок необходимых заданий'
+      - ''
+      - '&a&l↳ &7Нажмите, чтобы открыть'
+      amount: 1
+      slot: 22
+kyznec_quests:
+  title: §0§lКузнец
+  items:
+    back0:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 0
+      amount: 1
+    back1:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 8
+      amount: 1
+    back3:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 9
+      amount: 1
+    back4:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 17
+      amount: 1
+    back5:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 27
+      amount: 1
+    back6:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 35
+      amount: 1
+    back7:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 36
+      amount: 1
+    back8:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 1
+      slot: 44
+      amount: 1
+    back9:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 18
+      amount: 1
+    back10:
+      name: §r
+      material: STAINED_GLASS_PANE
+      data: 14
+      slot: 26
+      amount: 1
+  quests:
+    kyznec1:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #1'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/128'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l128 &fпшеницы'
+      - ''
+      - '&6&l♨ &fЧтобы сдать пшеницы, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ &a&l10 &aлвл'
+      - ''
+      - '%status2%'
+      slot: 11 
+      amount: 1
+      quest:
+        name: kyznec1
+        type: sell-items
+        sell-item: WHEAT
+        sell-item-amount: 128
+        prize:
+        - '[money] 500'
+        - '[level] 10'
+    kyznec2:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #2'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/10'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l10 &fжелезных мотыг'
+      - ''
+      - '&6&l♨ &fЧтобы сдать мотыги, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l350&6⛂ &f+ §a§lзелье фармера'
+      - ''
+      - '%status2%'
+      slot: 12 
+      amount: 1
+      quest:
+        name: kyznec2
+        type: sell-items
+        sell-item: IRON_HOE
+        sell-item-amount: 10
+        prize:
+        - '[money] 350'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Duration:1200}],CustomPotionColor:16175616,display:{Name:"\"Зелье Фармера\""}}'
+    kyznec3:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #3'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/2'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l2 &fвизера с эффектом слепоты'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l200&6⛂ &f+ &a&lзелье слепоты'
+      - ''
+      - '%status2%'
+      slot: 13 
+      amount: 1
+      quest:
+        name: kyznec3
+        type: kill-mobs
+        mobtype: WITHER
+        difficulty:
+        - '[effect] BLINDNESS:1'
+        mobs-amount: 2
+        prize:
+        - '[money] 200'
+        - '[console] minecraft:give %player_name% minecraft:potion 1 0 {CustomPotionEffects:[{Id:15,Duration:9400}],CustomPotionColor:8661972}'
+    kyznec4:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #4'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%killmobs%/30'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fУбить &6&l30 &fсвино-зомби с эффектом слабости'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l500&6⛂ &f+ &a&l16 яблок &f+ &a&lтотем'
+      - ''
+      - '%status2%'
+      slot: 14 
+      amount: 1
+      quest:
+        name: kyznec4
+        type: kill-mobs
+        mobtype: ZOMBIE_PIGMAN
+        difficulty:
+        - '[effect] WEAKNESS:1'
+        mobs-amount: 30
+        prize:
+        - '[money] 500'
+        - '[console] give %player_name% golden_apple 16'
+        - '[console] give %player_name% totem 1'
+    kyznec5:
+      material: BOOK
+      name: '§6§l♫ §f§lКВЕСТ #5'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/10'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l10 &fалмазных мотыг'
+      - ''
+      - '&6&l♨ &fЧтобы сдать мотыги, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §e§l1000&6⛂'
+      - ''
+      - '%status2%'
+      slot: 15 
+      amount: 1
+      quest:
+        name: kyznec5
+        type: sell-items
+        sell-item: DIAMOND_HOE
+        sell-item-amount: 10
+        prize:
+        - '[money] 1000'
+    kyznec6:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #6'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/150'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l150 &fкостей'
+      - ''
+      - '&6&l♨ &fЧтобы сдать кости, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l10§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 21 
+      amount: 1
+      quest:
+        name: kyznec6
+        type: sell-items
+        sell-item: BONE
+        sell-item-amount: 150
+        prize:
+        - '[console] p give %player_name% 10'
+    kyznec7:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #7'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/100'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l100 &fтыквы'
+      - ''
+      - '&6&l♨ &fЧтобы сдать тыквы, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l30§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 22 
+      amount: 1
+      quest:
+        name: kyznec7
+        type: sell-items
+        sell-item: PUMPKIN
+        sell-item-amount: 100
+        prize:
+        - '[console] p give %player_name% 30'
+    kyznec8:
+      material: 453
+      name: '§6§l♫ §f§lКВЕСТ #8'
+      lore:
+      - ''
+      - '&6&l♨ &fСтатус: %status%'
+      - '&6&l♨ &fСтатус выполнения: &6&L%items%/30'
+      - ''
+      - '&f&lЗАДАНИЕ:'
+      - '&fПринести &6&l30 &fсвёкольного супа'
+      - ''
+      - '&6&l♨ &fЧтобы сдать свёкольные супа, нужно принести'
+      - '&6&l♨ &fсразу всё количество предметов'
+      - ''
+      - '&c&l❤ &fНаграда: §d§l50§dⓅ §b§l[СУПЕР НАГРАДА]'
+      - ''
+      - '%status2%'
+      slot: 23 
+      amount: 1
+      quest:
+        name: kyznec8
+        type: sell-items
+        sell-item: BEETROOT_SOUP
+        sell-item-amount: 30
+        prize:
+        - '[console] p give %player_name% 50'
+kyznec_shop:
+  title: §0Фермер | Магазин
+  items:
+    back0:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 0
+      amount: 1
+    back1:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 1
+      amount: 1
+    back2:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 2
+      amount: 1
+    back3:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 3
+      amount: 1
+    back4:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 4
+      amount: 1
+    back5:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 5
+      amount: 1
+    back6:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 6
+      amount: 1
+    back7:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 7
+      amount: 1
+    back8:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 8
+      amount: 1
+    2back0:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 36
+      amount: 1
+    2back1:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 37
+      amount: 1
+    2back2:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 38
+      amount: 1
+    2back3:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 39
+      amount: 1
+    2back4:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 40
+      amount: 1
+    2back5:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 41
+      amount: 1
+    2back6:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 42
+      amount: 1
+    2back7:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 43
+      amount: 1
+    2back8:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 44
+      amount: 1
+    3back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 9
+      amount: 1
+    4back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 17
+      amount: 1
+    5back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 18
+      amount: 1
+    6back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 26
+      amount: 1
+    7back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 27
+      amount: 1
+    8back:
+      name: '&7'
+      material: STAINED_GLASS_PANE
+      data: 2
+      slot: 35
+      amount: 1
+  shop-items:
+    s1:
+      material: DIAMOND
+      material-hide: BARRIER
+      amount: 64
+      amount-hide: 1
+      quest: quest1
+      name: '&bАлмазики'
+      name-hide: '&c&k111222'
+      item:
+        price: 10000
+        symbol: $
+        give-events:
+        - '[console] give %player_name% diamond 64'
+        - '[message] &bКВЕСТЫ &f| &fВы успешно приобрели предмет!'
+        - '[title] &5Квесты%nl&aУспешная покупка'
+      quest-name: '#1'
+      lore:
+      - ''
+      - '&fПредмет: &bDIAMOND'
+      - '&fКоличество: &b64x'
+      - '&fСтоимость: &b10 000$'
+      - ''
+      - '&fНажмите &bЛКМ &fдля покупки'
+      lore-hide:
+      - ''
+      - '&cВыполните квест #1 для этого товара!'

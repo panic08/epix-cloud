@@ -1,0 +1,153 @@
+
+Menu-Name: '&0&lПЕЧКИ'
+Open-Sound: BLOCK_NOTE_XYLOPHONE
+Open-Sound-Pitch: 2
+Rows: 6
+Command: 
+  Name: furnace
+  Fallback: '123'
+Items:
+- Slot: 3, 3
+  Material: furnace
+  Name: '&6&lПЕЧЬ &8∫ &e&lТУРБО'
+  Lore:
+    - ''
+    - '&6Увеличивает скорость переплаки X2'
+    - ''
+    - '&fСтоимость &699 Ⓟ'
+    - ''
+    - '&7Нажмите, чтобы купить &6↷'  
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Points: 99
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Commands:
+  - 'console: wfurnace give %player_name% cooktime_x2'
+- Slot: 4, 3
+  Material: furnace
+  Name: '&6&lПЕЧЬ &8∫ &e&lЭКОНОМ'
+  Lore:
+    - ''
+    - '&6Уменьшает потребление топлива X2'
+    - ''
+    - '&fСтоимость &6129 Ⓟ'
+    - ''
+    - '&7Нажмите, чтобы купить &6↷'    
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Points: 129
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Commands:
+  - 'console: wfurnace give %player_name% burntime_x2'
+- Slot: 6, 3
+  Material: furnace
+  Name: '&6&lПЕЧЬ &8∫ &e&lРЕСУРСНАЯ'
+  Lore:
+    - ''
+    - '&6Увеличивает получаемые ресурсы X2'
+    - ''
+    - '&fСтоимость &6149 Ⓟ'
+    - ''
+    - '&7Нажмите, чтобы купить &6↷'     
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Points: 149
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Commands:
+  - 'console: wfurnace give %player_name% result_x2'
+- Slot: 7, 3
+  Material: furnace
+  Name: '&6&lПЕЧЬ &8∫ &c&lМАКСИМАЛЬНАЯ'
+  Lore:
+    - ''
+    - '&6Увеличивает скорость переплаки X2'
+    - '&6Уменьшает потребление топлива X2'
+    - '&6Увеличивает получаемые ресурсы X2'
+    - ''
+    - '&fСтоимость &6299 Ⓟ'
+    - ''
+    - '&7Нажмите, чтобы купить &e↷'  
+  Enchantments:
+  - unbreaking:1
+  Hide-Flags: 63
+  Points: 299
+  Points-message: '&6&lUNIX&F&LMINE &8› &fУ вас недостаточно рублей'
+  Close: on-failure
+  Commands:
+  - 'console: wfurnace give %player_name% enchant_all_x2'
+- Slot:
+  - 1, 1
+  - 1, 2
+  - 1, 5
+  - 1, 6
+  - 9, 1
+  - 9, 2
+  - 9, 5
+  - 9, 6
+  - 1, 3
+  - 1, 4
+  - 9, 3
+  - 9, 4
+  - 2, 1
+  - 3, 1
+  - 4, 1
+  - 5, 1
+  - 6, 1
+  - 7, 1
+  - 8, 1
+  - 9, 1
+  - 2, 6
+  - 3, 6
+  - 4, 6
+  - 6, 6
+  - 7, 6
+  - 8, 6
+  - 9, 6
+  - 2, 2
+  - 2, 5
+  - 8, 2
+  - 8, 5
+  Material: stained_glass_pane:1:1
+  Name: '&r'
+- Slot:
+  - 4, 5
+  - 6, 5
+  - 3, 4
+  - 4, 4
+  - 5, 4
+  - 6, 4
+  - 8, 3
+  - 8, 4
+  - 7, 4
+  - 3, 2
+  - 7, 2
+  - 3, 5
+  - 5, 5
+  - 4, 2
+  - 6, 2
+  - 7, 5
+  - 5, 2
+  - 2, 3
+  - 2, 4
+  - 5, 3
+  Material: stained_glass_pane:1:4
+  Name: '&r'
+  Name: '&7ღ'
+  Name: '&7ღ'
+- Slot: 5, 6
+  Material: 'spectral_arrow'
+  Name: ' &e&l⟲&6&l НАЗАД '
+  Lore:
+  - ''
+  - ' &6▪ &fПокинуть данное меню'
+  - ' &6▪ &fИ перейти в меню &e&lМАГАЗИНА'
+  - ''
+  - ' &6➥ &fНажмите чтобы перейти'
+  Commands:
+  - 'menu: shop'  

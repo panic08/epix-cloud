@@ -1,0 +1,39 @@
+# start new
+
+give-points: '§6§lUNIX§F§lMINE§7§l: §fВы &aуспешно выдали&7 игроку&e %player% &lпоинты&7!'
+set-points: '§6§lUNIX§F§lMINE§7§l: §fВы &aуспешно установили&a игроку&e %player% &lпоинты&7!'
+new-season: '§6§lUNIX§F§lMINE§7§l: §fВы &aуспешно &7начали &eновый сезон&7.'
+confirm-new-season: '§6§lUNIX§F§lMINE§7§l: §fПодтвердите &7начала нового сезона&e написав команду &lеще раз&7.'
+successful-refresh-daily: '§6§lUNIX§F§lMINE§7§l: §fВы &aуспешно перезагрузили &7квесты дня!'
+cooldown-has-seconds: '§6§lUNIX§F§lMINE§7§l: §fПодождите &eнесколько &lсекунд&7!'
+invalid-pass-id: '§6§lUNIX§F§lMINE§7§l: §fНеверный тип &ebattlepass&7.'
+failed-set-pass: '§6§lUNIX§F§lMINE§7§l: §fВы &cне можете установить&7 игроку тип battlepass.'
+set-pass: '§6§lUNIX§F§lMINE§7§l: §fВы &aуспешно сменили&7 игроку&e %player%&7 тип battlepass'
+
+# end new
+could-not-find-user: "§6§lUNIX§F§lMINE§7§l: §fИгрок &e%player%&7 не найден!"
+no-permission: "§6§lUNIX§F§lMINE§7§l: §fУ вас &cнет доступа&7!"
+collectable-rewards-notification: "§6§lUNIX§F§lMINE§7§l: §fУ вас есть неоткрытые награды &e/bp open rewards"
+daily-quest-reset: '§6§lUNIX§F§lMINE§7§l: §fЕжедневные задания &aобновлены&7!'
+week-status-locked: '&cЗакрыт'
+week-status-unlocked: '&aОткрыт'
+week-status-claimed: '&eВыполняется'
+season-finished-message: '&aЗавершен'
+progress-bar:
+  complete-color: '&a'
+  incomplete-color: '&c'
+  symbol: '|'
+
+stats-command:
+  - ':'
+  - '  &8▪ &fТип BattlePass: &e%pass_type%'
+  - '  &8▪ &fУровень: &a%tier%'
+  - '  &8▪ &fКоличество поинтов: &c%total_points%'
+
+quests:
+  base-message-progressed: "§6§lUNIX§F§lMINE§7§l: §fВыполение задания &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)"
+  base-message-completed: "§6§lUNIX§F§lMINE§7§l: §fВы &aвыполнили&f задание &e%quest_name%"
+
+daily-quests:
+  base-message-progressed: "§6§lUNIX§F§lMINE§7§l: §fВыполение ежедневного задания &e &e%quest_name% &8(&e%progress%&7/&8&e%required_progress%&8)"
+  base-message-completed: "§6§lUNIX§F§lMINE§7§l: §fВы &aвыполнили&f ежедневное задание &e%quest_name%"

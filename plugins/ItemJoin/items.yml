@@ -1,0 +1,60 @@
+items-Version: 6
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  menu:
+    id: SKULL_ITEM
+    slot: 0
+    name: '&6&lМЕНЮ'
+    skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThkYWExZTNlZDk0ZmYzZTMzZTFkNGM2ZTQzZjAyNGM0N2Q3OGE1N2JhNGQzOGU3NWU3YzkyNjQxMDYifX19'
+    data-value: 3
+    lore:
+    - ''
+    commands:
+      right-click:
+        - 'menu'
+    commands-type: interact
+    commands-sound: BLOCK_NOTE_PLING
+    commands-cooldown: 5
+    cooldown-message: '§6§lUNIX&f&lMINE &8› &fПодождите &a%timeleft% &fсекунд, чтобы открыть меню.'
+    itemflags: death-drops, hide-attributes, cancel-events
+    triggers: join
+    enabled-worlds: lobby
+  donate:
+    id: SKULL_ITEM
+    slot: 1
+    name: '&a&lДОНАТ'
+    skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlYTc5MzM1ODFlZTlmYjQwMGYzOTA0NGQzMDE1Y2EwZDQzYmI2ZTcyZmM5MjY3YzdmZDEzNjFmNjhmZjEyYiJ9fX0='
+    data-value: 3
+    lore:
+    - ''
+    commands:
+      right-click:
+        - 'donate'
+    commands-type: interact
+    commands-sound: BLOCK_NOTE_PLING
+    commands-cooldown: 5
+    cooldown-message: '§6§lUNIX&f&lMINE &8› &fПодождите &a%timeleft% &fсекунд, чтобы открыть меню.'
+    itemflags: death-drops, hide-attributes, cancel-events
+    triggers: join
+    enabled-worlds: lobby
+  FREE:
+    id: SKULL_ITEM
+    slot: 8
+    name: '&d&lБЕСПЛАТНЫЙ ДОНАТ/ТИТУЛЫ/РУБЛИ'
+    skull-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjNzk5NTRkMzUwYTk4YzcyMTcyNTY4MzFmNjVjNjJhNDI4MDc0YjZlNGFlOWVlZGU3YTQ0ZjlkZTRhNyJ9fX0='
+    data-value: 3
+    lore:
+    - ''
+    commands:
+      right-click:
+        - 'free'
+    commands-type: interact
+    commands-sound: BLOCK_NOTE_PLING
+    commands-cooldown: 5
+    cooldown-message: '§6§lUNIX&f&lMINE &8› &fПодождите &a%timeleft% &fсекунд, чтобы открыть меню.'
+    itemflags: death-drops, hide-attributes, cancel-events
+    triggers: join
+    enabled-worlds: lobby
